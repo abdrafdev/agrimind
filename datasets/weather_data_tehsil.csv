@@ -1,0 +1,1801 @@
+date,tehsil,district,province,rainfall_mm,temperature_c,humidity_%,extreme_event
+2025-06-01,Depalpur,Okara,Punjab,12,32,34,normal
+2025-06-01,Jatoi,Muzaffargarh,Punjab,0,28,57,normal
+2025-06-01,Sargodha Tehsil,Sargodha,Punjab,0,35,65,normal
+2025-06-01,Mianwali,Mianwali,Punjab,0,35,25,normal
+2025-06-01,Sialkot Tehsil,Sialkot,Punjab,43,13,51,normal
+2025-06-01,Badin,Badin,Sindh,0,33,93,normal
+2025-06-01,Umerkot,Umerkot,Sindh,0,26,84,normal
+2025-06-01,Thatta,Thatta,Sindh,26,11,24,normal
+2025-06-01,Khairpur,Khairpur,Sindh,94,29,27,flood risk
+2025-06-01,Dadu,Dadu,Sindh,0,43,45,heatwave
+2025-06-01,Charsadda,Charsadda,KPK,0,23,25,normal
+2025-06-01,Swabi,Swabi,KPK,0,30,87,normal
+2025-06-01,Mardan Tehsil,Mardan,KPK,0,17,36,normal
+2025-06-01,Bannu,Bannu,KPK,0,39,30,normal
+2025-06-01,Dera Ismail Khan,Dera Ismail Khan,KPK,30,43,23,heatwave
+2025-06-01,Naseerabad,Naseerabad,Balochistan,72,22,29,normal
+2025-06-01,Jafarabad,Jafarabad,Balochistan,0,12,26,drought
+2025-06-01,Turbat,Kech,Balochistan,4,24,37,normal
+2025-06-01,Zhob,Zhob,Balochistan,0,39,41,normal
+2025-06-01,Quetta Tehsil,Quetta,Balochistan,0,32,91,normal
+2025-06-02,Depalpur,Okara,Punjab,0,30,39,normal
+2025-06-02,Jatoi,Muzaffargarh,Punjab,0,35,25,normal
+2025-06-02,Sargodha Tehsil,Sargodha,Punjab,81,14,27,flood risk
+2025-06-02,Mianwali,Mianwali,Punjab,0,36,64,normal
+2025-06-02,Sialkot Tehsil,Sialkot,Punjab,64,32,61,normal
+2025-06-02,Badin,Badin,Sindh,0,38,30,normal
+2025-06-02,Umerkot,Umerkot,Sindh,0,28,78,normal
+2025-06-02,Thatta,Thatta,Sindh,0,38,82,normal
+2025-06-02,Khairpur,Khairpur,Sindh,44,34,93,normal
+2025-06-02,Dadu,Dadu,Sindh,38,34,34,normal
+2025-06-02,Charsadda,Charsadda,KPK,0,24,85,normal
+2025-06-02,Swabi,Swabi,KPK,0,15,59,normal
+2025-06-02,Mardan Tehsil,Mardan,KPK,28,27,21,normal
+2025-06-02,Bannu,Bannu,KPK,75,29,58,normal
+2025-06-02,Dera Ismail Khan,Dera Ismail Khan,KPK,0,27,48,normal
+2025-06-02,Naseerabad,Naseerabad,Balochistan,0,42,56,normal
+2025-06-02,Jafarabad,Jafarabad,Balochistan,19,25,73,normal
+2025-06-02,Turbat,Kech,Balochistan,0,12,21,drought
+2025-06-02,Zhob,Zhob,Balochistan,0,30,72,normal
+2025-06-02,Quetta Tehsil,Quetta,Balochistan,0,11,90,drought
+2025-06-03,Depalpur,Okara,Punjab,69,12,64,normal
+2025-06-03,Jatoi,Muzaffargarh,Punjab,0,29,37,normal
+2025-06-03,Sargodha Tehsil,Sargodha,Punjab,0,41,36,normal
+2025-06-03,Mianwali,Mianwali,Punjab,0,37,87,normal
+2025-06-03,Sialkot Tehsil,Sialkot,Punjab,0,23,21,normal
+2025-06-03,Badin,Badin,Sindh,0,17,86,normal
+2025-06-03,Umerkot,Umerkot,Sindh,0,18,55,normal
+2025-06-03,Thatta,Thatta,Sindh,0,32,25,normal
+2025-06-03,Khairpur,Khairpur,Sindh,0,31,28,normal
+2025-06-03,Dadu,Dadu,Sindh,63,18,62,normal
+2025-06-03,Charsadda,Charsadda,KPK,0,23,54,normal
+2025-06-03,Swabi,Swabi,KPK,19,45,59,heatwave
+2025-06-03,Mardan Tehsil,Mardan,KPK,0,11,81,drought
+2025-06-03,Bannu,Bannu,KPK,0,32,58,normal
+2025-06-03,Dera Ismail Khan,Dera Ismail Khan,KPK,62,29,35,normal
+2025-06-03,Naseerabad,Naseerabad,Balochistan,0,44,61,heatwave
+2025-06-03,Jafarabad,Jafarabad,Balochistan,0,25,64,normal
+2025-06-03,Turbat,Kech,Balochistan,0,19,56,normal
+2025-06-03,Zhob,Zhob,Balochistan,0,12,90,drought
+2025-06-03,Quetta Tehsil,Quetta,Balochistan,0,21,35,normal
+2025-06-04,Depalpur,Okara,Punjab,54,24,52,normal
+2025-06-04,Jatoi,Muzaffargarh,Punjab,30,14,85,normal
+2025-06-04,Sargodha Tehsil,Sargodha,Punjab,0,12,49,drought
+2025-06-04,Mianwali,Mianwali,Punjab,0,28,68,normal
+2025-06-04,Sialkot Tehsil,Sialkot,Punjab,0,30,45,normal
+2025-06-04,Badin,Badin,Sindh,60,14,31,normal
+2025-06-04,Umerkot,Umerkot,Sindh,0,23,56,normal
+2025-06-04,Thatta,Thatta,Sindh,0,38,23,normal
+2025-06-04,Khairpur,Khairpur,Sindh,0,10,41,drought
+2025-06-04,Dadu,Dadu,Sindh,0,40,31,normal
+2025-06-04,Charsadda,Charsadda,KPK,88,21,38,flood risk
+2025-06-04,Swabi,Swabi,KPK,0,18,66,normal
+2025-06-04,Mardan Tehsil,Mardan,KPK,0,26,55,normal
+2025-06-04,Bannu,Bannu,KPK,0,28,43,normal
+2025-06-04,Dera Ismail Khan,Dera Ismail Khan,KPK,0,38,30,normal
+2025-06-04,Naseerabad,Naseerabad,Balochistan,0,34,82,normal
+2025-06-04,Jafarabad,Jafarabad,Balochistan,0,12,55,drought
+2025-06-04,Turbat,Kech,Balochistan,0,37,77,normal
+2025-06-04,Zhob,Zhob,Balochistan,0,33,57,normal
+2025-06-04,Quetta Tehsil,Quetta,Balochistan,73,10,36,normal
+2025-06-05,Depalpur,Okara,Punjab,0,39,70,normal
+2025-06-05,Jatoi,Muzaffargarh,Punjab,0,23,26,normal
+2025-06-05,Sargodha Tehsil,Sargodha,Punjab,0,45,22,heatwave
+2025-06-05,Mianwali,Mianwali,Punjab,0,44,63,heatwave
+2025-06-05,Sialkot Tehsil,Sialkot,Punjab,0,26,74,normal
+2025-06-05,Badin,Badin,Sindh,39,41,77,normal
+2025-06-05,Umerkot,Umerkot,Sindh,0,15,54,normal
+2025-06-05,Thatta,Thatta,Sindh,0,33,85,normal
+2025-06-05,Khairpur,Khairpur,Sindh,13,37,46,normal
+2025-06-05,Dadu,Dadu,Sindh,0,36,22,normal
+2025-06-05,Charsadda,Charsadda,KPK,0,23,69,normal
+2025-06-05,Swabi,Swabi,KPK,85,40,49,flood risk
+2025-06-05,Mardan Tehsil,Mardan,KPK,98,31,49,flood risk
+2025-06-05,Bannu,Bannu,KPK,0,25,26,normal
+2025-06-05,Dera Ismail Khan,Dera Ismail Khan,KPK,91,41,34,flood risk
+2025-06-05,Naseerabad,Naseerabad,Balochistan,79,39,79,normal
+2025-06-05,Jafarabad,Jafarabad,Balochistan,0,17,34,normal
+2025-06-05,Turbat,Kech,Balochistan,26,23,86,normal
+2025-06-05,Zhob,Zhob,Balochistan,39,44,60,heatwave
+2025-06-05,Quetta Tehsil,Quetta,Balochistan,0,30,60,normal
+2025-06-06,Depalpur,Okara,Punjab,0,14,33,drought
+2025-06-06,Jatoi,Muzaffargarh,Punjab,30,39,40,normal
+2025-06-06,Sargodha Tehsil,Sargodha,Punjab,0,23,45,normal
+2025-06-06,Mianwali,Mianwali,Punjab,0,11,63,drought
+2025-06-06,Sialkot Tehsil,Sialkot,Punjab,0,28,57,normal
+2025-06-06,Badin,Badin,Sindh,0,15,74,normal
+2025-06-06,Umerkot,Umerkot,Sindh,0,30,40,normal
+2025-06-06,Thatta,Thatta,Sindh,0,33,44,normal
+2025-06-06,Khairpur,Khairpur,Sindh,0,21,49,normal
+2025-06-06,Dadu,Dadu,Sindh,0,39,73,normal
+2025-06-06,Charsadda,Charsadda,KPK,0,27,23,normal
+2025-06-06,Swabi,Swabi,KPK,81,37,71,flood risk
+2025-06-06,Mardan Tehsil,Mardan,KPK,75,34,49,normal
+2025-06-06,Bannu,Bannu,KPK,0,41,65,normal
+2025-06-06,Dera Ismail Khan,Dera Ismail Khan,KPK,0,18,60,normal
+2025-06-06,Naseerabad,Naseerabad,Balochistan,0,38,31,normal
+2025-06-06,Jafarabad,Jafarabad,Balochistan,0,17,29,normal
+2025-06-06,Turbat,Kech,Balochistan,0,44,82,heatwave
+2025-06-06,Zhob,Zhob,Balochistan,0,30,90,normal
+2025-06-06,Quetta Tehsil,Quetta,Balochistan,0,26,51,normal
+2025-06-07,Depalpur,Okara,Punjab,0,31,67,normal
+2025-06-07,Jatoi,Muzaffargarh,Punjab,0,19,81,normal
+2025-06-07,Sargodha Tehsil,Sargodha,Punjab,0,36,60,normal
+2025-06-07,Mianwali,Mianwali,Punjab,83,26,46,flood risk
+2025-06-07,Sialkot Tehsil,Sialkot,Punjab,0,25,48,normal
+2025-06-07,Badin,Badin,Sindh,0,36,26,normal
+2025-06-07,Umerkot,Umerkot,Sindh,0,19,90,normal
+2025-06-07,Thatta,Thatta,Sindh,0,17,47,normal
+2025-06-07,Khairpur,Khairpur,Sindh,0,40,38,normal
+2025-06-07,Dadu,Dadu,Sindh,0,32,25,normal
+2025-06-07,Charsadda,Charsadda,KPK,0,28,31,normal
+2025-06-07,Swabi,Swabi,KPK,10,23,82,normal
+2025-06-07,Mardan Tehsil,Mardan,KPK,57,37,66,normal
+2025-06-07,Bannu,Bannu,KPK,0,36,52,normal
+2025-06-07,Dera Ismail Khan,Dera Ismail Khan,KPK,0,28,53,normal
+2025-06-07,Naseerabad,Naseerabad,Balochistan,0,27,84,normal
+2025-06-07,Jafarabad,Jafarabad,Balochistan,22,16,29,normal
+2025-06-07,Turbat,Kech,Balochistan,83,15,72,flood risk
+2025-06-07,Zhob,Zhob,Balochistan,0,43,21,heatwave
+2025-06-07,Quetta Tehsil,Quetta,Balochistan,0,41,39,normal
+2025-06-08,Depalpur,Okara,Punjab,0,21,82,normal
+2025-06-08,Jatoi,Muzaffargarh,Punjab,0,42,66,normal
+2025-06-08,Sargodha Tehsil,Sargodha,Punjab,0,20,90,normal
+2025-06-08,Mianwali,Mianwali,Punjab,0,44,34,heatwave
+2025-06-08,Sialkot Tehsil,Sialkot,Punjab,3,19,95,normal
+2025-06-08,Badin,Badin,Sindh,0,35,80,normal
+2025-06-08,Umerkot,Umerkot,Sindh,20,38,93,normal
+2025-06-08,Thatta,Thatta,Sindh,0,27,64,normal
+2025-06-08,Khairpur,Khairpur,Sindh,0,27,81,normal
+2025-06-08,Dadu,Dadu,Sindh,0,35,76,normal
+2025-06-08,Charsadda,Charsadda,KPK,0,19,47,normal
+2025-06-08,Swabi,Swabi,KPK,0,43,30,heatwave
+2025-06-08,Mardan Tehsil,Mardan,KPK,0,34,85,normal
+2025-06-08,Bannu,Bannu,KPK,0,28,57,normal
+2025-06-08,Dera Ismail Khan,Dera Ismail Khan,KPK,0,26,68,normal
+2025-06-08,Naseerabad,Naseerabad,Balochistan,0,42,49,normal
+2025-06-08,Jafarabad,Jafarabad,Balochistan,0,39,80,normal
+2025-06-08,Turbat,Kech,Balochistan,0,30,32,normal
+2025-06-08,Zhob,Zhob,Balochistan,0,45,95,heatwave
+2025-06-08,Quetta Tehsil,Quetta,Balochistan,0,41,47,normal
+2025-06-09,Depalpur,Okara,Punjab,0,26,84,normal
+2025-06-09,Jatoi,Muzaffargarh,Punjab,0,20,23,normal
+2025-06-09,Sargodha Tehsil,Sargodha,Punjab,0,26,78,normal
+2025-06-09,Mianwali,Mianwali,Punjab,28,11,77,normal
+2025-06-09,Sialkot Tehsil,Sialkot,Punjab,0,38,76,normal
+2025-06-09,Badin,Badin,Sindh,0,33,20,normal
+2025-06-09,Umerkot,Umerkot,Sindh,71,21,80,normal
+2025-06-09,Thatta,Thatta,Sindh,0,24,69,normal
+2025-06-09,Khairpur,Khairpur,Sindh,16,37,51,normal
+2025-06-09,Dadu,Dadu,Sindh,0,43,80,heatwave
+2025-06-09,Charsadda,Charsadda,KPK,64,13,58,normal
+2025-06-09,Swabi,Swabi,KPK,0,35,59,normal
+2025-06-09,Mardan Tehsil,Mardan,KPK,0,20,43,normal
+2025-06-09,Bannu,Bannu,KPK,31,29,63,normal
+2025-06-09,Dera Ismail Khan,Dera Ismail Khan,KPK,0,43,20,heatwave
+2025-06-09,Naseerabad,Naseerabad,Balochistan,0,26,44,normal
+2025-06-09,Jafarabad,Jafarabad,Balochistan,0,14,32,drought
+2025-06-09,Turbat,Kech,Balochistan,0,16,55,normal
+2025-06-09,Zhob,Zhob,Balochistan,0,31,53,normal
+2025-06-09,Quetta Tehsil,Quetta,Balochistan,0,23,27,normal
+2025-06-10,Depalpur,Okara,Punjab,0,39,85,normal
+2025-06-10,Jatoi,Muzaffargarh,Punjab,0,29,30,normal
+2025-06-10,Sargodha Tehsil,Sargodha,Punjab,0,22,91,normal
+2025-06-10,Mianwali,Mianwali,Punjab,40,12,95,normal
+2025-06-10,Sialkot Tehsil,Sialkot,Punjab,0,26,87,normal
+2025-06-10,Badin,Badin,Sindh,0,36,67,normal
+2025-06-10,Umerkot,Umerkot,Sindh,0,28,24,normal
+2025-06-10,Thatta,Thatta,Sindh,0,12,54,drought
+2025-06-10,Khairpur,Khairpur,Sindh,0,11,91,drought
+2025-06-10,Dadu,Dadu,Sindh,0,18,30,normal
+2025-06-10,Charsadda,Charsadda,KPK,0,36,89,normal
+2025-06-10,Swabi,Swabi,KPK,0,26,21,normal
+2025-06-10,Mardan Tehsil,Mardan,KPK,0,35,56,normal
+2025-06-10,Bannu,Bannu,KPK,0,15,74,normal
+2025-06-10,Dera Ismail Khan,Dera Ismail Khan,KPK,0,43,53,heatwave
+2025-06-10,Naseerabad,Naseerabad,Balochistan,0,21,89,normal
+2025-06-10,Jafarabad,Jafarabad,Balochistan,79,11,52,normal
+2025-06-10,Turbat,Kech,Balochistan,0,36,30,normal
+2025-06-10,Zhob,Zhob,Balochistan,0,31,83,normal
+2025-06-10,Quetta Tehsil,Quetta,Balochistan,0,21,40,normal
+2025-06-11,Depalpur,Okara,Punjab,0,14,68,drought
+2025-06-11,Jatoi,Muzaffargarh,Punjab,0,18,40,normal
+2025-06-11,Sargodha Tehsil,Sargodha,Punjab,0,25,76,normal
+2025-06-11,Mianwali,Mianwali,Punjab,23,42,80,normal
+2025-06-11,Sialkot Tehsil,Sialkot,Punjab,0,14,40,drought
+2025-06-11,Badin,Badin,Sindh,0,17,40,normal
+2025-06-11,Umerkot,Umerkot,Sindh,0,21,45,normal
+2025-06-11,Thatta,Thatta,Sindh,4,33,43,normal
+2025-06-11,Khairpur,Khairpur,Sindh,62,17,27,normal
+2025-06-11,Dadu,Dadu,Sindh,21,30,88,normal
+2025-06-11,Charsadda,Charsadda,KPK,0,31,22,normal
+2025-06-11,Swabi,Swabi,KPK,0,24,32,normal
+2025-06-11,Mardan Tehsil,Mardan,KPK,0,32,27,normal
+2025-06-11,Bannu,Bannu,KPK,0,27,67,normal
+2025-06-11,Dera Ismail Khan,Dera Ismail Khan,KPK,0,10,85,drought
+2025-06-11,Naseerabad,Naseerabad,Balochistan,0,40,87,normal
+2025-06-11,Jafarabad,Jafarabad,Balochistan,0,44,56,heatwave
+2025-06-11,Turbat,Kech,Balochistan,26,41,76,normal
+2025-06-11,Zhob,Zhob,Balochistan,85,34,92,flood risk
+2025-06-11,Quetta Tehsil,Quetta,Balochistan,0,21,72,normal
+2025-06-12,Depalpur,Okara,Punjab,0,32,44,normal
+2025-06-12,Jatoi,Muzaffargarh,Punjab,71,30,73,normal
+2025-06-12,Sargodha Tehsil,Sargodha,Punjab,77,20,66,normal
+2025-06-12,Mianwali,Mianwali,Punjab,62,31,81,normal
+2025-06-12,Sialkot Tehsil,Sialkot,Punjab,0,42,63,normal
+2025-06-12,Badin,Badin,Sindh,0,38,25,normal
+2025-06-12,Umerkot,Umerkot,Sindh,0,41,69,normal
+2025-06-12,Thatta,Thatta,Sindh,0,41,68,normal
+2025-06-12,Khairpur,Khairpur,Sindh,0,39,90,normal
+2025-06-12,Dadu,Dadu,Sindh,0,20,69,normal
+2025-06-12,Charsadda,Charsadda,KPK,0,11,50,drought
+2025-06-12,Swabi,Swabi,KPK,50,36,36,normal
+2025-06-12,Mardan Tehsil,Mardan,KPK,53,26,47,normal
+2025-06-12,Bannu,Bannu,KPK,50,21,25,normal
+2025-06-12,Dera Ismail Khan,Dera Ismail Khan,KPK,0,10,71,drought
+2025-06-12,Naseerabad,Naseerabad,Balochistan,0,23,69,normal
+2025-06-12,Jafarabad,Jafarabad,Balochistan,33,31,63,normal
+2025-06-12,Turbat,Kech,Balochistan,0,22,87,normal
+2025-06-12,Zhob,Zhob,Balochistan,19,36,86,normal
+2025-06-12,Quetta Tehsil,Quetta,Balochistan,0,29,44,normal
+2025-06-13,Depalpur,Okara,Punjab,0,34,29,normal
+2025-06-13,Jatoi,Muzaffargarh,Punjab,79,25,40,normal
+2025-06-13,Sargodha Tehsil,Sargodha,Punjab,83,31,81,flood risk
+2025-06-13,Mianwali,Mianwali,Punjab,97,30,91,flood risk
+2025-06-13,Sialkot Tehsil,Sialkot,Punjab,84,15,90,flood risk
+2025-06-13,Badin,Badin,Sindh,0,11,53,drought
+2025-06-13,Umerkot,Umerkot,Sindh,0,43,67,heatwave
+2025-06-13,Thatta,Thatta,Sindh,0,34,86,normal
+2025-06-13,Khairpur,Khairpur,Sindh,0,45,86,heatwave
+2025-06-13,Dadu,Dadu,Sindh,0,40,45,normal
+2025-06-13,Charsadda,Charsadda,KPK,0,27,50,normal
+2025-06-13,Swabi,Swabi,KPK,0,27,40,normal
+2025-06-13,Mardan Tehsil,Mardan,KPK,0,30,39,normal
+2025-06-13,Bannu,Bannu,KPK,0,35,88,normal
+2025-06-13,Dera Ismail Khan,Dera Ismail Khan,KPK,0,31,84,normal
+2025-06-13,Naseerabad,Naseerabad,Balochistan,0,22,38,normal
+2025-06-13,Jafarabad,Jafarabad,Balochistan,0,23,72,normal
+2025-06-13,Turbat,Kech,Balochistan,0,18,90,normal
+2025-06-13,Zhob,Zhob,Balochistan,0,32,22,normal
+2025-06-13,Quetta Tehsil,Quetta,Balochistan,0,19,88,normal
+2025-06-14,Depalpur,Okara,Punjab,0,37,88,normal
+2025-06-14,Jatoi,Muzaffargarh,Punjab,2,43,72,heatwave
+2025-06-14,Sargodha Tehsil,Sargodha,Punjab,0,21,66,normal
+2025-06-14,Mianwali,Mianwali,Punjab,0,32,42,normal
+2025-06-14,Sialkot Tehsil,Sialkot,Punjab,36,11,42,normal
+2025-06-14,Badin,Badin,Sindh,0,34,72,normal
+2025-06-14,Umerkot,Umerkot,Sindh,26,32,39,normal
+2025-06-14,Thatta,Thatta,Sindh,0,24,40,normal
+2025-06-14,Khairpur,Khairpur,Sindh,61,10,89,normal
+2025-06-14,Dadu,Dadu,Sindh,41,18,56,normal
+2025-06-14,Charsadda,Charsadda,KPK,98,26,63,flood risk
+2025-06-14,Swabi,Swabi,KPK,96,21,35,flood risk
+2025-06-14,Mardan Tehsil,Mardan,KPK,0,25,51,normal
+2025-06-14,Bannu,Bannu,KPK,0,27,41,normal
+2025-06-14,Dera Ismail Khan,Dera Ismail Khan,KPK,0,15,87,normal
+2025-06-14,Naseerabad,Naseerabad,Balochistan,0,25,41,normal
+2025-06-14,Jafarabad,Jafarabad,Balochistan,0,24,31,normal
+2025-06-14,Turbat,Kech,Balochistan,28,25,89,normal
+2025-06-14,Zhob,Zhob,Balochistan,4,36,20,normal
+2025-06-14,Quetta Tehsil,Quetta,Balochistan,69,45,25,heatwave
+2025-06-15,Depalpur,Okara,Punjab,0,14,25,drought
+2025-06-15,Jatoi,Muzaffargarh,Punjab,0,12,36,drought
+2025-06-15,Sargodha Tehsil,Sargodha,Punjab,80,32,75,normal
+2025-06-15,Mianwali,Mianwali,Punjab,86,16,79,flood risk
+2025-06-15,Sialkot Tehsil,Sialkot,Punjab,0,40,78,normal
+2025-06-15,Badin,Badin,Sindh,0,44,41,heatwave
+2025-06-15,Umerkot,Umerkot,Sindh,0,16,36,normal
+2025-06-15,Thatta,Thatta,Sindh,0,37,24,normal
+2025-06-15,Khairpur,Khairpur,Sindh,0,24,24,normal
+2025-06-15,Dadu,Dadu,Sindh,60,18,85,normal
+2025-06-15,Charsadda,Charsadda,KPK,0,14,21,drought
+2025-06-15,Swabi,Swabi,KPK,0,33,35,normal
+2025-06-15,Mardan Tehsil,Mardan,KPK,0,36,83,normal
+2025-06-15,Bannu,Bannu,KPK,0,17,66,normal
+2025-06-15,Dera Ismail Khan,Dera Ismail Khan,KPK,0,44,95,heatwave
+2025-06-15,Naseerabad,Naseerabad,Balochistan,0,19,88,normal
+2025-06-15,Jafarabad,Jafarabad,Balochistan,96,45,80,flood risk
+2025-06-15,Turbat,Kech,Balochistan,0,22,76,normal
+2025-06-15,Zhob,Zhob,Balochistan,0,28,43,normal
+2025-06-15,Quetta Tehsil,Quetta,Balochistan,0,16,89,normal
+2025-06-16,Depalpur,Okara,Punjab,0,17,48,normal
+2025-06-16,Jatoi,Muzaffargarh,Punjab,7,33,76,normal
+2025-06-16,Sargodha Tehsil,Sargodha,Punjab,0,20,84,normal
+2025-06-16,Mianwali,Mianwali,Punjab,0,14,39,drought
+2025-06-16,Sialkot Tehsil,Sialkot,Punjab,0,34,68,normal
+2025-06-16,Badin,Badin,Sindh,0,16,64,normal
+2025-06-16,Umerkot,Umerkot,Sindh,0,22,36,normal
+2025-06-16,Thatta,Thatta,Sindh,0,19,71,normal
+2025-06-16,Khairpur,Khairpur,Sindh,81,43,36,flood risk
+2025-06-16,Dadu,Dadu,Sindh,0,27,59,normal
+2025-06-16,Charsadda,Charsadda,KPK,75,17,39,normal
+2025-06-16,Swabi,Swabi,KPK,98,42,36,flood risk
+2025-06-16,Mardan Tehsil,Mardan,KPK,0,42,71,normal
+2025-06-16,Bannu,Bannu,KPK,0,20,59,normal
+2025-06-16,Dera Ismail Khan,Dera Ismail Khan,KPK,0,27,76,normal
+2025-06-16,Naseerabad,Naseerabad,Balochistan,0,29,55,normal
+2025-06-16,Jafarabad,Jafarabad,Balochistan,0,45,39,heatwave
+2025-06-16,Turbat,Kech,Balochistan,0,32,72,normal
+2025-06-16,Zhob,Zhob,Balochistan,0,32,91,normal
+2025-06-16,Quetta Tehsil,Quetta,Balochistan,0,24,27,normal
+2025-06-17,Depalpur,Okara,Punjab,6,39,69,normal
+2025-06-17,Jatoi,Muzaffargarh,Punjab,21,26,40,normal
+2025-06-17,Sargodha Tehsil,Sargodha,Punjab,4,32,54,normal
+2025-06-17,Mianwali,Mianwali,Punjab,0,27,71,normal
+2025-06-17,Sialkot Tehsil,Sialkot,Punjab,0,28,46,normal
+2025-06-17,Badin,Badin,Sindh,0,23,47,normal
+2025-06-17,Umerkot,Umerkot,Sindh,0,27,70,normal
+2025-06-17,Thatta,Thatta,Sindh,0,10,77,drought
+2025-06-17,Khairpur,Khairpur,Sindh,0,37,47,normal
+2025-06-17,Dadu,Dadu,Sindh,0,41,53,normal
+2025-06-17,Charsadda,Charsadda,KPK,8,28,81,normal
+2025-06-17,Swabi,Swabi,KPK,2,19,92,normal
+2025-06-17,Mardan Tehsil,Mardan,KPK,39,23,48,normal
+2025-06-17,Bannu,Bannu,KPK,0,38,57,normal
+2025-06-17,Dera Ismail Khan,Dera Ismail Khan,KPK,86,24,57,flood risk
+2025-06-17,Naseerabad,Naseerabad,Balochistan,0,31,62,normal
+2025-06-17,Jafarabad,Jafarabad,Balochistan,24,14,42,normal
+2025-06-17,Turbat,Kech,Balochistan,0,44,69,heatwave
+2025-06-17,Zhob,Zhob,Balochistan,0,43,79,heatwave
+2025-06-17,Quetta Tehsil,Quetta,Balochistan,0,23,67,normal
+2025-06-18,Depalpur,Okara,Punjab,55,18,72,normal
+2025-06-18,Jatoi,Muzaffargarh,Punjab,0,21,61,normal
+2025-06-18,Sargodha Tehsil,Sargodha,Punjab,94,19,70,flood risk
+2025-06-18,Mianwali,Mianwali,Punjab,0,36,29,normal
+2025-06-18,Sialkot Tehsil,Sialkot,Punjab,22,30,48,normal
+2025-06-18,Badin,Badin,Sindh,96,39,57,flood risk
+2025-06-18,Umerkot,Umerkot,Sindh,0,24,76,normal
+2025-06-18,Thatta,Thatta,Sindh,0,36,46,normal
+2025-06-18,Khairpur,Khairpur,Sindh,56,17,71,normal
+2025-06-18,Dadu,Dadu,Sindh,0,30,54,normal
+2025-06-18,Charsadda,Charsadda,KPK,86,26,27,flood risk
+2025-06-18,Swabi,Swabi,KPK,0,28,38,normal
+2025-06-18,Mardan Tehsil,Mardan,KPK,0,19,52,normal
+2025-06-18,Bannu,Bannu,KPK,28,43,49,heatwave
+2025-06-18,Dera Ismail Khan,Dera Ismail Khan,KPK,0,15,60,normal
+2025-06-18,Naseerabad,Naseerabad,Balochistan,18,29,90,normal
+2025-06-18,Jafarabad,Jafarabad,Balochistan,0,44,86,heatwave
+2025-06-18,Turbat,Kech,Balochistan,0,39,48,normal
+2025-06-18,Zhob,Zhob,Balochistan,0,15,61,normal
+2025-06-18,Quetta Tehsil,Quetta,Balochistan,10,23,26,normal
+2025-06-19,Depalpur,Okara,Punjab,33,25,52,normal
+2025-06-19,Jatoi,Muzaffargarh,Punjab,0,19,62,normal
+2025-06-19,Sargodha Tehsil,Sargodha,Punjab,0,18,36,normal
+2025-06-19,Mianwali,Mianwali,Punjab,0,11,33,drought
+2025-06-19,Sialkot Tehsil,Sialkot,Punjab,0,32,76,normal
+2025-06-19,Badin,Badin,Sindh,72,20,65,normal
+2025-06-19,Umerkot,Umerkot,Sindh,33,44,30,heatwave
+2025-06-19,Thatta,Thatta,Sindh,0,28,76,normal
+2025-06-19,Khairpur,Khairpur,Sindh,56,29,56,normal
+2025-06-19,Dadu,Dadu,Sindh,0,13,59,drought
+2025-06-19,Charsadda,Charsadda,KPK,0,20,68,normal
+2025-06-19,Swabi,Swabi,KPK,0,26,48,normal
+2025-06-19,Mardan Tehsil,Mardan,KPK,0,43,43,heatwave
+2025-06-19,Bannu,Bannu,KPK,0,26,28,normal
+2025-06-19,Dera Ismail Khan,Dera Ismail Khan,KPK,0,41,88,normal
+2025-06-19,Naseerabad,Naseerabad,Balochistan,0,24,41,normal
+2025-06-19,Jafarabad,Jafarabad,Balochistan,0,35,51,normal
+2025-06-19,Turbat,Kech,Balochistan,0,17,51,normal
+2025-06-19,Zhob,Zhob,Balochistan,0,28,53,normal
+2025-06-19,Quetta Tehsil,Quetta,Balochistan,10,43,63,heatwave
+2025-06-20,Depalpur,Okara,Punjab,0,36,57,normal
+2025-06-20,Jatoi,Muzaffargarh,Punjab,0,16,66,normal
+2025-06-20,Sargodha Tehsil,Sargodha,Punjab,0,21,26,normal
+2025-06-20,Mianwali,Mianwali,Punjab,54,33,94,normal
+2025-06-20,Sialkot Tehsil,Sialkot,Punjab,0,29,23,normal
+2025-06-20,Badin,Badin,Sindh,0,20,90,normal
+2025-06-20,Umerkot,Umerkot,Sindh,34,10,58,normal
+2025-06-20,Thatta,Thatta,Sindh,0,23,35,normal
+2025-06-20,Khairpur,Khairpur,Sindh,38,22,45,normal
+2025-06-20,Dadu,Dadu,Sindh,0,34,45,normal
+2025-06-20,Charsadda,Charsadda,KPK,0,30,42,normal
+2025-06-20,Swabi,Swabi,KPK,19,15,39,normal
+2025-06-20,Mardan Tehsil,Mardan,KPK,0,28,66,normal
+2025-06-20,Bannu,Bannu,KPK,22,38,45,normal
+2025-06-20,Dera Ismail Khan,Dera Ismail Khan,KPK,0,13,56,drought
+2025-06-20,Naseerabad,Naseerabad,Balochistan,0,39,75,normal
+2025-06-20,Jafarabad,Jafarabad,Balochistan,72,13,68,normal
+2025-06-20,Turbat,Kech,Balochistan,0,41,32,normal
+2025-06-20,Zhob,Zhob,Balochistan,0,26,93,normal
+2025-06-20,Quetta Tehsil,Quetta,Balochistan,0,12,79,drought
+2025-06-21,Depalpur,Okara,Punjab,0,36,84,normal
+2025-06-21,Jatoi,Muzaffargarh,Punjab,0,12,39,drought
+2025-06-21,Sargodha Tehsil,Sargodha,Punjab,0,29,66,normal
+2025-06-21,Mianwali,Mianwali,Punjab,0,11,61,drought
+2025-06-21,Sialkot Tehsil,Sialkot,Punjab,0,38,91,normal
+2025-06-21,Badin,Badin,Sindh,0,14,57,drought
+2025-06-21,Umerkot,Umerkot,Sindh,0,28,79,normal
+2025-06-21,Thatta,Thatta,Sindh,13,14,45,normal
+2025-06-21,Khairpur,Khairpur,Sindh,0,20,57,normal
+2025-06-21,Dadu,Dadu,Sindh,0,24,50,normal
+2025-06-21,Charsadda,Charsadda,KPK,0,21,95,normal
+2025-06-21,Swabi,Swabi,KPK,15,21,62,normal
+2025-06-21,Mardan Tehsil,Mardan,KPK,94,18,89,flood risk
+2025-06-21,Bannu,Bannu,KPK,61,28,83,normal
+2025-06-21,Dera Ismail Khan,Dera Ismail Khan,KPK,0,33,63,normal
+2025-06-21,Naseerabad,Naseerabad,Balochistan,1,28,24,normal
+2025-06-21,Jafarabad,Jafarabad,Balochistan,2,35,37,normal
+2025-06-21,Turbat,Kech,Balochistan,56,12,72,normal
+2025-06-21,Zhob,Zhob,Balochistan,0,41,93,normal
+2025-06-21,Quetta Tehsil,Quetta,Balochistan,0,28,74,normal
+2025-06-22,Depalpur,Okara,Punjab,0,38,27,normal
+2025-06-22,Jatoi,Muzaffargarh,Punjab,0,42,66,normal
+2025-06-22,Sargodha Tehsil,Sargodha,Punjab,0,40,47,normal
+2025-06-22,Mianwali,Mianwali,Punjab,0,16,69,normal
+2025-06-22,Sialkot Tehsil,Sialkot,Punjab,80,39,21,normal
+2025-06-22,Badin,Badin,Sindh,0,33,90,normal
+2025-06-22,Umerkot,Umerkot,Sindh,0,45,84,heatwave
+2025-06-22,Thatta,Thatta,Sindh,0,32,50,normal
+2025-06-22,Khairpur,Khairpur,Sindh,0,45,82,heatwave
+2025-06-22,Dadu,Dadu,Sindh,73,28,56,normal
+2025-06-22,Charsadda,Charsadda,KPK,1,14,53,normal
+2025-06-22,Swabi,Swabi,KPK,0,19,82,normal
+2025-06-22,Mardan Tehsil,Mardan,KPK,0,44,93,heatwave
+2025-06-22,Bannu,Bannu,KPK,71,17,70,normal
+2025-06-22,Dera Ismail Khan,Dera Ismail Khan,KPK,0,39,76,normal
+2025-06-22,Naseerabad,Naseerabad,Balochistan,0,14,51,drought
+2025-06-22,Jafarabad,Jafarabad,Balochistan,0,19,29,normal
+2025-06-22,Turbat,Kech,Balochistan,44,25,62,normal
+2025-06-22,Zhob,Zhob,Balochistan,0,13,38,drought
+2025-06-22,Quetta Tehsil,Quetta,Balochistan,47,42,95,normal
+2025-06-23,Depalpur,Okara,Punjab,0,35,78,normal
+2025-06-23,Jatoi,Muzaffargarh,Punjab,0,29,87,normal
+2025-06-23,Sargodha Tehsil,Sargodha,Punjab,0,27,66,normal
+2025-06-23,Mianwali,Mianwali,Punjab,0,12,54,drought
+2025-06-23,Sialkot Tehsil,Sialkot,Punjab,65,42,32,normal
+2025-06-23,Badin,Badin,Sindh,0,26,77,normal
+2025-06-23,Umerkot,Umerkot,Sindh,80,36,95,normal
+2025-06-23,Thatta,Thatta,Sindh,0,16,28,normal
+2025-06-23,Khairpur,Khairpur,Sindh,0,14,67,drought
+2025-06-23,Dadu,Dadu,Sindh,10,37,24,normal
+2025-06-23,Charsadda,Charsadda,KPK,0,17,61,normal
+2025-06-23,Swabi,Swabi,KPK,0,12,62,drought
+2025-06-23,Mardan Tehsil,Mardan,KPK,0,17,58,normal
+2025-06-23,Bannu,Bannu,KPK,0,37,41,normal
+2025-06-23,Dera Ismail Khan,Dera Ismail Khan,KPK,0,25,30,normal
+2025-06-23,Naseerabad,Naseerabad,Balochistan,0,16,27,normal
+2025-06-23,Jafarabad,Jafarabad,Balochistan,0,25,73,normal
+2025-06-23,Turbat,Kech,Balochistan,0,32,62,normal
+2025-06-23,Zhob,Zhob,Balochistan,0,23,37,normal
+2025-06-23,Quetta Tehsil,Quetta,Balochistan,0,34,43,normal
+2025-06-24,Depalpur,Okara,Punjab,0,22,24,normal
+2025-06-24,Jatoi,Muzaffargarh,Punjab,0,13,38,drought
+2025-06-24,Sargodha Tehsil,Sargodha,Punjab,0,43,46,heatwave
+2025-06-24,Mianwali,Mianwali,Punjab,0,24,72,normal
+2025-06-24,Sialkot Tehsil,Sialkot,Punjab,0,38,91,normal
+2025-06-24,Badin,Badin,Sindh,0,43,26,heatwave
+2025-06-24,Umerkot,Umerkot,Sindh,29,12,31,normal
+2025-06-24,Thatta,Thatta,Sindh,0,25,55,normal
+2025-06-24,Khairpur,Khairpur,Sindh,0,11,25,drought
+2025-06-24,Dadu,Dadu,Sindh,0,17,89,normal
+2025-06-24,Charsadda,Charsadda,KPK,0,10,62,drought
+2025-06-24,Swabi,Swabi,KPK,0,36,95,normal
+2025-06-24,Mardan Tehsil,Mardan,KPK,0,18,44,normal
+2025-06-24,Bannu,Bannu,KPK,0,40,88,normal
+2025-06-24,Dera Ismail Khan,Dera Ismail Khan,KPK,0,28,71,normal
+2025-06-24,Naseerabad,Naseerabad,Balochistan,0,27,85,normal
+2025-06-24,Jafarabad,Jafarabad,Balochistan,0,13,22,drought
+2025-06-24,Turbat,Kech,Balochistan,14,28,35,normal
+2025-06-24,Zhob,Zhob,Balochistan,0,22,67,normal
+2025-06-24,Quetta Tehsil,Quetta,Balochistan,48,13,41,normal
+2025-06-25,Depalpur,Okara,Punjab,0,35,52,normal
+2025-06-25,Jatoi,Muzaffargarh,Punjab,59,27,60,normal
+2025-06-25,Sargodha Tehsil,Sargodha,Punjab,0,11,46,drought
+2025-06-25,Mianwali,Mianwali,Punjab,0,34,65,normal
+2025-06-25,Sialkot Tehsil,Sialkot,Punjab,0,31,38,normal
+2025-06-25,Badin,Badin,Sindh,34,34,20,normal
+2025-06-25,Umerkot,Umerkot,Sindh,0,43,43,heatwave
+2025-06-25,Thatta,Thatta,Sindh,0,13,94,drought
+2025-06-25,Khairpur,Khairpur,Sindh,0,27,47,normal
+2025-06-25,Dadu,Dadu,Sindh,0,45,25,heatwave
+2025-06-25,Charsadda,Charsadda,KPK,0,40,35,normal
+2025-06-25,Swabi,Swabi,KPK,0,19,84,normal
+2025-06-25,Mardan Tehsil,Mardan,KPK,29,17,38,normal
+2025-06-25,Bannu,Bannu,KPK,0,29,28,normal
+2025-06-25,Dera Ismail Khan,Dera Ismail Khan,KPK,0,43,71,heatwave
+2025-06-25,Naseerabad,Naseerabad,Balochistan,0,43,63,heatwave
+2025-06-25,Jafarabad,Jafarabad,Balochistan,79,36,69,normal
+2025-06-25,Turbat,Kech,Balochistan,0,43,70,heatwave
+2025-06-25,Zhob,Zhob,Balochistan,0,29,46,normal
+2025-06-25,Quetta Tehsil,Quetta,Balochistan,84,28,58,flood risk
+2025-06-26,Depalpur,Okara,Punjab,0,11,31,drought
+2025-06-26,Jatoi,Muzaffargarh,Punjab,0,11,63,drought
+2025-06-26,Sargodha Tehsil,Sargodha,Punjab,0,34,88,normal
+2025-06-26,Mianwali,Mianwali,Punjab,0,38,65,normal
+2025-06-26,Sialkot Tehsil,Sialkot,Punjab,0,10,39,drought
+2025-06-26,Badin,Badin,Sindh,5,12,69,normal
+2025-06-26,Umerkot,Umerkot,Sindh,0,33,22,normal
+2025-06-26,Thatta,Thatta,Sindh,86,16,28,flood risk
+2025-06-26,Khairpur,Khairpur,Sindh,0,12,74,drought
+2025-06-26,Dadu,Dadu,Sindh,0,29,39,normal
+2025-06-26,Charsadda,Charsadda,KPK,43,27,22,normal
+2025-06-26,Swabi,Swabi,KPK,0,17,71,normal
+2025-06-26,Mardan Tehsil,Mardan,KPK,0,20,75,normal
+2025-06-26,Bannu,Bannu,KPK,0,43,60,heatwave
+2025-06-26,Dera Ismail Khan,Dera Ismail Khan,KPK,0,43,35,heatwave
+2025-06-26,Naseerabad,Naseerabad,Balochistan,0,32,85,normal
+2025-06-26,Jafarabad,Jafarabad,Balochistan,0,10,49,drought
+2025-06-26,Turbat,Kech,Balochistan,83,17,39,flood risk
+2025-06-26,Zhob,Zhob,Balochistan,0,25,29,normal
+2025-06-26,Quetta Tehsil,Quetta,Balochistan,0,17,62,normal
+2025-06-27,Depalpur,Okara,Punjab,96,45,37,flood risk
+2025-06-27,Jatoi,Muzaffargarh,Punjab,0,22,67,normal
+2025-06-27,Sargodha Tehsil,Sargodha,Punjab,0,28,53,normal
+2025-06-27,Mianwali,Mianwali,Punjab,0,44,51,heatwave
+2025-06-27,Sialkot Tehsil,Sialkot,Punjab,73,17,21,normal
+2025-06-27,Badin,Badin,Sindh,0,29,68,normal
+2025-06-27,Umerkot,Umerkot,Sindh,0,24,43,normal
+2025-06-27,Thatta,Thatta,Sindh,0,41,25,normal
+2025-06-27,Khairpur,Khairpur,Sindh,0,34,81,normal
+2025-06-27,Dadu,Dadu,Sindh,96,23,35,flood risk
+2025-06-27,Charsadda,Charsadda,KPK,0,26,85,normal
+2025-06-27,Swabi,Swabi,KPK,48,12,43,normal
+2025-06-27,Mardan Tehsil,Mardan,KPK,3,32,40,normal
+2025-06-27,Bannu,Bannu,KPK,0,11,65,drought
+2025-06-27,Dera Ismail Khan,Dera Ismail Khan,KPK,0,28,37,normal
+2025-06-27,Naseerabad,Naseerabad,Balochistan,0,43,38,heatwave
+2025-06-27,Jafarabad,Jafarabad,Balochistan,0,28,64,normal
+2025-06-27,Turbat,Kech,Balochistan,63,44,70,heatwave
+2025-06-27,Zhob,Zhob,Balochistan,89,12,74,flood risk
+2025-06-27,Quetta Tehsil,Quetta,Balochistan,0,29,78,normal
+2025-06-28,Depalpur,Okara,Punjab,0,19,69,normal
+2025-06-28,Jatoi,Muzaffargarh,Punjab,0,25,82,normal
+2025-06-28,Sargodha Tehsil,Sargodha,Punjab,0,19,47,normal
+2025-06-28,Mianwali,Mianwali,Punjab,0,39,20,normal
+2025-06-28,Sialkot Tehsil,Sialkot,Punjab,0,36,36,normal
+2025-06-28,Badin,Badin,Sindh,0,27,38,normal
+2025-06-28,Umerkot,Umerkot,Sindh,0,29,41,normal
+2025-06-28,Thatta,Thatta,Sindh,0,15,67,normal
+2025-06-28,Khairpur,Khairpur,Sindh,0,35,91,normal
+2025-06-28,Dadu,Dadu,Sindh,0,14,94,drought
+2025-06-28,Charsadda,Charsadda,KPK,0,25,93,normal
+2025-06-28,Swabi,Swabi,KPK,0,26,83,normal
+2025-06-28,Mardan Tehsil,Mardan,KPK,0,10,24,drought
+2025-06-28,Bannu,Bannu,KPK,0,23,26,normal
+2025-06-28,Dera Ismail Khan,Dera Ismail Khan,KPK,4,37,87,normal
+2025-06-28,Naseerabad,Naseerabad,Balochistan,0,10,31,drought
+2025-06-28,Jafarabad,Jafarabad,Balochistan,0,27,20,normal
+2025-06-28,Turbat,Kech,Balochistan,13,37,33,normal
+2025-06-28,Zhob,Zhob,Balochistan,0,43,34,heatwave
+2025-06-28,Quetta Tehsil,Quetta,Balochistan,0,29,34,normal
+2025-06-29,Depalpur,Okara,Punjab,0,45,27,heatwave
+2025-06-29,Jatoi,Muzaffargarh,Punjab,0,22,28,normal
+2025-06-29,Sargodha Tehsil,Sargodha,Punjab,0,29,53,normal
+2025-06-29,Mianwali,Mianwali,Punjab,0,27,30,normal
+2025-06-29,Sialkot Tehsil,Sialkot,Punjab,44,26,66,normal
+2025-06-29,Badin,Badin,Sindh,0,35,77,normal
+2025-06-29,Umerkot,Umerkot,Sindh,0,11,56,drought
+2025-06-29,Thatta,Thatta,Sindh,0,34,21,normal
+2025-06-29,Khairpur,Khairpur,Sindh,0,36,60,normal
+2025-06-29,Dadu,Dadu,Sindh,0,36,25,normal
+2025-06-29,Charsadda,Charsadda,KPK,0,36,61,normal
+2025-06-29,Swabi,Swabi,KPK,0,21,24,normal
+2025-06-29,Mardan Tehsil,Mardan,KPK,0,14,58,drought
+2025-06-29,Bannu,Bannu,KPK,0,29,28,normal
+2025-06-29,Dera Ismail Khan,Dera Ismail Khan,KPK,0,33,90,normal
+2025-06-29,Naseerabad,Naseerabad,Balochistan,0,10,60,drought
+2025-06-29,Jafarabad,Jafarabad,Balochistan,0,13,95,drought
+2025-06-29,Turbat,Kech,Balochistan,0,43,80,heatwave
+2025-06-29,Zhob,Zhob,Balochistan,0,37,72,normal
+2025-06-29,Quetta Tehsil,Quetta,Balochistan,0,22,86,normal
+2025-06-30,Depalpur,Okara,Punjab,0,30,95,normal
+2025-06-30,Jatoi,Muzaffargarh,Punjab,0,26,94,normal
+2025-06-30,Sargodha Tehsil,Sargodha,Punjab,0,45,40,heatwave
+2025-06-30,Mianwali,Mianwali,Punjab,71,43,45,heatwave
+2025-06-30,Sialkot Tehsil,Sialkot,Punjab,0,15,68,normal
+2025-06-30,Badin,Badin,Sindh,59,14,79,normal
+2025-06-30,Umerkot,Umerkot,Sindh,67,31,81,normal
+2025-06-30,Thatta,Thatta,Sindh,54,22,28,normal
+2025-06-30,Khairpur,Khairpur,Sindh,54,24,73,normal
+2025-06-30,Dadu,Dadu,Sindh,35,41,70,normal
+2025-06-30,Charsadda,Charsadda,KPK,0,34,27,normal
+2025-06-30,Swabi,Swabi,KPK,63,22,42,normal
+2025-06-30,Mardan Tehsil,Mardan,KPK,0,26,89,normal
+2025-06-30,Bannu,Bannu,KPK,0,37,74,normal
+2025-06-30,Dera Ismail Khan,Dera Ismail Khan,KPK,0,44,34,heatwave
+2025-06-30,Naseerabad,Naseerabad,Balochistan,0,19,20,normal
+2025-06-30,Jafarabad,Jafarabad,Balochistan,0,37,55,normal
+2025-06-30,Turbat,Kech,Balochistan,0,38,52,normal
+2025-06-30,Zhob,Zhob,Balochistan,0,17,47,normal
+2025-06-30,Quetta Tehsil,Quetta,Balochistan,0,13,28,drought
+2025-07-01,Depalpur,Okara,Punjab,0,12,91,drought
+2025-07-01,Jatoi,Muzaffargarh,Punjab,0,42,62,normal
+2025-07-01,Sargodha Tehsil,Sargodha,Punjab,0,23,33,normal
+2025-07-01,Mianwali,Mianwali,Punjab,0,10,23,drought
+2025-07-01,Sialkot Tehsil,Sialkot,Punjab,0,35,20,normal
+2025-07-01,Badin,Badin,Sindh,0,19,79,normal
+2025-07-01,Umerkot,Umerkot,Sindh,22,35,59,normal
+2025-07-01,Thatta,Thatta,Sindh,51,25,57,normal
+2025-07-01,Khairpur,Khairpur,Sindh,0,36,48,normal
+2025-07-01,Dadu,Dadu,Sindh,0,40,77,normal
+2025-07-01,Charsadda,Charsadda,KPK,0,21,62,normal
+2025-07-01,Swabi,Swabi,KPK,0,26,52,normal
+2025-07-01,Mardan Tehsil,Mardan,KPK,0,26,63,normal
+2025-07-01,Bannu,Bannu,KPK,74,27,86,normal
+2025-07-01,Dera Ismail Khan,Dera Ismail Khan,KPK,0,24,91,normal
+2025-07-01,Naseerabad,Naseerabad,Balochistan,30,34,68,normal
+2025-07-01,Jafarabad,Jafarabad,Balochistan,39,11,93,normal
+2025-07-01,Turbat,Kech,Balochistan,0,18,31,normal
+2025-07-01,Zhob,Zhob,Balochistan,10,25,85,normal
+2025-07-01,Quetta Tehsil,Quetta,Balochistan,0,31,61,normal
+2025-07-02,Depalpur,Okara,Punjab,0,31,53,normal
+2025-07-02,Jatoi,Muzaffargarh,Punjab,15,18,57,normal
+2025-07-02,Sargodha Tehsil,Sargodha,Punjab,0,31,26,normal
+2025-07-02,Mianwali,Mianwali,Punjab,0,11,28,drought
+2025-07-02,Sialkot Tehsil,Sialkot,Punjab,100,36,40,flood risk
+2025-07-02,Badin,Badin,Sindh,0,20,27,normal
+2025-07-02,Umerkot,Umerkot,Sindh,93,33,42,flood risk
+2025-07-02,Thatta,Thatta,Sindh,63,26,70,normal
+2025-07-02,Khairpur,Khairpur,Sindh,0,27,63,normal
+2025-07-02,Dadu,Dadu,Sindh,0,44,47,heatwave
+2025-07-02,Charsadda,Charsadda,KPK,37,28,83,normal
+2025-07-02,Swabi,Swabi,KPK,0,14,22,drought
+2025-07-02,Mardan Tehsil,Mardan,KPK,0,25,80,normal
+2025-07-02,Bannu,Bannu,KPK,0,39,53,normal
+2025-07-02,Dera Ismail Khan,Dera Ismail Khan,KPK,0,27,46,normal
+2025-07-02,Naseerabad,Naseerabad,Balochistan,0,15,51,normal
+2025-07-02,Jafarabad,Jafarabad,Balochistan,59,41,34,normal
+2025-07-02,Turbat,Kech,Balochistan,0,36,79,normal
+2025-07-02,Zhob,Zhob,Balochistan,0,40,23,normal
+2025-07-02,Quetta Tehsil,Quetta,Balochistan,0,34,91,normal
+2025-07-03,Depalpur,Okara,Punjab,0,33,49,normal
+2025-07-03,Jatoi,Muzaffargarh,Punjab,0,10,36,drought
+2025-07-03,Sargodha Tehsil,Sargodha,Punjab,96,42,76,flood risk
+2025-07-03,Mianwali,Mianwali,Punjab,71,42,95,normal
+2025-07-03,Sialkot Tehsil,Sialkot,Punjab,0,42,60,normal
+2025-07-03,Badin,Badin,Sindh,0,45,66,heatwave
+2025-07-03,Umerkot,Umerkot,Sindh,0,15,78,normal
+2025-07-03,Thatta,Thatta,Sindh,0,18,85,normal
+2025-07-03,Khairpur,Khairpur,Sindh,97,34,66,flood risk
+2025-07-03,Dadu,Dadu,Sindh,0,18,66,normal
+2025-07-03,Charsadda,Charsadda,KPK,0,13,27,drought
+2025-07-03,Swabi,Swabi,KPK,0,30,67,normal
+2025-07-03,Mardan Tehsil,Mardan,KPK,58,19,76,normal
+2025-07-03,Bannu,Bannu,KPK,34,33,27,normal
+2025-07-03,Dera Ismail Khan,Dera Ismail Khan,KPK,0,45,81,heatwave
+2025-07-03,Naseerabad,Naseerabad,Balochistan,0,26,57,normal
+2025-07-03,Jafarabad,Jafarabad,Balochistan,96,25,53,flood risk
+2025-07-03,Turbat,Kech,Balochistan,0,15,56,normal
+2025-07-03,Zhob,Zhob,Balochistan,87,42,60,flood risk
+2025-07-03,Quetta Tehsil,Quetta,Balochistan,33,36,85,normal
+2025-07-04,Depalpur,Okara,Punjab,0,35,24,normal
+2025-07-04,Jatoi,Muzaffargarh,Punjab,0,15,59,normal
+2025-07-04,Sargodha Tehsil,Sargodha,Punjab,0,31,78,normal
+2025-07-04,Mianwali,Mianwali,Punjab,0,22,62,normal
+2025-07-04,Sialkot Tehsil,Sialkot,Punjab,84,38,93,flood risk
+2025-07-04,Badin,Badin,Sindh,86,31,65,flood risk
+2025-07-04,Umerkot,Umerkot,Sindh,0,41,32,normal
+2025-07-04,Thatta,Thatta,Sindh,0,24,64,normal
+2025-07-04,Khairpur,Khairpur,Sindh,0,36,27,normal
+2025-07-04,Dadu,Dadu,Sindh,0,32,24,normal
+2025-07-04,Charsadda,Charsadda,KPK,41,34,43,normal
+2025-07-04,Swabi,Swabi,KPK,0,21,31,normal
+2025-07-04,Mardan Tehsil,Mardan,KPK,0,11,22,drought
+2025-07-04,Bannu,Bannu,KPK,0,39,22,normal
+2025-07-04,Dera Ismail Khan,Dera Ismail Khan,KPK,0,30,20,normal
+2025-07-04,Naseerabad,Naseerabad,Balochistan,0,22,81,normal
+2025-07-04,Jafarabad,Jafarabad,Balochistan,69,35,27,normal
+2025-07-04,Turbat,Kech,Balochistan,70,14,39,normal
+2025-07-04,Zhob,Zhob,Balochistan,59,45,72,heatwave
+2025-07-04,Quetta Tehsil,Quetta,Balochistan,0,15,70,normal
+2025-07-05,Depalpur,Okara,Punjab,98,37,47,flood risk
+2025-07-05,Jatoi,Muzaffargarh,Punjab,59,38,50,normal
+2025-07-05,Sargodha Tehsil,Sargodha,Punjab,0,29,68,normal
+2025-07-05,Mianwali,Mianwali,Punjab,0,34,66,normal
+2025-07-05,Sialkot Tehsil,Sialkot,Punjab,0,39,88,normal
+2025-07-05,Badin,Badin,Sindh,0,30,50,normal
+2025-07-05,Umerkot,Umerkot,Sindh,0,14,88,drought
+2025-07-05,Thatta,Thatta,Sindh,0,42,60,normal
+2025-07-05,Khairpur,Khairpur,Sindh,0,43,89,heatwave
+2025-07-05,Dadu,Dadu,Sindh,60,22,90,normal
+2025-07-05,Charsadda,Charsadda,KPK,47,42,28,normal
+2025-07-05,Swabi,Swabi,KPK,0,18,46,normal
+2025-07-05,Mardan Tehsil,Mardan,KPK,0,27,51,normal
+2025-07-05,Bannu,Bannu,KPK,0,23,74,normal
+2025-07-05,Dera Ismail Khan,Dera Ismail Khan,KPK,0,45,58,heatwave
+2025-07-05,Naseerabad,Naseerabad,Balochistan,0,40,64,normal
+2025-07-05,Jafarabad,Jafarabad,Balochistan,0,24,73,normal
+2025-07-05,Turbat,Kech,Balochistan,0,36,94,normal
+2025-07-05,Zhob,Zhob,Balochistan,0,38,94,normal
+2025-07-05,Quetta Tehsil,Quetta,Balochistan,0,19,42,normal
+2025-07-06,Depalpur,Okara,Punjab,0,37,61,normal
+2025-07-06,Jatoi,Muzaffargarh,Punjab,92,35,90,flood risk
+2025-07-06,Sargodha Tehsil,Sargodha,Punjab,68,45,56,heatwave
+2025-07-06,Mianwali,Mianwali,Punjab,0,38,74,normal
+2025-07-06,Sialkot Tehsil,Sialkot,Punjab,0,44,51,heatwave
+2025-07-06,Badin,Badin,Sindh,0,31,77,normal
+2025-07-06,Umerkot,Umerkot,Sindh,0,44,91,heatwave
+2025-07-06,Thatta,Thatta,Sindh,0,14,27,drought
+2025-07-06,Khairpur,Khairpur,Sindh,73,39,70,normal
+2025-07-06,Dadu,Dadu,Sindh,0,20,91,normal
+2025-07-06,Charsadda,Charsadda,KPK,0,42,51,normal
+2025-07-06,Swabi,Swabi,KPK,34,14,59,normal
+2025-07-06,Mardan Tehsil,Mardan,KPK,0,33,69,normal
+2025-07-06,Bannu,Bannu,KPK,19,31,25,normal
+2025-07-06,Dera Ismail Khan,Dera Ismail Khan,KPK,0,23,26,normal
+2025-07-06,Naseerabad,Naseerabad,Balochistan,0,38,39,normal
+2025-07-06,Jafarabad,Jafarabad,Balochistan,90,41,54,flood risk
+2025-07-06,Turbat,Kech,Balochistan,0,22,68,normal
+2025-07-06,Zhob,Zhob,Balochistan,0,33,55,normal
+2025-07-06,Quetta Tehsil,Quetta,Balochistan,0,13,55,drought
+2025-07-07,Depalpur,Okara,Punjab,0,25,76,normal
+2025-07-07,Jatoi,Muzaffargarh,Punjab,0,16,36,normal
+2025-07-07,Sargodha Tehsil,Sargodha,Punjab,0,43,90,heatwave
+2025-07-07,Mianwali,Mianwali,Punjab,0,42,51,normal
+2025-07-07,Sialkot Tehsil,Sialkot,Punjab,0,26,66,normal
+2025-07-07,Badin,Badin,Sindh,0,34,35,normal
+2025-07-07,Umerkot,Umerkot,Sindh,0,17,40,normal
+2025-07-07,Thatta,Thatta,Sindh,0,10,71,drought
+2025-07-07,Khairpur,Khairpur,Sindh,0,12,46,drought
+2025-07-07,Dadu,Dadu,Sindh,0,28,81,normal
+2025-07-07,Charsadda,Charsadda,KPK,0,15,61,normal
+2025-07-07,Swabi,Swabi,KPK,0,29,31,normal
+2025-07-07,Mardan Tehsil,Mardan,KPK,89,35,77,flood risk
+2025-07-07,Bannu,Bannu,KPK,0,29,67,normal
+2025-07-07,Dera Ismail Khan,Dera Ismail Khan,KPK,48,13,50,normal
+2025-07-07,Naseerabad,Naseerabad,Balochistan,0,12,41,drought
+2025-07-07,Jafarabad,Jafarabad,Balochistan,0,37,32,normal
+2025-07-07,Turbat,Kech,Balochistan,0,34,62,normal
+2025-07-07,Zhob,Zhob,Balochistan,0,11,85,drought
+2025-07-07,Quetta Tehsil,Quetta,Balochistan,0,22,42,normal
+2025-07-08,Depalpur,Okara,Punjab,0,42,64,normal
+2025-07-08,Jatoi,Muzaffargarh,Punjab,83,15,75,flood risk
+2025-07-08,Sargodha Tehsil,Sargodha,Punjab,0,21,62,normal
+2025-07-08,Mianwali,Mianwali,Punjab,0,41,21,normal
+2025-07-08,Sialkot Tehsil,Sialkot,Punjab,0,45,87,heatwave
+2025-07-08,Badin,Badin,Sindh,0,28,77,normal
+2025-07-08,Umerkot,Umerkot,Sindh,0,45,60,heatwave
+2025-07-08,Thatta,Thatta,Sindh,0,35,75,normal
+2025-07-08,Khairpur,Khairpur,Sindh,0,14,40,drought
+2025-07-08,Dadu,Dadu,Sindh,0,19,54,normal
+2025-07-08,Charsadda,Charsadda,KPK,0,42,86,normal
+2025-07-08,Swabi,Swabi,KPK,0,37,93,normal
+2025-07-08,Mardan Tehsil,Mardan,KPK,61,26,46,normal
+2025-07-08,Bannu,Bannu,KPK,0,28,63,normal
+2025-07-08,Dera Ismail Khan,Dera Ismail Khan,KPK,0,16,30,normal
+2025-07-08,Naseerabad,Naseerabad,Balochistan,0,14,42,drought
+2025-07-08,Jafarabad,Jafarabad,Balochistan,0,30,35,normal
+2025-07-08,Turbat,Kech,Balochistan,61,12,21,normal
+2025-07-08,Zhob,Zhob,Balochistan,0,41,68,normal
+2025-07-08,Quetta Tehsil,Quetta,Balochistan,0,18,23,normal
+2025-07-09,Depalpur,Okara,Punjab,0,30,23,normal
+2025-07-09,Jatoi,Muzaffargarh,Punjab,0,37,24,normal
+2025-07-09,Sargodha Tehsil,Sargodha,Punjab,0,35,52,normal
+2025-07-09,Mianwali,Mianwali,Punjab,0,42,87,normal
+2025-07-09,Sialkot Tehsil,Sialkot,Punjab,0,13,23,drought
+2025-07-09,Badin,Badin,Sindh,0,11,51,drought
+2025-07-09,Umerkot,Umerkot,Sindh,0,42,69,normal
+2025-07-09,Thatta,Thatta,Sindh,0,39,37,normal
+2025-07-09,Khairpur,Khairpur,Sindh,0,22,89,normal
+2025-07-09,Dadu,Dadu,Sindh,0,18,65,normal
+2025-07-09,Charsadda,Charsadda,KPK,0,31,90,normal
+2025-07-09,Swabi,Swabi,KPK,23,28,47,normal
+2025-07-09,Mardan Tehsil,Mardan,KPK,0,29,61,normal
+2025-07-09,Bannu,Bannu,KPK,0,18,41,normal
+2025-07-09,Dera Ismail Khan,Dera Ismail Khan,KPK,52,12,23,normal
+2025-07-09,Naseerabad,Naseerabad,Balochistan,0,37,33,normal
+2025-07-09,Jafarabad,Jafarabad,Balochistan,0,42,78,normal
+2025-07-09,Turbat,Kech,Balochistan,0,30,69,normal
+2025-07-09,Zhob,Zhob,Balochistan,0,31,53,normal
+2025-07-09,Quetta Tehsil,Quetta,Balochistan,60,35,66,normal
+2025-07-10,Depalpur,Okara,Punjab,91,31,92,flood risk
+2025-07-10,Jatoi,Muzaffargarh,Punjab,0,34,40,normal
+2025-07-10,Sargodha Tehsil,Sargodha,Punjab,0,27,30,normal
+2025-07-10,Mianwali,Mianwali,Punjab,0,15,93,normal
+2025-07-10,Sialkot Tehsil,Sialkot,Punjab,0,12,68,drought
+2025-07-10,Badin,Badin,Sindh,0,41,83,normal
+2025-07-10,Umerkot,Umerkot,Sindh,22,19,70,normal
+2025-07-10,Thatta,Thatta,Sindh,0,39,94,normal
+2025-07-10,Khairpur,Khairpur,Sindh,0,41,62,normal
+2025-07-10,Dadu,Dadu,Sindh,0,23,21,normal
+2025-07-10,Charsadda,Charsadda,KPK,0,17,64,normal
+2025-07-10,Swabi,Swabi,KPK,39,43,86,heatwave
+2025-07-10,Mardan Tehsil,Mardan,KPK,67,14,22,normal
+2025-07-10,Bannu,Bannu,KPK,0,30,21,normal
+2025-07-10,Dera Ismail Khan,Dera Ismail Khan,KPK,0,11,23,drought
+2025-07-10,Naseerabad,Naseerabad,Balochistan,0,33,70,normal
+2025-07-10,Jafarabad,Jafarabad,Balochistan,48,45,66,heatwave
+2025-07-10,Turbat,Kech,Balochistan,0,42,71,normal
+2025-07-10,Zhob,Zhob,Balochistan,0,30,22,normal
+2025-07-10,Quetta Tehsil,Quetta,Balochistan,72,17,92,normal
+2025-07-11,Depalpur,Okara,Punjab,3,20,33,normal
+2025-07-11,Jatoi,Muzaffargarh,Punjab,0,23,87,normal
+2025-07-11,Sargodha Tehsil,Sargodha,Punjab,0,31,62,normal
+2025-07-11,Mianwali,Mianwali,Punjab,0,40,64,normal
+2025-07-11,Sialkot Tehsil,Sialkot,Punjab,0,41,67,normal
+2025-07-11,Badin,Badin,Sindh,0,26,38,normal
+2025-07-11,Umerkot,Umerkot,Sindh,0,43,83,heatwave
+2025-07-11,Thatta,Thatta,Sindh,0,38,60,normal
+2025-07-11,Khairpur,Khairpur,Sindh,79,13,57,normal
+2025-07-11,Dadu,Dadu,Sindh,0,27,24,normal
+2025-07-11,Charsadda,Charsadda,KPK,76,35,54,normal
+2025-07-11,Swabi,Swabi,KPK,0,17,82,normal
+2025-07-11,Mardan Tehsil,Mardan,KPK,0,37,47,normal
+2025-07-11,Bannu,Bannu,KPK,5,32,62,normal
+2025-07-11,Dera Ismail Khan,Dera Ismail Khan,KPK,0,13,37,drought
+2025-07-11,Naseerabad,Naseerabad,Balochistan,0,34,39,normal
+2025-07-11,Jafarabad,Jafarabad,Balochistan,0,30,67,normal
+2025-07-11,Turbat,Kech,Balochistan,0,24,68,normal
+2025-07-11,Zhob,Zhob,Balochistan,0,12,72,drought
+2025-07-11,Quetta Tehsil,Quetta,Balochistan,0,42,73,normal
+2025-07-12,Depalpur,Okara,Punjab,64,35,69,normal
+2025-07-12,Jatoi,Muzaffargarh,Punjab,8,18,32,normal
+2025-07-12,Sargodha Tehsil,Sargodha,Punjab,0,36,48,normal
+2025-07-12,Mianwali,Mianwali,Punjab,0,32,44,normal
+2025-07-12,Sialkot Tehsil,Sialkot,Punjab,0,25,31,normal
+2025-07-12,Badin,Badin,Sindh,0,20,48,normal
+2025-07-12,Umerkot,Umerkot,Sindh,0,10,60,drought
+2025-07-12,Thatta,Thatta,Sindh,0,39,68,normal
+2025-07-12,Khairpur,Khairpur,Sindh,32,23,40,normal
+2025-07-12,Dadu,Dadu,Sindh,33,33,72,normal
+2025-07-12,Charsadda,Charsadda,KPK,0,22,38,normal
+2025-07-12,Swabi,Swabi,KPK,0,44,23,heatwave
+2025-07-12,Mardan Tehsil,Mardan,KPK,37,16,41,normal
+2025-07-12,Bannu,Bannu,KPK,0,34,47,normal
+2025-07-12,Dera Ismail Khan,Dera Ismail Khan,KPK,0,20,35,normal
+2025-07-12,Naseerabad,Naseerabad,Balochistan,0,37,62,normal
+2025-07-12,Jafarabad,Jafarabad,Balochistan,69,27,73,normal
+2025-07-12,Turbat,Kech,Balochistan,21,16,47,normal
+2025-07-12,Zhob,Zhob,Balochistan,57,35,70,normal
+2025-07-12,Quetta Tehsil,Quetta,Balochistan,0,41,79,normal
+2025-07-13,Depalpur,Okara,Punjab,0,31,94,normal
+2025-07-13,Jatoi,Muzaffargarh,Punjab,0,21,84,normal
+2025-07-13,Sargodha Tehsil,Sargodha,Punjab,49,45,23,heatwave
+2025-07-13,Mianwali,Mianwali,Punjab,0,42,50,normal
+2025-07-13,Sialkot Tehsil,Sialkot,Punjab,99,32,38,flood risk
+2025-07-13,Badin,Badin,Sindh,0,18,58,normal
+2025-07-13,Umerkot,Umerkot,Sindh,0,42,72,normal
+2025-07-13,Thatta,Thatta,Sindh,0,21,77,normal
+2025-07-13,Khairpur,Khairpur,Sindh,68,34,94,normal
+2025-07-13,Dadu,Dadu,Sindh,0,43,56,heatwave
+2025-07-13,Charsadda,Charsadda,KPK,0,34,87,normal
+2025-07-13,Swabi,Swabi,KPK,0,36,29,normal
+2025-07-13,Mardan Tehsil,Mardan,KPK,0,38,93,normal
+2025-07-13,Bannu,Bannu,KPK,0,30,83,normal
+2025-07-13,Dera Ismail Khan,Dera Ismail Khan,KPK,0,14,67,drought
+2025-07-13,Naseerabad,Naseerabad,Balochistan,0,17,33,normal
+2025-07-13,Jafarabad,Jafarabad,Balochistan,0,11,60,drought
+2025-07-13,Turbat,Kech,Balochistan,0,31,78,normal
+2025-07-13,Zhob,Zhob,Balochistan,0,42,62,normal
+2025-07-13,Quetta Tehsil,Quetta,Balochistan,0,40,70,normal
+2025-07-14,Depalpur,Okara,Punjab,0,36,91,normal
+2025-07-14,Jatoi,Muzaffargarh,Punjab,0,16,70,normal
+2025-07-14,Sargodha Tehsil,Sargodha,Punjab,0,14,76,drought
+2025-07-14,Mianwali,Mianwali,Punjab,0,12,20,drought
+2025-07-14,Sialkot Tehsil,Sialkot,Punjab,45,22,29,normal
+2025-07-14,Badin,Badin,Sindh,0,35,30,normal
+2025-07-14,Umerkot,Umerkot,Sindh,10,13,55,normal
+2025-07-14,Thatta,Thatta,Sindh,31,16,79,normal
+2025-07-14,Khairpur,Khairpur,Sindh,83,35,43,flood risk
+2025-07-14,Dadu,Dadu,Sindh,0,43,22,heatwave
+2025-07-14,Charsadda,Charsadda,KPK,0,15,30,normal
+2025-07-14,Swabi,Swabi,KPK,0,39,32,normal
+2025-07-14,Mardan Tehsil,Mardan,KPK,0,14,81,drought
+2025-07-14,Bannu,Bannu,KPK,62,26,44,normal
+2025-07-14,Dera Ismail Khan,Dera Ismail Khan,KPK,0,33,82,normal
+2025-07-14,Naseerabad,Naseerabad,Balochistan,79,17,26,normal
+2025-07-14,Jafarabad,Jafarabad,Balochistan,0,26,90,normal
+2025-07-14,Turbat,Kech,Balochistan,0,26,54,normal
+2025-07-14,Zhob,Zhob,Balochistan,0,38,56,normal
+2025-07-14,Quetta Tehsil,Quetta,Balochistan,0,22,21,normal
+2025-07-15,Depalpur,Okara,Punjab,0,41,68,normal
+2025-07-15,Jatoi,Muzaffargarh,Punjab,0,18,23,normal
+2025-07-15,Sargodha Tehsil,Sargodha,Punjab,0,18,68,normal
+2025-07-15,Mianwali,Mianwali,Punjab,0,30,37,normal
+2025-07-15,Sialkot Tehsil,Sialkot,Punjab,86,16,21,flood risk
+2025-07-15,Badin,Badin,Sindh,0,40,64,normal
+2025-07-15,Umerkot,Umerkot,Sindh,0,27,28,normal
+2025-07-15,Thatta,Thatta,Sindh,0,12,90,drought
+2025-07-15,Khairpur,Khairpur,Sindh,0,33,41,normal
+2025-07-15,Dadu,Dadu,Sindh,70,40,83,normal
+2025-07-15,Charsadda,Charsadda,KPK,0,10,28,drought
+2025-07-15,Swabi,Swabi,KPK,0,33,46,normal
+2025-07-15,Mardan Tehsil,Mardan,KPK,0,28,55,normal
+2025-07-15,Bannu,Bannu,KPK,0,33,64,normal
+2025-07-15,Dera Ismail Khan,Dera Ismail Khan,KPK,0,43,40,heatwave
+2025-07-15,Naseerabad,Naseerabad,Balochistan,17,16,93,normal
+2025-07-15,Jafarabad,Jafarabad,Balochistan,0,34,80,normal
+2025-07-15,Turbat,Kech,Balochistan,16,34,59,normal
+2025-07-15,Zhob,Zhob,Balochistan,13,10,84,normal
+2025-07-15,Quetta Tehsil,Quetta,Balochistan,0,43,23,heatwave
+2025-07-16,Depalpur,Okara,Punjab,0,41,25,normal
+2025-07-16,Jatoi,Muzaffargarh,Punjab,25,29,93,normal
+2025-07-16,Sargodha Tehsil,Sargodha,Punjab,25,30,39,normal
+2025-07-16,Mianwali,Mianwali,Punjab,0,25,92,normal
+2025-07-16,Sialkot Tehsil,Sialkot,Punjab,0,34,75,normal
+2025-07-16,Badin,Badin,Sindh,0,14,31,drought
+2025-07-16,Umerkot,Umerkot,Sindh,0,17,63,normal
+2025-07-16,Thatta,Thatta,Sindh,0,40,47,normal
+2025-07-16,Khairpur,Khairpur,Sindh,0,24,83,normal
+2025-07-16,Dadu,Dadu,Sindh,0,24,44,normal
+2025-07-16,Charsadda,Charsadda,KPK,63,43,33,heatwave
+2025-07-16,Swabi,Swabi,KPK,88,34,30,flood risk
+2025-07-16,Mardan Tehsil,Mardan,KPK,0,18,91,normal
+2025-07-16,Bannu,Bannu,KPK,0,18,86,normal
+2025-07-16,Dera Ismail Khan,Dera Ismail Khan,KPK,81,25,64,flood risk
+2025-07-16,Naseerabad,Naseerabad,Balochistan,0,22,79,normal
+2025-07-16,Jafarabad,Jafarabad,Balochistan,0,37,85,normal
+2025-07-16,Turbat,Kech,Balochistan,0,41,75,normal
+2025-07-16,Zhob,Zhob,Balochistan,0,29,48,normal
+2025-07-16,Quetta Tehsil,Quetta,Balochistan,13,45,80,heatwave
+2025-07-17,Depalpur,Okara,Punjab,0,11,76,drought
+2025-07-17,Jatoi,Muzaffargarh,Punjab,0,37,23,normal
+2025-07-17,Sargodha Tehsil,Sargodha,Punjab,0,11,58,drought
+2025-07-17,Mianwali,Mianwali,Punjab,30,42,89,normal
+2025-07-17,Sialkot Tehsil,Sialkot,Punjab,92,41,22,flood risk
+2025-07-17,Badin,Badin,Sindh,0,36,20,normal
+2025-07-17,Umerkot,Umerkot,Sindh,0,41,61,normal
+2025-07-17,Thatta,Thatta,Sindh,0,16,29,normal
+2025-07-17,Khairpur,Khairpur,Sindh,0,39,35,normal
+2025-07-17,Dadu,Dadu,Sindh,0,32,47,normal
+2025-07-17,Charsadda,Charsadda,KPK,0,10,88,drought
+2025-07-17,Swabi,Swabi,KPK,0,31,66,normal
+2025-07-17,Mardan Tehsil,Mardan,KPK,0,36,95,normal
+2025-07-17,Bannu,Bannu,KPK,0,24,95,normal
+2025-07-17,Dera Ismail Khan,Dera Ismail Khan,KPK,0,31,31,normal
+2025-07-17,Naseerabad,Naseerabad,Balochistan,57,12,23,normal
+2025-07-17,Jafarabad,Jafarabad,Balochistan,0,38,36,normal
+2025-07-17,Turbat,Kech,Balochistan,0,32,56,normal
+2025-07-17,Zhob,Zhob,Balochistan,0,17,26,normal
+2025-07-17,Quetta Tehsil,Quetta,Balochistan,0,44,62,heatwave
+2025-07-18,Depalpur,Okara,Punjab,0,36,68,normal
+2025-07-18,Jatoi,Muzaffargarh,Punjab,9,43,46,heatwave
+2025-07-18,Sargodha Tehsil,Sargodha,Punjab,0,18,76,normal
+2025-07-18,Mianwali,Mianwali,Punjab,26,28,92,normal
+2025-07-18,Sialkot Tehsil,Sialkot,Punjab,0,11,77,drought
+2025-07-18,Badin,Badin,Sindh,0,17,22,normal
+2025-07-18,Umerkot,Umerkot,Sindh,0,43,50,heatwave
+2025-07-18,Thatta,Thatta,Sindh,10,40,57,normal
+2025-07-18,Khairpur,Khairpur,Sindh,0,33,41,normal
+2025-07-18,Dadu,Dadu,Sindh,33,31,58,normal
+2025-07-18,Charsadda,Charsadda,KPK,0,26,88,normal
+2025-07-18,Swabi,Swabi,KPK,0,15,53,normal
+2025-07-18,Mardan Tehsil,Mardan,KPK,0,40,70,normal
+2025-07-18,Bannu,Bannu,KPK,0,45,39,heatwave
+2025-07-18,Dera Ismail Khan,Dera Ismail Khan,KPK,0,29,46,normal
+2025-07-18,Naseerabad,Naseerabad,Balochistan,0,21,71,normal
+2025-07-18,Jafarabad,Jafarabad,Balochistan,0,43,40,heatwave
+2025-07-18,Turbat,Kech,Balochistan,0,37,27,normal
+2025-07-18,Zhob,Zhob,Balochistan,0,23,38,normal
+2025-07-18,Quetta Tehsil,Quetta,Balochistan,47,31,83,normal
+2025-07-19,Depalpur,Okara,Punjab,0,41,75,normal
+2025-07-19,Jatoi,Muzaffargarh,Punjab,0,11,67,drought
+2025-07-19,Sargodha Tehsil,Sargodha,Punjab,0,33,20,normal
+2025-07-19,Mianwali,Mianwali,Punjab,0,20,27,normal
+2025-07-19,Sialkot Tehsil,Sialkot,Punjab,67,13,33,normal
+2025-07-19,Badin,Badin,Sindh,70,27,43,normal
+2025-07-19,Umerkot,Umerkot,Sindh,0,28,46,normal
+2025-07-19,Thatta,Thatta,Sindh,0,32,80,normal
+2025-07-19,Khairpur,Khairpur,Sindh,0,15,48,normal
+2025-07-19,Dadu,Dadu,Sindh,0,41,84,normal
+2025-07-19,Charsadda,Charsadda,KPK,0,26,48,normal
+2025-07-19,Swabi,Swabi,KPK,79,44,89,heatwave
+2025-07-19,Mardan Tehsil,Mardan,KPK,0,12,22,drought
+2025-07-19,Bannu,Bannu,KPK,12,43,86,heatwave
+2025-07-19,Dera Ismail Khan,Dera Ismail Khan,KPK,0,43,37,heatwave
+2025-07-19,Naseerabad,Naseerabad,Balochistan,0,15,52,normal
+2025-07-19,Jafarabad,Jafarabad,Balochistan,89,11,86,flood risk
+2025-07-19,Turbat,Kech,Balochistan,0,23,32,normal
+2025-07-19,Zhob,Zhob,Balochistan,0,19,74,normal
+2025-07-19,Quetta Tehsil,Quetta,Balochistan,0,42,40,normal
+2025-07-20,Depalpur,Okara,Punjab,0,26,53,normal
+2025-07-20,Jatoi,Muzaffargarh,Punjab,0,20,93,normal
+2025-07-20,Sargodha Tehsil,Sargodha,Punjab,4,26,60,normal
+2025-07-20,Mianwali,Mianwali,Punjab,0,31,26,normal
+2025-07-20,Sialkot Tehsil,Sialkot,Punjab,0,13,22,drought
+2025-07-20,Badin,Badin,Sindh,0,16,22,normal
+2025-07-20,Umerkot,Umerkot,Sindh,0,33,94,normal
+2025-07-20,Thatta,Thatta,Sindh,10,38,61,normal
+2025-07-20,Khairpur,Khairpur,Sindh,0,21,43,normal
+2025-07-20,Dadu,Dadu,Sindh,0,34,80,normal
+2025-07-20,Charsadda,Charsadda,KPK,0,23,54,normal
+2025-07-20,Swabi,Swabi,KPK,0,30,43,normal
+2025-07-20,Mardan Tehsil,Mardan,KPK,0,43,89,heatwave
+2025-07-20,Bannu,Bannu,KPK,0,20,60,normal
+2025-07-20,Dera Ismail Khan,Dera Ismail Khan,KPK,92,33,94,flood risk
+2025-07-20,Naseerabad,Naseerabad,Balochistan,0,14,22,drought
+2025-07-20,Jafarabad,Jafarabad,Balochistan,0,31,86,normal
+2025-07-20,Turbat,Kech,Balochistan,39,44,53,heatwave
+2025-07-20,Zhob,Zhob,Balochistan,0,31,93,normal
+2025-07-20,Quetta Tehsil,Quetta,Balochistan,0,38,65,normal
+2025-07-21,Depalpur,Okara,Punjab,56,26,82,normal
+2025-07-21,Jatoi,Muzaffargarh,Punjab,0,12,82,drought
+2025-07-21,Sargodha Tehsil,Sargodha,Punjab,0,39,35,normal
+2025-07-21,Mianwali,Mianwali,Punjab,40,21,43,normal
+2025-07-21,Sialkot Tehsil,Sialkot,Punjab,0,19,53,normal
+2025-07-21,Badin,Badin,Sindh,79,35,46,normal
+2025-07-21,Umerkot,Umerkot,Sindh,0,17,34,normal
+2025-07-21,Thatta,Thatta,Sindh,0,21,83,normal
+2025-07-21,Khairpur,Khairpur,Sindh,0,32,58,normal
+2025-07-21,Dadu,Dadu,Sindh,99,17,73,flood risk
+2025-07-21,Charsadda,Charsadda,KPK,0,27,52,normal
+2025-07-21,Swabi,Swabi,KPK,0,33,90,normal
+2025-07-21,Mardan Tehsil,Mardan,KPK,0,34,30,normal
+2025-07-21,Bannu,Bannu,KPK,0,22,53,normal
+2025-07-21,Dera Ismail Khan,Dera Ismail Khan,KPK,0,33,36,normal
+2025-07-21,Naseerabad,Naseerabad,Balochistan,0,29,92,normal
+2025-07-21,Jafarabad,Jafarabad,Balochistan,84,35,29,flood risk
+2025-07-21,Turbat,Kech,Balochistan,0,37,71,normal
+2025-07-21,Zhob,Zhob,Balochistan,0,23,87,normal
+2025-07-21,Quetta Tehsil,Quetta,Balochistan,0,36,66,normal
+2025-07-22,Depalpur,Okara,Punjab,48,14,20,normal
+2025-07-22,Jatoi,Muzaffargarh,Punjab,0,13,49,drought
+2025-07-22,Sargodha Tehsil,Sargodha,Punjab,28,28,61,normal
+2025-07-22,Mianwali,Mianwali,Punjab,0,15,76,normal
+2025-07-22,Sialkot Tehsil,Sialkot,Punjab,22,30,54,normal
+2025-07-22,Badin,Badin,Sindh,0,15,60,normal
+2025-07-22,Umerkot,Umerkot,Sindh,28,20,95,normal
+2025-07-22,Thatta,Thatta,Sindh,0,32,25,normal
+2025-07-22,Khairpur,Khairpur,Sindh,0,30,51,normal
+2025-07-22,Dadu,Dadu,Sindh,0,37,81,normal
+2025-07-22,Charsadda,Charsadda,KPK,0,27,86,normal
+2025-07-22,Swabi,Swabi,KPK,0,40,59,normal
+2025-07-22,Mardan Tehsil,Mardan,KPK,0,24,36,normal
+2025-07-22,Bannu,Bannu,KPK,34,21,49,normal
+2025-07-22,Dera Ismail Khan,Dera Ismail Khan,KPK,0,42,95,normal
+2025-07-22,Naseerabad,Naseerabad,Balochistan,40,14,66,normal
+2025-07-22,Jafarabad,Jafarabad,Balochistan,0,34,67,normal
+2025-07-22,Turbat,Kech,Balochistan,0,42,33,normal
+2025-07-22,Zhob,Zhob,Balochistan,0,29,32,normal
+2025-07-22,Quetta Tehsil,Quetta,Balochistan,30,39,76,normal
+2025-07-23,Depalpur,Okara,Punjab,80,44,87,heatwave
+2025-07-23,Jatoi,Muzaffargarh,Punjab,0,27,52,normal
+2025-07-23,Sargodha Tehsil,Sargodha,Punjab,0,31,56,normal
+2025-07-23,Mianwali,Mianwali,Punjab,0,37,90,normal
+2025-07-23,Sialkot Tehsil,Sialkot,Punjab,100,13,76,flood risk
+2025-07-23,Badin,Badin,Sindh,0,12,95,drought
+2025-07-23,Umerkot,Umerkot,Sindh,62,18,69,normal
+2025-07-23,Thatta,Thatta,Sindh,0,44,69,heatwave
+2025-07-23,Khairpur,Khairpur,Sindh,0,20,39,normal
+2025-07-23,Dadu,Dadu,Sindh,0,32,32,normal
+2025-07-23,Charsadda,Charsadda,KPK,0,19,77,normal
+2025-07-23,Swabi,Swabi,KPK,0,41,23,normal
+2025-07-23,Mardan Tehsil,Mardan,KPK,4,13,72,normal
+2025-07-23,Bannu,Bannu,KPK,0,28,34,normal
+2025-07-23,Dera Ismail Khan,Dera Ismail Khan,KPK,0,15,81,normal
+2025-07-23,Naseerabad,Naseerabad,Balochistan,38,30,55,normal
+2025-07-23,Jafarabad,Jafarabad,Balochistan,0,40,35,normal
+2025-07-23,Turbat,Kech,Balochistan,0,36,94,normal
+2025-07-23,Zhob,Zhob,Balochistan,0,23,79,normal
+2025-07-23,Quetta Tehsil,Quetta,Balochistan,0,30,60,normal
+2025-07-24,Depalpur,Okara,Punjab,0,25,42,normal
+2025-07-24,Jatoi,Muzaffargarh,Punjab,0,31,20,normal
+2025-07-24,Sargodha Tehsil,Sargodha,Punjab,87,18,87,flood risk
+2025-07-24,Mianwali,Mianwali,Punjab,38,10,53,normal
+2025-07-24,Sialkot Tehsil,Sialkot,Punjab,0,40,47,normal
+2025-07-24,Badin,Badin,Sindh,0,34,61,normal
+2025-07-24,Umerkot,Umerkot,Sindh,0,43,40,heatwave
+2025-07-24,Thatta,Thatta,Sindh,0,33,88,normal
+2025-07-24,Khairpur,Khairpur,Sindh,5,22,56,normal
+2025-07-24,Dadu,Dadu,Sindh,0,29,92,normal
+2025-07-24,Charsadda,Charsadda,KPK,0,21,37,normal
+2025-07-24,Swabi,Swabi,KPK,0,36,70,normal
+2025-07-24,Mardan Tehsil,Mardan,KPK,0,28,51,normal
+2025-07-24,Bannu,Bannu,KPK,6,33,66,normal
+2025-07-24,Dera Ismail Khan,Dera Ismail Khan,KPK,0,11,35,drought
+2025-07-24,Naseerabad,Naseerabad,Balochistan,0,37,30,normal
+2025-07-24,Jafarabad,Jafarabad,Balochistan,0,18,22,normal
+2025-07-24,Turbat,Kech,Balochistan,99,18,41,flood risk
+2025-07-24,Zhob,Zhob,Balochistan,0,36,61,normal
+2025-07-24,Quetta Tehsil,Quetta,Balochistan,0,29,22,normal
+2025-07-25,Depalpur,Okara,Punjab,0,36,79,normal
+2025-07-25,Jatoi,Muzaffargarh,Punjab,0,45,89,heatwave
+2025-07-25,Sargodha Tehsil,Sargodha,Punjab,0,18,51,normal
+2025-07-25,Mianwali,Mianwali,Punjab,0,14,88,drought
+2025-07-25,Sialkot Tehsil,Sialkot,Punjab,0,29,39,normal
+2025-07-25,Badin,Badin,Sindh,0,44,82,heatwave
+2025-07-25,Umerkot,Umerkot,Sindh,0,40,48,normal
+2025-07-25,Thatta,Thatta,Sindh,85,38,45,flood risk
+2025-07-25,Khairpur,Khairpur,Sindh,0,31,27,normal
+2025-07-25,Dadu,Dadu,Sindh,0,21,41,normal
+2025-07-25,Charsadda,Charsadda,KPK,0,21,94,normal
+2025-07-25,Swabi,Swabi,KPK,0,37,20,normal
+2025-07-25,Mardan Tehsil,Mardan,KPK,15,30,75,normal
+2025-07-25,Bannu,Bannu,KPK,0,15,64,normal
+2025-07-25,Dera Ismail Khan,Dera Ismail Khan,KPK,31,30,91,normal
+2025-07-25,Naseerabad,Naseerabad,Balochistan,54,31,44,normal
+2025-07-25,Jafarabad,Jafarabad,Balochistan,0,31,79,normal
+2025-07-25,Turbat,Kech,Balochistan,0,39,88,normal
+2025-07-25,Zhob,Zhob,Balochistan,0,32,87,normal
+2025-07-25,Quetta Tehsil,Quetta,Balochistan,0,24,48,normal
+2025-07-26,Depalpur,Okara,Punjab,0,37,78,normal
+2025-07-26,Jatoi,Muzaffargarh,Punjab,0,27,48,normal
+2025-07-26,Sargodha Tehsil,Sargodha,Punjab,0,41,75,normal
+2025-07-26,Mianwali,Mianwali,Punjab,91,26,46,flood risk
+2025-07-26,Sialkot Tehsil,Sialkot,Punjab,40,11,26,normal
+2025-07-26,Badin,Badin,Sindh,0,20,54,normal
+2025-07-26,Umerkot,Umerkot,Sindh,0,23,83,normal
+2025-07-26,Thatta,Thatta,Sindh,0,12,65,drought
+2025-07-26,Khairpur,Khairpur,Sindh,0,35,84,normal
+2025-07-26,Dadu,Dadu,Sindh,0,32,78,normal
+2025-07-26,Charsadda,Charsadda,KPK,0,42,63,normal
+2025-07-26,Swabi,Swabi,KPK,19,13,55,normal
+2025-07-26,Mardan Tehsil,Mardan,KPK,0,19,94,normal
+2025-07-26,Bannu,Bannu,KPK,0,28,23,normal
+2025-07-26,Dera Ismail Khan,Dera Ismail Khan,KPK,0,33,24,normal
+2025-07-26,Naseerabad,Naseerabad,Balochistan,0,32,82,normal
+2025-07-26,Jafarabad,Jafarabad,Balochistan,0,31,37,normal
+2025-07-26,Turbat,Kech,Balochistan,0,12,36,drought
+2025-07-26,Zhob,Zhob,Balochistan,13,29,55,normal
+2025-07-26,Quetta Tehsil,Quetta,Balochistan,0,31,59,normal
+2025-07-27,Depalpur,Okara,Punjab,0,45,74,heatwave
+2025-07-27,Jatoi,Muzaffargarh,Punjab,0,12,22,drought
+2025-07-27,Sargodha Tehsil,Sargodha,Punjab,0,42,92,normal
+2025-07-27,Mianwali,Mianwali,Punjab,0,18,85,normal
+2025-07-27,Sialkot Tehsil,Sialkot,Punjab,69,34,37,normal
+2025-07-27,Badin,Badin,Sindh,0,13,61,drought
+2025-07-27,Umerkot,Umerkot,Sindh,0,44,90,heatwave
+2025-07-27,Thatta,Thatta,Sindh,29,19,51,normal
+2025-07-27,Khairpur,Khairpur,Sindh,18,28,54,normal
+2025-07-27,Dadu,Dadu,Sindh,0,31,44,normal
+2025-07-27,Charsadda,Charsadda,KPK,73,15,52,normal
+2025-07-27,Swabi,Swabi,KPK,0,39,53,normal
+2025-07-27,Mardan Tehsil,Mardan,KPK,0,44,51,heatwave
+2025-07-27,Bannu,Bannu,KPK,22,35,62,normal
+2025-07-27,Dera Ismail Khan,Dera Ismail Khan,KPK,0,39,52,normal
+2025-07-27,Naseerabad,Naseerabad,Balochistan,0,40,60,normal
+2025-07-27,Jafarabad,Jafarabad,Balochistan,21,37,63,normal
+2025-07-27,Turbat,Kech,Balochistan,0,11,90,drought
+2025-07-27,Zhob,Zhob,Balochistan,75,11,79,normal
+2025-07-27,Quetta Tehsil,Quetta,Balochistan,0,20,91,normal
+2025-07-28,Depalpur,Okara,Punjab,0,39,91,normal
+2025-07-28,Jatoi,Muzaffargarh,Punjab,0,21,88,normal
+2025-07-28,Sargodha Tehsil,Sargodha,Punjab,0,12,71,drought
+2025-07-28,Mianwali,Mianwali,Punjab,0,33,40,normal
+2025-07-28,Sialkot Tehsil,Sialkot,Punjab,0,12,91,drought
+2025-07-28,Badin,Badin,Sindh,0,37,83,normal
+2025-07-28,Umerkot,Umerkot,Sindh,0,45,92,heatwave
+2025-07-28,Thatta,Thatta,Sindh,0,17,92,normal
+2025-07-28,Khairpur,Khairpur,Sindh,48,32,41,normal
+2025-07-28,Dadu,Dadu,Sindh,44,43,31,heatwave
+2025-07-28,Charsadda,Charsadda,KPK,87,35,59,flood risk
+2025-07-28,Swabi,Swabi,KPK,0,33,51,normal
+2025-07-28,Mardan Tehsil,Mardan,KPK,31,14,22,normal
+2025-07-28,Bannu,Bannu,KPK,0,42,22,normal
+2025-07-28,Dera Ismail Khan,Dera Ismail Khan,KPK,0,37,93,normal
+2025-07-28,Naseerabad,Naseerabad,Balochistan,12,44,53,heatwave
+2025-07-28,Jafarabad,Jafarabad,Balochistan,0,37,32,normal
+2025-07-28,Turbat,Kech,Balochistan,0,15,30,normal
+2025-07-28,Zhob,Zhob,Balochistan,0,44,35,heatwave
+2025-07-28,Quetta Tehsil,Quetta,Balochistan,52,32,32,normal
+2025-07-29,Depalpur,Okara,Punjab,45,27,67,normal
+2025-07-29,Jatoi,Muzaffargarh,Punjab,0,23,56,normal
+2025-07-29,Sargodha Tehsil,Sargodha,Punjab,0,26,49,normal
+2025-07-29,Mianwali,Mianwali,Punjab,0,14,36,drought
+2025-07-29,Sialkot Tehsil,Sialkot,Punjab,11,25,44,normal
+2025-07-29,Badin,Badin,Sindh,0,20,91,normal
+2025-07-29,Umerkot,Umerkot,Sindh,0,30,30,normal
+2025-07-29,Thatta,Thatta,Sindh,0,11,64,drought
+2025-07-29,Khairpur,Khairpur,Sindh,0,45,25,heatwave
+2025-07-29,Dadu,Dadu,Sindh,0,12,27,drought
+2025-07-29,Charsadda,Charsadda,KPK,0,20,24,normal
+2025-07-29,Swabi,Swabi,KPK,0,18,77,normal
+2025-07-29,Mardan Tehsil,Mardan,KPK,0,38,67,normal
+2025-07-29,Bannu,Bannu,KPK,0,19,92,normal
+2025-07-29,Dera Ismail Khan,Dera Ismail Khan,KPK,21,19,76,normal
+2025-07-29,Naseerabad,Naseerabad,Balochistan,0,15,58,normal
+2025-07-29,Jafarabad,Jafarabad,Balochistan,0,43,44,heatwave
+2025-07-29,Turbat,Kech,Balochistan,48,11,95,normal
+2025-07-29,Zhob,Zhob,Balochistan,0,24,72,normal
+2025-07-29,Quetta Tehsil,Quetta,Balochistan,0,32,56,normal
+2025-07-30,Depalpur,Okara,Punjab,62,26,42,normal
+2025-07-30,Jatoi,Muzaffargarh,Punjab,0,12,79,drought
+2025-07-30,Sargodha Tehsil,Sargodha,Punjab,0,44,38,heatwave
+2025-07-30,Mianwali,Mianwali,Punjab,59,10,70,normal
+2025-07-30,Sialkot Tehsil,Sialkot,Punjab,0,24,90,normal
+2025-07-30,Badin,Badin,Sindh,0,34,82,normal
+2025-07-30,Umerkot,Umerkot,Sindh,0,42,92,normal
+2025-07-30,Thatta,Thatta,Sindh,0,25,59,normal
+2025-07-30,Khairpur,Khairpur,Sindh,0,31,21,normal
+2025-07-30,Dadu,Dadu,Sindh,0,34,64,normal
+2025-07-30,Charsadda,Charsadda,KPK,0,34,79,normal
+2025-07-30,Swabi,Swabi,KPK,0,27,23,normal
+2025-07-30,Mardan Tehsil,Mardan,KPK,0,19,46,normal
+2025-07-30,Bannu,Bannu,KPK,0,14,58,drought
+2025-07-30,Dera Ismail Khan,Dera Ismail Khan,KPK,8,21,24,normal
+2025-07-30,Naseerabad,Naseerabad,Balochistan,22,38,93,normal
+2025-07-30,Jafarabad,Jafarabad,Balochistan,0,27,69,normal
+2025-07-30,Turbat,Kech,Balochistan,0,17,30,normal
+2025-07-30,Zhob,Zhob,Balochistan,0,34,90,normal
+2025-07-30,Quetta Tehsil,Quetta,Balochistan,0,32,72,normal
+2025-07-31,Depalpur,Okara,Punjab,7,33,75,normal
+2025-07-31,Jatoi,Muzaffargarh,Punjab,3,15,24,normal
+2025-07-31,Sargodha Tehsil,Sargodha,Punjab,0,36,20,normal
+2025-07-31,Mianwali,Mianwali,Punjab,0,43,69,heatwave
+2025-07-31,Sialkot Tehsil,Sialkot,Punjab,85,13,30,flood risk
+2025-07-31,Badin,Badin,Sindh,0,20,59,normal
+2025-07-31,Umerkot,Umerkot,Sindh,0,15,72,normal
+2025-07-31,Thatta,Thatta,Sindh,0,12,49,drought
+2025-07-31,Khairpur,Khairpur,Sindh,0,21,48,normal
+2025-07-31,Dadu,Dadu,Sindh,0,33,75,normal
+2025-07-31,Charsadda,Charsadda,KPK,0,21,54,normal
+2025-07-31,Swabi,Swabi,KPK,79,43,86,heatwave
+2025-07-31,Mardan Tehsil,Mardan,KPK,0,15,31,normal
+2025-07-31,Bannu,Bannu,KPK,0,44,79,heatwave
+2025-07-31,Dera Ismail Khan,Dera Ismail Khan,KPK,53,41,57,normal
+2025-07-31,Naseerabad,Naseerabad,Balochistan,57,12,83,normal
+2025-07-31,Jafarabad,Jafarabad,Balochistan,0,12,44,drought
+2025-07-31,Turbat,Kech,Balochistan,0,17,26,normal
+2025-07-31,Zhob,Zhob,Balochistan,0,17,61,normal
+2025-07-31,Quetta Tehsil,Quetta,Balochistan,0,42,59,normal
+2025-08-01,Depalpur,Okara,Punjab,93,24,65,flood risk
+2025-08-01,Jatoi,Muzaffargarh,Punjab,45,31,46,normal
+2025-08-01,Sargodha Tehsil,Sargodha,Punjab,58,11,40,normal
+2025-08-01,Mianwali,Mianwali,Punjab,0,21,69,normal
+2025-08-01,Sialkot Tehsil,Sialkot,Punjab,0,42,32,normal
+2025-08-01,Badin,Badin,Sindh,0,25,45,normal
+2025-08-01,Umerkot,Umerkot,Sindh,0,18,72,normal
+2025-08-01,Thatta,Thatta,Sindh,70,40,32,normal
+2025-08-01,Khairpur,Khairpur,Sindh,0,16,24,normal
+2025-08-01,Dadu,Dadu,Sindh,76,37,34,normal
+2025-08-01,Charsadda,Charsadda,KPK,25,43,45,heatwave
+2025-08-01,Swabi,Swabi,KPK,0,44,91,heatwave
+2025-08-01,Mardan Tehsil,Mardan,KPK,0,16,40,normal
+2025-08-01,Bannu,Bannu,KPK,0,36,56,normal
+2025-08-01,Dera Ismail Khan,Dera Ismail Khan,KPK,0,29,46,normal
+2025-08-01,Naseerabad,Naseerabad,Balochistan,96,11,23,flood risk
+2025-08-01,Jafarabad,Jafarabad,Balochistan,0,19,48,normal
+2025-08-01,Turbat,Kech,Balochistan,0,40,31,normal
+2025-08-01,Zhob,Zhob,Balochistan,0,31,44,normal
+2025-08-01,Quetta Tehsil,Quetta,Balochistan,97,10,36,flood risk
+2025-08-02,Depalpur,Okara,Punjab,0,14,75,drought
+2025-08-02,Jatoi,Muzaffargarh,Punjab,0,40,50,normal
+2025-08-02,Sargodha Tehsil,Sargodha,Punjab,0,21,39,normal
+2025-08-02,Mianwali,Mianwali,Punjab,0,11,90,drought
+2025-08-02,Sialkot Tehsil,Sialkot,Punjab,0,10,34,drought
+2025-08-02,Badin,Badin,Sindh,97,23,35,flood risk
+2025-08-02,Umerkot,Umerkot,Sindh,0,31,89,normal
+2025-08-02,Thatta,Thatta,Sindh,35,17,65,normal
+2025-08-02,Khairpur,Khairpur,Sindh,0,31,95,normal
+2025-08-02,Dadu,Dadu,Sindh,13,42,88,normal
+2025-08-02,Charsadda,Charsadda,KPK,0,33,47,normal
+2025-08-02,Swabi,Swabi,KPK,0,30,40,normal
+2025-08-02,Mardan Tehsil,Mardan,KPK,58,29,34,normal
+2025-08-02,Bannu,Bannu,KPK,0,42,72,normal
+2025-08-02,Dera Ismail Khan,Dera Ismail Khan,KPK,4,27,57,normal
+2025-08-02,Naseerabad,Naseerabad,Balochistan,0,39,32,normal
+2025-08-02,Jafarabad,Jafarabad,Balochistan,0,36,37,normal
+2025-08-02,Turbat,Kech,Balochistan,0,37,85,normal
+2025-08-02,Zhob,Zhob,Balochistan,0,17,73,normal
+2025-08-02,Quetta Tehsil,Quetta,Balochistan,0,42,37,normal
+2025-08-03,Depalpur,Okara,Punjab,0,18,36,normal
+2025-08-03,Jatoi,Muzaffargarh,Punjab,0,13,60,drought
+2025-08-03,Sargodha Tehsil,Sargodha,Punjab,0,33,91,normal
+2025-08-03,Mianwali,Mianwali,Punjab,0,10,31,drought
+2025-08-03,Sialkot Tehsil,Sialkot,Punjab,0,22,34,normal
+2025-08-03,Badin,Badin,Sindh,0,39,48,normal
+2025-08-03,Umerkot,Umerkot,Sindh,0,21,70,normal
+2025-08-03,Thatta,Thatta,Sindh,55,34,25,normal
+2025-08-03,Khairpur,Khairpur,Sindh,19,35,76,normal
+2025-08-03,Dadu,Dadu,Sindh,0,22,56,normal
+2025-08-03,Charsadda,Charsadda,KPK,0,15,22,normal
+2025-08-03,Swabi,Swabi,KPK,0,36,71,normal
+2025-08-03,Mardan Tehsil,Mardan,KPK,0,32,57,normal
+2025-08-03,Bannu,Bannu,KPK,0,17,95,normal
+2025-08-03,Dera Ismail Khan,Dera Ismail Khan,KPK,0,30,52,normal
+2025-08-03,Naseerabad,Naseerabad,Balochistan,46,18,27,normal
+2025-08-03,Jafarabad,Jafarabad,Balochistan,63,11,61,normal
+2025-08-03,Turbat,Kech,Balochistan,0,19,43,normal
+2025-08-03,Zhob,Zhob,Balochistan,0,36,59,normal
+2025-08-03,Quetta Tehsil,Quetta,Balochistan,0,24,75,normal
+2025-08-04,Depalpur,Okara,Punjab,0,37,51,normal
+2025-08-04,Jatoi,Muzaffargarh,Punjab,0,28,49,normal
+2025-08-04,Sargodha Tehsil,Sargodha,Punjab,0,26,35,normal
+2025-08-04,Mianwali,Mianwali,Punjab,3,45,74,heatwave
+2025-08-04,Sialkot Tehsil,Sialkot,Punjab,0,31,78,normal
+2025-08-04,Badin,Badin,Sindh,0,37,47,normal
+2025-08-04,Umerkot,Umerkot,Sindh,0,35,73,normal
+2025-08-04,Thatta,Thatta,Sindh,28,36,26,normal
+2025-08-04,Khairpur,Khairpur,Sindh,0,45,82,heatwave
+2025-08-04,Dadu,Dadu,Sindh,91,39,28,flood risk
+2025-08-04,Charsadda,Charsadda,KPK,67,18,73,normal
+2025-08-04,Swabi,Swabi,KPK,0,43,66,heatwave
+2025-08-04,Mardan Tehsil,Mardan,KPK,0,28,70,normal
+2025-08-04,Bannu,Bannu,KPK,76,42,57,normal
+2025-08-04,Dera Ismail Khan,Dera Ismail Khan,KPK,0,39,90,normal
+2025-08-04,Naseerabad,Naseerabad,Balochistan,0,14,31,drought
+2025-08-04,Jafarabad,Jafarabad,Balochistan,0,37,91,normal
+2025-08-04,Turbat,Kech,Balochistan,100,45,21,flood risk
+2025-08-04,Zhob,Zhob,Balochistan,0,10,72,drought
+2025-08-04,Quetta Tehsil,Quetta,Balochistan,80,26,78,normal
+2025-08-05,Depalpur,Okara,Punjab,63,34,74,normal
+2025-08-05,Jatoi,Muzaffargarh,Punjab,0,23,22,normal
+2025-08-05,Sargodha Tehsil,Sargodha,Punjab,45,18,44,normal
+2025-08-05,Mianwali,Mianwali,Punjab,0,42,58,normal
+2025-08-05,Sialkot Tehsil,Sialkot,Punjab,25,39,91,normal
+2025-08-05,Badin,Badin,Sindh,0,29,35,normal
+2025-08-05,Umerkot,Umerkot,Sindh,94,37,91,flood risk
+2025-08-05,Thatta,Thatta,Sindh,0,27,68,normal
+2025-08-05,Khairpur,Khairpur,Sindh,0,16,72,normal
+2025-08-05,Dadu,Dadu,Sindh,71,12,33,normal
+2025-08-05,Charsadda,Charsadda,KPK,0,19,40,normal
+2025-08-05,Swabi,Swabi,KPK,0,41,64,normal
+2025-08-05,Mardan Tehsil,Mardan,KPK,43,14,79,normal
+2025-08-05,Bannu,Bannu,KPK,0,17,86,normal
+2025-08-05,Dera Ismail Khan,Dera Ismail Khan,KPK,0,44,25,heatwave
+2025-08-05,Naseerabad,Naseerabad,Balochistan,0,34,69,normal
+2025-08-05,Jafarabad,Jafarabad,Balochistan,0,29,34,normal
+2025-08-05,Turbat,Kech,Balochistan,0,15,29,normal
+2025-08-05,Zhob,Zhob,Balochistan,0,37,79,normal
+2025-08-05,Quetta Tehsil,Quetta,Balochistan,0,22,69,normal
+2025-08-06,Depalpur,Okara,Punjab,0,21,91,normal
+2025-08-06,Jatoi,Muzaffargarh,Punjab,23,13,25,normal
+2025-08-06,Sargodha Tehsil,Sargodha,Punjab,0,10,77,drought
+2025-08-06,Mianwali,Mianwali,Punjab,0,37,22,normal
+2025-08-06,Sialkot Tehsil,Sialkot,Punjab,0,17,46,normal
+2025-08-06,Badin,Badin,Sindh,0,22,77,normal
+2025-08-06,Umerkot,Umerkot,Sindh,88,31,59,flood risk
+2025-08-06,Thatta,Thatta,Sindh,0,15,83,normal
+2025-08-06,Khairpur,Khairpur,Sindh,0,22,53,normal
+2025-08-06,Dadu,Dadu,Sindh,24,31,70,normal
+2025-08-06,Charsadda,Charsadda,KPK,0,19,32,normal
+2025-08-06,Swabi,Swabi,KPK,99,37,89,flood risk
+2025-08-06,Mardan Tehsil,Mardan,KPK,0,23,74,normal
+2025-08-06,Bannu,Bannu,KPK,0,35,63,normal
+2025-08-06,Dera Ismail Khan,Dera Ismail Khan,KPK,0,27,53,normal
+2025-08-06,Naseerabad,Naseerabad,Balochistan,0,44,41,heatwave
+2025-08-06,Jafarabad,Jafarabad,Balochistan,0,27,32,normal
+2025-08-06,Turbat,Kech,Balochistan,0,40,57,normal
+2025-08-06,Zhob,Zhob,Balochistan,0,11,34,drought
+2025-08-06,Quetta Tehsil,Quetta,Balochistan,0,40,26,normal
+2025-08-07,Depalpur,Okara,Punjab,0,24,22,normal
+2025-08-07,Jatoi,Muzaffargarh,Punjab,14,13,45,normal
+2025-08-07,Sargodha Tehsil,Sargodha,Punjab,0,35,66,normal
+2025-08-07,Mianwali,Mianwali,Punjab,0,37,35,normal
+2025-08-07,Sialkot Tehsil,Sialkot,Punjab,0,26,56,normal
+2025-08-07,Badin,Badin,Sindh,0,39,29,normal
+2025-08-07,Umerkot,Umerkot,Sindh,83,16,90,flood risk
+2025-08-07,Thatta,Thatta,Sindh,63,44,90,heatwave
+2025-08-07,Khairpur,Khairpur,Sindh,43,37,68,normal
+2025-08-07,Dadu,Dadu,Sindh,21,13,44,normal
+2025-08-07,Charsadda,Charsadda,KPK,0,21,47,normal
+2025-08-07,Swabi,Swabi,KPK,0,29,32,normal
+2025-08-07,Mardan Tehsil,Mardan,KPK,0,18,72,normal
+2025-08-07,Bannu,Bannu,KPK,11,37,88,normal
+2025-08-07,Dera Ismail Khan,Dera Ismail Khan,KPK,66,23,62,normal
+2025-08-07,Naseerabad,Naseerabad,Balochistan,0,22,35,normal
+2025-08-07,Jafarabad,Jafarabad,Balochistan,0,41,43,normal
+2025-08-07,Turbat,Kech,Balochistan,0,18,84,normal
+2025-08-07,Zhob,Zhob,Balochistan,3,36,67,normal
+2025-08-07,Quetta Tehsil,Quetta,Balochistan,0,30,41,normal
+2025-08-08,Depalpur,Okara,Punjab,22,42,37,normal
+2025-08-08,Jatoi,Muzaffargarh,Punjab,0,23,54,normal
+2025-08-08,Sargodha Tehsil,Sargodha,Punjab,0,44,35,heatwave
+2025-08-08,Mianwali,Mianwali,Punjab,10,39,45,normal
+2025-08-08,Sialkot Tehsil,Sialkot,Punjab,0,25,74,normal
+2025-08-08,Badin,Badin,Sindh,53,15,41,normal
+2025-08-08,Umerkot,Umerkot,Sindh,27,11,22,normal
+2025-08-08,Thatta,Thatta,Sindh,0,36,73,normal
+2025-08-08,Khairpur,Khairpur,Sindh,0,12,26,drought
+2025-08-08,Dadu,Dadu,Sindh,0,32,57,normal
+2025-08-08,Charsadda,Charsadda,KPK,0,17,61,normal
+2025-08-08,Swabi,Swabi,KPK,0,43,78,heatwave
+2025-08-08,Mardan Tehsil,Mardan,KPK,0,33,22,normal
+2025-08-08,Bannu,Bannu,KPK,69,39,20,normal
+2025-08-08,Dera Ismail Khan,Dera Ismail Khan,KPK,0,21,82,normal
+2025-08-08,Naseerabad,Naseerabad,Balochistan,0,14,42,drought
+2025-08-08,Jafarabad,Jafarabad,Balochistan,0,29,46,normal
+2025-08-08,Turbat,Kech,Balochistan,30,34,68,normal
+2025-08-08,Zhob,Zhob,Balochistan,21,32,58,normal
+2025-08-08,Quetta Tehsil,Quetta,Balochistan,0,33,38,normal
+2025-08-09,Depalpur,Okara,Punjab,0,16,76,normal
+2025-08-09,Jatoi,Muzaffargarh,Punjab,82,40,89,flood risk
+2025-08-09,Sargodha Tehsil,Sargodha,Punjab,0,30,84,normal
+2025-08-09,Mianwali,Mianwali,Punjab,61,10,88,normal
+2025-08-09,Sialkot Tehsil,Sialkot,Punjab,86,13,60,flood risk
+2025-08-09,Badin,Badin,Sindh,0,26,77,normal
+2025-08-09,Umerkot,Umerkot,Sindh,0,43,65,heatwave
+2025-08-09,Thatta,Thatta,Sindh,0,17,46,normal
+2025-08-09,Khairpur,Khairpur,Sindh,0,43,53,heatwave
+2025-08-09,Dadu,Dadu,Sindh,0,10,22,drought
+2025-08-09,Charsadda,Charsadda,KPK,50,36,87,normal
+2025-08-09,Swabi,Swabi,KPK,23,18,30,normal
+2025-08-09,Mardan Tehsil,Mardan,KPK,0,43,94,heatwave
+2025-08-09,Bannu,Bannu,KPK,86,35,52,flood risk
+2025-08-09,Dera Ismail Khan,Dera Ismail Khan,KPK,30,15,72,normal
+2025-08-09,Naseerabad,Naseerabad,Balochistan,11,10,60,normal
+2025-08-09,Jafarabad,Jafarabad,Balochistan,11,24,73,normal
+2025-08-09,Turbat,Kech,Balochistan,0,23,43,normal
+2025-08-09,Zhob,Zhob,Balochistan,25,42,45,normal
+2025-08-09,Quetta Tehsil,Quetta,Balochistan,0,11,73,drought
+2025-08-10,Depalpur,Okara,Punjab,0,20,52,normal
+2025-08-10,Jatoi,Muzaffargarh,Punjab,0,12,86,drought
+2025-08-10,Sargodha Tehsil,Sargodha,Punjab,81,28,75,flood risk
+2025-08-10,Mianwali,Mianwali,Punjab,0,34,78,normal
+2025-08-10,Sialkot Tehsil,Sialkot,Punjab,87,30,81,flood risk
+2025-08-10,Badin,Badin,Sindh,0,38,28,normal
+2025-08-10,Umerkot,Umerkot,Sindh,0,45,81,heatwave
+2025-08-10,Thatta,Thatta,Sindh,4,13,80,normal
+2025-08-10,Khairpur,Khairpur,Sindh,0,32,45,normal
+2025-08-10,Dadu,Dadu,Sindh,0,28,46,normal
+2025-08-10,Charsadda,Charsadda,KPK,0,43,81,heatwave
+2025-08-10,Swabi,Swabi,KPK,0,16,62,normal
+2025-08-10,Mardan Tehsil,Mardan,KPK,37,25,78,normal
+2025-08-10,Bannu,Bannu,KPK,0,25,82,normal
+2025-08-10,Dera Ismail Khan,Dera Ismail Khan,KPK,0,31,87,normal
+2025-08-10,Naseerabad,Naseerabad,Balochistan,93,31,25,flood risk
+2025-08-10,Jafarabad,Jafarabad,Balochistan,0,19,46,normal
+2025-08-10,Turbat,Kech,Balochistan,0,12,68,drought
+2025-08-10,Zhob,Zhob,Balochistan,0,42,30,normal
+2025-08-10,Quetta Tehsil,Quetta,Balochistan,0,27,36,normal
+2025-08-11,Depalpur,Okara,Punjab,0,10,92,drought
+2025-08-11,Jatoi,Muzaffargarh,Punjab,0,31,79,normal
+2025-08-11,Sargodha Tehsil,Sargodha,Punjab,0,20,49,normal
+2025-08-11,Mianwali,Mianwali,Punjab,0,40,29,normal
+2025-08-11,Sialkot Tehsil,Sialkot,Punjab,14,39,39,normal
+2025-08-11,Badin,Badin,Sindh,0,14,93,drought
+2025-08-11,Umerkot,Umerkot,Sindh,0,15,49,normal
+2025-08-11,Thatta,Thatta,Sindh,0,37,50,normal
+2025-08-11,Khairpur,Khairpur,Sindh,0,40,75,normal
+2025-08-11,Dadu,Dadu,Sindh,0,41,45,normal
+2025-08-11,Charsadda,Charsadda,KPK,0,11,45,drought
+2025-08-11,Swabi,Swabi,KPK,0,30,82,normal
+2025-08-11,Mardan Tehsil,Mardan,KPK,0,40,73,normal
+2025-08-11,Bannu,Bannu,KPK,0,32,46,normal
+2025-08-11,Dera Ismail Khan,Dera Ismail Khan,KPK,0,40,87,normal
+2025-08-11,Naseerabad,Naseerabad,Balochistan,0,19,36,normal
+2025-08-11,Jafarabad,Jafarabad,Balochistan,0,38,60,normal
+2025-08-11,Turbat,Kech,Balochistan,0,45,56,heatwave
+2025-08-11,Zhob,Zhob,Balochistan,78,45,56,heatwave
+2025-08-11,Quetta Tehsil,Quetta,Balochistan,61,27,70,normal
+2025-08-12,Depalpur,Okara,Punjab,0,22,26,normal
+2025-08-12,Jatoi,Muzaffargarh,Punjab,0,12,25,drought
+2025-08-12,Sargodha Tehsil,Sargodha,Punjab,0,24,39,normal
+2025-08-12,Mianwali,Mianwali,Punjab,0,16,59,normal
+2025-08-12,Sialkot Tehsil,Sialkot,Punjab,76,17,51,normal
+2025-08-12,Badin,Badin,Sindh,0,36,75,normal
+2025-08-12,Umerkot,Umerkot,Sindh,0,35,44,normal
+2025-08-12,Thatta,Thatta,Sindh,95,43,23,flood risk
+2025-08-12,Khairpur,Khairpur,Sindh,59,30,59,normal
+2025-08-12,Dadu,Dadu,Sindh,0,42,28,normal
+2025-08-12,Charsadda,Charsadda,KPK,0,27,72,normal
+2025-08-12,Swabi,Swabi,KPK,0,26,53,normal
+2025-08-12,Mardan Tehsil,Mardan,KPK,0,16,32,normal
+2025-08-12,Bannu,Bannu,KPK,0,42,84,normal
+2025-08-12,Dera Ismail Khan,Dera Ismail Khan,KPK,0,11,36,drought
+2025-08-12,Naseerabad,Naseerabad,Balochistan,0,27,54,normal
+2025-08-12,Jafarabad,Jafarabad,Balochistan,0,10,43,drought
+2025-08-12,Turbat,Kech,Balochistan,0,39,36,normal
+2025-08-12,Zhob,Zhob,Balochistan,0,22,65,normal
+2025-08-12,Quetta Tehsil,Quetta,Balochistan,7,16,66,normal
+2025-08-13,Depalpur,Okara,Punjab,0,21,32,normal
+2025-08-13,Jatoi,Muzaffargarh,Punjab,0,44,22,heatwave
+2025-08-13,Sargodha Tehsil,Sargodha,Punjab,0,43,49,heatwave
+2025-08-13,Mianwali,Mianwali,Punjab,0,10,69,drought
+2025-08-13,Sialkot Tehsil,Sialkot,Punjab,22,26,64,normal
+2025-08-13,Badin,Badin,Sindh,0,31,68,normal
+2025-08-13,Umerkot,Umerkot,Sindh,0,27,32,normal
+2025-08-13,Thatta,Thatta,Sindh,0,25,89,normal
+2025-08-13,Khairpur,Khairpur,Sindh,0,21,48,normal
+2025-08-13,Dadu,Dadu,Sindh,0,11,86,drought
+2025-08-13,Charsadda,Charsadda,KPK,0,15,48,normal
+2025-08-13,Swabi,Swabi,KPK,0,21,51,normal
+2025-08-13,Mardan Tehsil,Mardan,KPK,0,34,69,normal
+2025-08-13,Bannu,Bannu,KPK,32,37,45,normal
+2025-08-13,Dera Ismail Khan,Dera Ismail Khan,KPK,80,29,26,normal
+2025-08-13,Naseerabad,Naseerabad,Balochistan,0,18,40,normal
+2025-08-13,Jafarabad,Jafarabad,Balochistan,0,15,66,normal
+2025-08-13,Turbat,Kech,Balochistan,0,39,33,normal
+2025-08-13,Zhob,Zhob,Balochistan,0,35,67,normal
+2025-08-13,Quetta Tehsil,Quetta,Balochistan,0,33,92,normal
+2025-08-14,Depalpur,Okara,Punjab,0,12,78,drought
+2025-08-14,Jatoi,Muzaffargarh,Punjab,0,18,79,normal
+2025-08-14,Sargodha Tehsil,Sargodha,Punjab,0,18,93,normal
+2025-08-14,Mianwali,Mianwali,Punjab,7,23,83,normal
+2025-08-14,Sialkot Tehsil,Sialkot,Punjab,0,45,47,heatwave
+2025-08-14,Badin,Badin,Sindh,0,11,40,drought
+2025-08-14,Umerkot,Umerkot,Sindh,53,40,26,normal
+2025-08-14,Thatta,Thatta,Sindh,0,25,72,normal
+2025-08-14,Khairpur,Khairpur,Sindh,71,42,45,normal
+2025-08-14,Dadu,Dadu,Sindh,0,12,78,drought
+2025-08-14,Charsadda,Charsadda,KPK,0,32,70,normal
+2025-08-14,Swabi,Swabi,KPK,61,34,59,normal
+2025-08-14,Mardan Tehsil,Mardan,KPK,0,24,53,normal
+2025-08-14,Bannu,Bannu,KPK,0,43,26,heatwave
+2025-08-14,Dera Ismail Khan,Dera Ismail Khan,KPK,0,19,60,normal
+2025-08-14,Naseerabad,Naseerabad,Balochistan,0,22,93,normal
+2025-08-14,Jafarabad,Jafarabad,Balochistan,53,35,67,normal
+2025-08-14,Turbat,Kech,Balochistan,0,36,65,normal
+2025-08-14,Zhob,Zhob,Balochistan,43,13,73,normal
+2025-08-14,Quetta Tehsil,Quetta,Balochistan,8,23,89,normal
+2025-08-15,Depalpur,Okara,Punjab,51,26,35,normal
+2025-08-15,Jatoi,Muzaffargarh,Punjab,66,17,36,normal
+2025-08-15,Sargodha Tehsil,Sargodha,Punjab,50,24,63,normal
+2025-08-15,Mianwali,Mianwali,Punjab,0,41,64,normal
+2025-08-15,Sialkot Tehsil,Sialkot,Punjab,0,17,50,normal
+2025-08-15,Badin,Badin,Sindh,0,22,81,normal
+2025-08-15,Umerkot,Umerkot,Sindh,0,12,71,drought
+2025-08-15,Thatta,Thatta,Sindh,0,23,90,normal
+2025-08-15,Khairpur,Khairpur,Sindh,0,41,51,normal
+2025-08-15,Dadu,Dadu,Sindh,95,13,74,flood risk
+2025-08-15,Charsadda,Charsadda,KPK,0,36,79,normal
+2025-08-15,Swabi,Swabi,KPK,0,30,40,normal
+2025-08-15,Mardan Tehsil,Mardan,KPK,5,24,60,normal
+2025-08-15,Bannu,Bannu,KPK,57,34,31,normal
+2025-08-15,Dera Ismail Khan,Dera Ismail Khan,KPK,0,31,93,normal
+2025-08-15,Naseerabad,Naseerabad,Balochistan,0,14,40,drought
+2025-08-15,Jafarabad,Jafarabad,Balochistan,0,14,84,drought
+2025-08-15,Turbat,Kech,Balochistan,41,10,37,normal
+2025-08-15,Zhob,Zhob,Balochistan,25,32,74,normal
+2025-08-15,Quetta Tehsil,Quetta,Balochistan,79,36,85,normal
+2025-08-16,Depalpur,Okara,Punjab,56,42,22,normal
+2025-08-16,Jatoi,Muzaffargarh,Punjab,0,13,32,drought
+2025-08-16,Sargodha Tehsil,Sargodha,Punjab,4,27,90,normal
+2025-08-16,Mianwali,Mianwali,Punjab,0,14,53,drought
+2025-08-16,Sialkot Tehsil,Sialkot,Punjab,0,27,91,normal
+2025-08-16,Badin,Badin,Sindh,59,22,23,normal
+2025-08-16,Umerkot,Umerkot,Sindh,0,45,49,heatwave
+2025-08-16,Thatta,Thatta,Sindh,0,44,73,heatwave
+2025-08-16,Khairpur,Khairpur,Sindh,0,26,64,normal
+2025-08-16,Dadu,Dadu,Sindh,2,15,30,normal
+2025-08-16,Charsadda,Charsadda,KPK,0,28,86,normal
+2025-08-16,Swabi,Swabi,KPK,0,43,40,heatwave
+2025-08-16,Mardan Tehsil,Mardan,KPK,0,34,49,normal
+2025-08-16,Bannu,Bannu,KPK,0,15,33,normal
+2025-08-16,Dera Ismail Khan,Dera Ismail Khan,KPK,94,28,41,flood risk
+2025-08-16,Naseerabad,Naseerabad,Balochistan,0,33,93,normal
+2025-08-16,Jafarabad,Jafarabad,Balochistan,0,33,89,normal
+2025-08-16,Turbat,Kech,Balochistan,0,18,34,normal
+2025-08-16,Zhob,Zhob,Balochistan,0,11,44,drought
+2025-08-16,Quetta Tehsil,Quetta,Balochistan,0,23,46,normal
+2025-08-17,Depalpur,Okara,Punjab,15,37,78,normal
+2025-08-17,Jatoi,Muzaffargarh,Punjab,0,23,76,normal
+2025-08-17,Sargodha Tehsil,Sargodha,Punjab,0,25,92,normal
+2025-08-17,Mianwali,Mianwali,Punjab,0,45,61,heatwave
+2025-08-17,Sialkot Tehsil,Sialkot,Punjab,0,10,65,drought
+2025-08-17,Badin,Badin,Sindh,37,28,28,normal
+2025-08-17,Umerkot,Umerkot,Sindh,96,39,75,flood risk
+2025-08-17,Thatta,Thatta,Sindh,0,29,45,normal
+2025-08-17,Khairpur,Khairpur,Sindh,0,42,78,normal
+2025-08-17,Dadu,Dadu,Sindh,0,29,25,normal
+2025-08-17,Charsadda,Charsadda,KPK,0,43,47,heatwave
+2025-08-17,Swabi,Swabi,KPK,0,10,54,drought
+2025-08-17,Mardan Tehsil,Mardan,KPK,0,22,77,normal
+2025-08-17,Bannu,Bannu,KPK,0,27,66,normal
+2025-08-17,Dera Ismail Khan,Dera Ismail Khan,KPK,0,40,31,normal
+2025-08-17,Naseerabad,Naseerabad,Balochistan,38,42,75,normal
+2025-08-17,Jafarabad,Jafarabad,Balochistan,0,18,52,normal
+2025-08-17,Turbat,Kech,Balochistan,73,42,63,normal
+2025-08-17,Zhob,Zhob,Balochistan,0,37,91,normal
+2025-08-17,Quetta Tehsil,Quetta,Balochistan,30,33,83,normal
+2025-08-18,Depalpur,Okara,Punjab,0,15,29,normal
+2025-08-18,Jatoi,Muzaffargarh,Punjab,0,40,40,normal
+2025-08-18,Sargodha Tehsil,Sargodha,Punjab,0,12,20,drought
+2025-08-18,Mianwali,Mianwali,Punjab,64,34,21,normal
+2025-08-18,Sialkot Tehsil,Sialkot,Punjab,0,23,90,normal
+2025-08-18,Badin,Badin,Sindh,0,37,84,normal
+2025-08-18,Umerkot,Umerkot,Sindh,12,17,43,normal
+2025-08-18,Thatta,Thatta,Sindh,0,14,87,drought
+2025-08-18,Khairpur,Khairpur,Sindh,0,36,91,normal
+2025-08-18,Dadu,Dadu,Sindh,0,33,35,normal
+2025-08-18,Charsadda,Charsadda,KPK,0,34,32,normal
+2025-08-18,Swabi,Swabi,KPK,0,34,21,normal
+2025-08-18,Mardan Tehsil,Mardan,KPK,34,18,35,normal
+2025-08-18,Bannu,Bannu,KPK,59,31,74,normal
+2025-08-18,Dera Ismail Khan,Dera Ismail Khan,KPK,0,33,66,normal
+2025-08-18,Naseerabad,Naseerabad,Balochistan,0,20,47,normal
+2025-08-18,Jafarabad,Jafarabad,Balochistan,0,10,89,drought
+2025-08-18,Turbat,Kech,Balochistan,0,45,26,heatwave
+2025-08-18,Zhob,Zhob,Balochistan,0,37,65,normal
+2025-08-18,Quetta Tehsil,Quetta,Balochistan,85,20,65,flood risk
+2025-08-19,Depalpur,Okara,Punjab,6,39,53,normal
+2025-08-19,Jatoi,Muzaffargarh,Punjab,0,23,37,normal
+2025-08-19,Sargodha Tehsil,Sargodha,Punjab,0,18,48,normal
+2025-08-19,Mianwali,Mianwali,Punjab,0,18,91,normal
+2025-08-19,Sialkot Tehsil,Sialkot,Punjab,47,45,22,heatwave
+2025-08-19,Badin,Badin,Sindh,0,16,42,normal
+2025-08-19,Umerkot,Umerkot,Sindh,0,23,84,normal
+2025-08-19,Thatta,Thatta,Sindh,0,24,21,normal
+2025-08-19,Khairpur,Khairpur,Sindh,0,22,95,normal
+2025-08-19,Dadu,Dadu,Sindh,0,38,58,normal
+2025-08-19,Charsadda,Charsadda,KPK,50,18,76,normal
+2025-08-19,Swabi,Swabi,KPK,0,10,22,drought
+2025-08-19,Mardan Tehsil,Mardan,KPK,0,23,94,normal
+2025-08-19,Bannu,Bannu,KPK,0,36,78,normal
+2025-08-19,Dera Ismail Khan,Dera Ismail Khan,KPK,0,37,45,normal
+2025-08-19,Naseerabad,Naseerabad,Balochistan,0,17,70,normal
+2025-08-19,Jafarabad,Jafarabad,Balochistan,0,17,95,normal
+2025-08-19,Turbat,Kech,Balochistan,84,41,86,flood risk
+2025-08-19,Zhob,Zhob,Balochistan,0,32,38,normal
+2025-08-19,Quetta Tehsil,Quetta,Balochistan,0,37,89,normal
+2025-08-20,Depalpur,Okara,Punjab,6,14,26,normal
+2025-08-20,Jatoi,Muzaffargarh,Punjab,0,28,30,normal
+2025-08-20,Sargodha Tehsil,Sargodha,Punjab,0,25,59,normal
+2025-08-20,Mianwali,Mianwali,Punjab,0,18,20,normal
+2025-08-20,Sialkot Tehsil,Sialkot,Punjab,0,45,36,heatwave
+2025-08-20,Badin,Badin,Sindh,0,44,65,heatwave
+2025-08-20,Umerkot,Umerkot,Sindh,0,11,28,drought
+2025-08-20,Thatta,Thatta,Sindh,0,39,28,normal
+2025-08-20,Khairpur,Khairpur,Sindh,80,31,58,normal
+2025-08-20,Dadu,Dadu,Sindh,0,28,46,normal
+2025-08-20,Charsadda,Charsadda,KPK,0,25,34,normal
+2025-08-20,Swabi,Swabi,KPK,89,30,90,flood risk
+2025-08-20,Mardan Tehsil,Mardan,KPK,0,26,47,normal
+2025-08-20,Bannu,Bannu,KPK,0,13,80,drought
+2025-08-20,Dera Ismail Khan,Dera Ismail Khan,KPK,0,23,66,normal
+2025-08-20,Naseerabad,Naseerabad,Balochistan,18,26,88,normal
+2025-08-20,Jafarabad,Jafarabad,Balochistan,0,42,20,normal
+2025-08-20,Turbat,Kech,Balochistan,17,13,58,normal
+2025-08-20,Zhob,Zhob,Balochistan,0,37,48,normal
+2025-08-20,Quetta Tehsil,Quetta,Balochistan,0,13,33,drought
+2025-08-21,Depalpur,Okara,Punjab,0,29,92,normal
+2025-08-21,Jatoi,Muzaffargarh,Punjab,0,31,45,normal
+2025-08-21,Sargodha Tehsil,Sargodha,Punjab,0,37,40,normal
+2025-08-21,Mianwali,Mianwali,Punjab,0,26,20,normal
+2025-08-21,Sialkot Tehsil,Sialkot,Punjab,95,20,73,flood risk
+2025-08-21,Badin,Badin,Sindh,0,36,69,normal
+2025-08-21,Umerkot,Umerkot,Sindh,0,30,78,normal
+2025-08-21,Thatta,Thatta,Sindh,0,41,21,normal
+2025-08-21,Khairpur,Khairpur,Sindh,0,35,36,normal
+2025-08-21,Dadu,Dadu,Sindh,42,16,43,normal
+2025-08-21,Charsadda,Charsadda,KPK,0,18,43,normal
+2025-08-21,Swabi,Swabi,KPK,0,41,83,normal
+2025-08-21,Mardan Tehsil,Mardan,KPK,0,45,51,heatwave
+2025-08-21,Bannu,Bannu,KPK,0,38,70,normal
+2025-08-21,Dera Ismail Khan,Dera Ismail Khan,KPK,47,33,55,normal
+2025-08-21,Naseerabad,Naseerabad,Balochistan,0,41,64,normal
+2025-08-21,Jafarabad,Jafarabad,Balochistan,73,13,44,normal
+2025-08-21,Turbat,Kech,Balochistan,0,32,79,normal
+2025-08-21,Zhob,Zhob,Balochistan,0,12,92,drought
+2025-08-21,Quetta Tehsil,Quetta,Balochistan,0,23,49,normal
+2025-08-22,Depalpur,Okara,Punjab,0,26,41,normal
+2025-08-22,Jatoi,Muzaffargarh,Punjab,41,39,74,normal
+2025-08-22,Sargodha Tehsil,Sargodha,Punjab,0,34,68,normal
+2025-08-22,Mianwali,Mianwali,Punjab,0,42,25,normal
+2025-08-22,Sialkot Tehsil,Sialkot,Punjab,0,18,86,normal
+2025-08-22,Badin,Badin,Sindh,0,13,92,drought
+2025-08-22,Umerkot,Umerkot,Sindh,0,17,26,normal
+2025-08-22,Thatta,Thatta,Sindh,0,41,26,normal
+2025-08-22,Khairpur,Khairpur,Sindh,80,22,74,normal
+2025-08-22,Dadu,Dadu,Sindh,0,19,53,normal
+2025-08-22,Charsadda,Charsadda,KPK,0,44,92,heatwave
+2025-08-22,Swabi,Swabi,KPK,0,32,95,normal
+2025-08-22,Mardan Tehsil,Mardan,KPK,0,34,26,normal
+2025-08-22,Bannu,Bannu,KPK,0,23,82,normal
+2025-08-22,Dera Ismail Khan,Dera Ismail Khan,KPK,0,34,20,normal
+2025-08-22,Naseerabad,Naseerabad,Balochistan,58,30,69,normal
+2025-08-22,Jafarabad,Jafarabad,Balochistan,58,29,53,normal
+2025-08-22,Turbat,Kech,Balochistan,0,14,48,drought
+2025-08-22,Zhob,Zhob,Balochistan,0,42,86,normal
+2025-08-22,Quetta Tehsil,Quetta,Balochistan,0,18,31,normal
+2025-08-23,Depalpur,Okara,Punjab,0,36,55,normal
+2025-08-23,Jatoi,Muzaffargarh,Punjab,0,36,52,normal
+2025-08-23,Sargodha Tehsil,Sargodha,Punjab,0,38,72,normal
+2025-08-23,Mianwali,Mianwali,Punjab,82,15,80,flood risk
+2025-08-23,Sialkot Tehsil,Sialkot,Punjab,0,13,82,drought
+2025-08-23,Badin,Badin,Sindh,0,38,42,normal
+2025-08-23,Umerkot,Umerkot,Sindh,0,18,41,normal
+2025-08-23,Thatta,Thatta,Sindh,0,27,84,normal
+2025-08-23,Khairpur,Khairpur,Sindh,80,32,31,normal
+2025-08-23,Dadu,Dadu,Sindh,29,30,54,normal
+2025-08-23,Charsadda,Charsadda,KPK,0,16,42,normal
+2025-08-23,Swabi,Swabi,KPK,0,19,50,normal
+2025-08-23,Mardan Tehsil,Mardan,KPK,64,42,46,normal
+2025-08-23,Bannu,Bannu,KPK,50,39,79,normal
+2025-08-23,Dera Ismail Khan,Dera Ismail Khan,KPK,92,30,25,flood risk
+2025-08-23,Naseerabad,Naseerabad,Balochistan,0,45,31,heatwave
+2025-08-23,Jafarabad,Jafarabad,Balochistan,0,29,27,normal
+2025-08-23,Turbat,Kech,Balochistan,99,15,78,flood risk
+2025-08-23,Zhob,Zhob,Balochistan,0,42,64,normal
+2025-08-23,Quetta Tehsil,Quetta,Balochistan,80,38,33,normal
+2025-08-24,Depalpur,Okara,Punjab,0,39,67,normal
+2025-08-24,Jatoi,Muzaffargarh,Punjab,0,12,48,drought
+2025-08-24,Sargodha Tehsil,Sargodha,Punjab,0,20,74,normal
+2025-08-24,Mianwali,Mianwali,Punjab,0,29,80,normal
+2025-08-24,Sialkot Tehsil,Sialkot,Punjab,0,42,63,normal
+2025-08-24,Badin,Badin,Sindh,0,21,29,normal
+2025-08-24,Umerkot,Umerkot,Sindh,0,38,45,normal
+2025-08-24,Thatta,Thatta,Sindh,2,23,37,normal
+2025-08-24,Khairpur,Khairpur,Sindh,0,28,34,normal
+2025-08-24,Dadu,Dadu,Sindh,0,30,95,normal
+2025-08-24,Charsadda,Charsadda,KPK,0,33,64,normal
+2025-08-24,Swabi,Swabi,KPK,0,15,81,normal
+2025-08-24,Mardan Tehsil,Mardan,KPK,47,40,44,normal
+2025-08-24,Bannu,Bannu,KPK,53,40,91,normal
+2025-08-24,Dera Ismail Khan,Dera Ismail Khan,KPK,0,28,53,normal
+2025-08-24,Naseerabad,Naseerabad,Balochistan,65,19,75,normal
+2025-08-24,Jafarabad,Jafarabad,Balochistan,0,33,43,normal
+2025-08-24,Turbat,Kech,Balochistan,0,40,77,normal
+2025-08-24,Zhob,Zhob,Balochistan,0,15,81,normal
+2025-08-24,Quetta Tehsil,Quetta,Balochistan,90,16,69,flood risk
+2025-08-25,Depalpur,Okara,Punjab,0,42,42,normal
+2025-08-25,Jatoi,Muzaffargarh,Punjab,0,14,44,drought
+2025-08-25,Sargodha Tehsil,Sargodha,Punjab,13,19,85,normal
+2025-08-25,Mianwali,Mianwali,Punjab,0,16,41,normal
+2025-08-25,Sialkot Tehsil,Sialkot,Punjab,0,41,59,normal
+2025-08-25,Badin,Badin,Sindh,0,12,58,drought
+2025-08-25,Umerkot,Umerkot,Sindh,0,35,85,normal
+2025-08-25,Thatta,Thatta,Sindh,0,33,84,normal
+2025-08-25,Khairpur,Khairpur,Sindh,46,16,75,normal
+2025-08-25,Dadu,Dadu,Sindh,0,42,25,normal
+2025-08-25,Charsadda,Charsadda,KPK,0,37,91,normal
+2025-08-25,Swabi,Swabi,KPK,67,22,47,normal
+2025-08-25,Mardan Tehsil,Mardan,KPK,8,30,93,normal
+2025-08-25,Bannu,Bannu,KPK,62,22,53,normal
+2025-08-25,Dera Ismail Khan,Dera Ismail Khan,KPK,0,10,30,drought
+2025-08-25,Naseerabad,Naseerabad,Balochistan,35,17,92,normal
+2025-08-25,Jafarabad,Jafarabad,Balochistan,0,44,81,heatwave
+2025-08-25,Turbat,Kech,Balochistan,0,37,87,normal
+2025-08-25,Zhob,Zhob,Balochistan,0,40,56,normal
+2025-08-25,Quetta Tehsil,Quetta,Balochistan,0,37,75,normal
+2025-08-26,Depalpur,Okara,Punjab,0,42,44,normal
+2025-08-26,Jatoi,Muzaffargarh,Punjab,0,19,28,normal
+2025-08-26,Sargodha Tehsil,Sargodha,Punjab,0,12,28,drought
+2025-08-26,Mianwali,Mianwali,Punjab,0,20,61,normal
+2025-08-26,Sialkot Tehsil,Sialkot,Punjab,8,42,78,normal
+2025-08-26,Badin,Badin,Sindh,0,42,67,normal
+2025-08-26,Umerkot,Umerkot,Sindh,14,33,69,normal
+2025-08-26,Thatta,Thatta,Sindh,0,27,53,normal
+2025-08-26,Khairpur,Khairpur,Sindh,9,40,68,normal
+2025-08-26,Dadu,Dadu,Sindh,0,10,88,drought
+2025-08-26,Charsadda,Charsadda,KPK,0,11,87,drought
+2025-08-26,Swabi,Swabi,KPK,0,28,63,normal
+2025-08-26,Mardan Tehsil,Mardan,KPK,0,44,21,heatwave
+2025-08-26,Bannu,Bannu,KPK,0,43,20,heatwave
+2025-08-26,Dera Ismail Khan,Dera Ismail Khan,KPK,0,11,70,drought
+2025-08-26,Naseerabad,Naseerabad,Balochistan,0,44,85,heatwave
+2025-08-26,Jafarabad,Jafarabad,Balochistan,0,32,28,normal
+2025-08-26,Turbat,Kech,Balochistan,0,34,91,normal
+2025-08-26,Zhob,Zhob,Balochistan,0,41,85,normal
+2025-08-26,Quetta Tehsil,Quetta,Balochistan,36,39,74,normal
+2025-08-27,Depalpur,Okara,Punjab,0,34,71,normal
+2025-08-27,Jatoi,Muzaffargarh,Punjab,0,38,25,normal
+2025-08-27,Sargodha Tehsil,Sargodha,Punjab,0,45,63,heatwave
+2025-08-27,Mianwali,Mianwali,Punjab,0,32,59,normal
+2025-08-27,Sialkot Tehsil,Sialkot,Punjab,98,13,80,flood risk
+2025-08-27,Badin,Badin,Sindh,0,39,29,normal
+2025-08-27,Umerkot,Umerkot,Sindh,0,21,91,normal
+2025-08-27,Thatta,Thatta,Sindh,0,29,59,normal
+2025-08-27,Khairpur,Khairpur,Sindh,41,39,23,normal
+2025-08-27,Dadu,Dadu,Sindh,61,30,75,normal
+2025-08-27,Charsadda,Charsadda,KPK,0,42,56,normal
+2025-08-27,Swabi,Swabi,KPK,0,27,63,normal
+2025-08-27,Mardan Tehsil,Mardan,KPK,0,40,24,normal
+2025-08-27,Bannu,Bannu,KPK,65,29,61,normal
+2025-08-27,Dera Ismail Khan,Dera Ismail Khan,KPK,0,38,55,normal
+2025-08-27,Naseerabad,Naseerabad,Balochistan,0,33,75,normal
+2025-08-27,Jafarabad,Jafarabad,Balochistan,22,40,78,normal
+2025-08-27,Turbat,Kech,Balochistan,14,26,33,normal
+2025-08-27,Zhob,Zhob,Balochistan,0,16,35,normal
+2025-08-27,Quetta Tehsil,Quetta,Balochistan,66,32,42,normal
+2025-08-28,Depalpur,Okara,Punjab,26,21,53,normal
+2025-08-28,Jatoi,Muzaffargarh,Punjab,0,21,51,normal
+2025-08-28,Sargodha Tehsil,Sargodha,Punjab,0,39,76,normal
+2025-08-28,Mianwali,Mianwali,Punjab,93,10,81,flood risk
+2025-08-28,Sialkot Tehsil,Sialkot,Punjab,74,23,80,normal
+2025-08-28,Badin,Badin,Sindh,0,18,62,normal
+2025-08-28,Umerkot,Umerkot,Sindh,0,37,74,normal
+2025-08-28,Thatta,Thatta,Sindh,0,26,86,normal
+2025-08-28,Khairpur,Khairpur,Sindh,63,35,71,normal
+2025-08-28,Dadu,Dadu,Sindh,27,29,27,normal
+2025-08-28,Charsadda,Charsadda,KPK,0,12,30,drought
+2025-08-28,Swabi,Swabi,KPK,94,41,76,flood risk
+2025-08-28,Mardan Tehsil,Mardan,KPK,0,14,52,drought
+2025-08-28,Bannu,Bannu,KPK,0,39,22,normal
+2025-08-28,Dera Ismail Khan,Dera Ismail Khan,KPK,0,20,69,normal
+2025-08-28,Naseerabad,Naseerabad,Balochistan,0,44,48,heatwave
+2025-08-28,Jafarabad,Jafarabad,Balochistan,17,34,95,normal
+2025-08-28,Turbat,Kech,Balochistan,0,36,59,normal
+2025-08-28,Zhob,Zhob,Balochistan,0,31,64,normal
+2025-08-28,Quetta Tehsil,Quetta,Balochistan,0,17,45,normal
+2025-08-29,Depalpur,Okara,Punjab,12,16,40,normal
+2025-08-29,Jatoi,Muzaffargarh,Punjab,0,29,73,normal
+2025-08-29,Sargodha Tehsil,Sargodha,Punjab,0,33,83,normal
+2025-08-29,Mianwali,Mianwali,Punjab,0,26,80,normal
+2025-08-29,Sialkot Tehsil,Sialkot,Punjab,0,39,24,normal
+2025-08-29,Badin,Badin,Sindh,11,23,44,normal
+2025-08-29,Umerkot,Umerkot,Sindh,0,20,39,normal
+2025-08-29,Thatta,Thatta,Sindh,0,36,69,normal
+2025-08-29,Khairpur,Khairpur,Sindh,0,28,37,normal
+2025-08-29,Dadu,Dadu,Sindh,84,36,48,flood risk
+2025-08-29,Charsadda,Charsadda,KPK,0,25,66,normal
+2025-08-29,Swabi,Swabi,KPK,0,17,50,normal
+2025-08-29,Mardan Tehsil,Mardan,KPK,0,29,43,normal
+2025-08-29,Bannu,Bannu,KPK,0,32,60,normal
+2025-08-29,Dera Ismail Khan,Dera Ismail Khan,KPK,0,41,43,normal
+2025-08-29,Naseerabad,Naseerabad,Balochistan,64,27,87,normal
+2025-08-29,Jafarabad,Jafarabad,Balochistan,0,38,33,normal
+2025-08-29,Turbat,Kech,Balochistan,0,11,86,drought
+2025-08-29,Zhob,Zhob,Balochistan,97,31,66,flood risk
+2025-08-29,Quetta Tehsil,Quetta,Balochistan,0,19,54,normal
