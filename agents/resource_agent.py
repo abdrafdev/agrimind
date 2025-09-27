@@ -257,11 +257,11 @@ class ResourceAgent(BaseAgent):
             sources.append(f"{resource_type.value}={source}")
         
         if data_source_used:
-            self.logger.info(f"💾 ResourceAgent {self.agent_id} loaded resources from {data_source_used}")
+            self.logger.info(f"💾 ResourceAgent {self.agent_id} DATA_SOURCE_METADATA: loaded from {data_source_used}")
         else:
-            self.logger.info(f"💾 ResourceAgent {self.agent_id} using configuration defaults")
+            self.logger.info(f"💾 ResourceAgent {self.agent_id} DATA_SOURCE_METADATA: using configuration defaults")
         
-        self.logger.info(f"💾 Resource sources: {', '.join(sources)}")
+        self.logger.info(f"💾 ResourceAgent {self.agent_id} DATA_SOURCE_METADATA: Resource sources - {', '.join(sources)}")
 
     async def _handle_resource_request(self, message: Message):
         """Handle incoming resource requests from farms"""

@@ -205,10 +205,19 @@ class SensorAgent(BaseAgent):
             # Cache the reading for degraded mode
             await self.cache_data(f"sensor_{sensor_type}", reading)
         
-        # Log data sources used
+        # Log data sources used with metadata
         if data_sources_used:
             sources_summary = ", ".join(set(data_sources_used))
-            self.logger.info(f"📊 SensorAgent {self.agent_id} used data sources: {sources_summary}")
+            self.logger.info(f"📊 SensorAgent {self.agent_id} DATA_SOURCE_METADATA: {sources_summary}")
+            
+            # Add to demo statistics tracking
+            for source in data_sources_used:
+                if 'dataset' in source:
+                    self.state['last_data_source'] = 'dataset'
+                elif 'API' in source:
+                    self.state['last_data_source'] = 'api'
+                else:
+                    self.state['last_data_source'] = 'mock'
                 
         return readings
 

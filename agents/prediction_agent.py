@@ -87,7 +87,7 @@ class PredictionAgent(BaseAgent):
             )
             
             if not weather_df.empty and source_info.source_type == "dataset":
-                self.logger.info(f"🌤️ Loaded weather dataset: {source_info.source_name} ({len(weather_df)} records)")
+                self.logger.info(f"🌤️ PredictionAgent {self.agent_id} DATA_SOURCE_METADATA: weather dataset ({source_info.source_name}, {len(weather_df)} records, confidence={source_info.confidence})")
                 return weather_df, source_info
             else:
                 self.logger.warning(f"Weather dataset load failed: {source_info.source_type}")
