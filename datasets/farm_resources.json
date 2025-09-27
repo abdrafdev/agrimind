@@ -1,0 +1,1402 @@
+[
+  {
+    "farm_id": "F-001",
+    "irrigation_hours_per_week": 16,
+    "fertilizer_kg_available": 106,
+    "equipment_availability": {
+      "tractor_hours": 0,
+      "harvester_hours": 6
+    },
+    "neighboring_farms": [
+      "F-080",
+      "F-038",
+      "F-075"
+    ]
+  },
+  {
+    "farm_id": "F-002",
+    "irrigation_hours_per_week": 34,
+    "fertilizer_kg_available": 114,
+    "equipment_availability": {
+      "tractor_hours": 7,
+      "harvester_hours": 7
+    },
+    "neighboring_farms": [
+      "F-075",
+      "F-042",
+      "F-095"
+    ]
+  },
+  {
+    "farm_id": "F-003",
+    "irrigation_hours_per_week": 37,
+    "fertilizer_kg_available": 75,
+    "equipment_availability": {
+      "tractor_hours": 6,
+      "harvester_hours": 1
+    },
+    "neighboring_farms": [
+      "F-057",
+      "F-049",
+      "F-018"
+    ]
+  },
+  {
+    "farm_id": "F-004",
+    "irrigation_hours_per_week": 32,
+    "fertilizer_kg_available": 75,
+    "equipment_availability": {
+      "tractor_hours": 3,
+      "harvester_hours": 3
+    },
+    "neighboring_farms": [
+      "F-018",
+      "F-046",
+      "F-095"
+    ]
+  },
+  {
+    "farm_id": "F-005",
+    "irrigation_hours_per_week": 26,
+    "fertilizer_kg_available": 146,
+    "equipment_availability": {
+      "tractor_hours": 1,
+      "harvester_hours": 3
+    },
+    "neighboring_farms": [
+      "F-002",
+      "F-042",
+      "F-046"
+    ]
+  },
+  {
+    "farm_id": "F-006",
+    "irrigation_hours_per_week": 30,
+    "fertilizer_kg_available": 110,
+    "equipment_availability": {
+      "tractor_hours": 0,
+      "harvester_hours": 10
+    },
+    "neighboring_farms": [
+      "F-069",
+      "F-032",
+      "F-065"
+    ]
+  },
+  {
+    "farm_id": "F-007",
+    "irrigation_hours_per_week": 18,
+    "fertilizer_kg_available": 73,
+    "equipment_availability": {
+      "tractor_hours": 8,
+      "harvester_hours": 2
+    },
+    "neighboring_farms": [
+      "F-037",
+      "F-082",
+      "F-038"
+    ]
+  },
+  {
+    "farm_id": "F-008",
+    "irrigation_hours_per_week": 11,
+    "fertilizer_kg_available": 3,
+    "equipment_availability": {
+      "tractor_hours": 0,
+      "harvester_hours": 7
+    },
+    "neighboring_farms": [
+      "F-027",
+      "F-040",
+      "F-022"
+    ]
+  },
+  {
+    "farm_id": "F-009",
+    "irrigation_hours_per_week": 30,
+    "fertilizer_kg_available": 74,
+    "equipment_availability": {
+      "tractor_hours": 1,
+      "harvester_hours": 5
+    },
+    "neighboring_farms": [
+      "F-090",
+      "F-079",
+      "F-025"
+    ]
+  },
+  {
+    "farm_id": "F-010",
+    "irrigation_hours_per_week": 6,
+    "fertilizer_kg_available": 147,
+    "equipment_availability": {
+      "tractor_hours": 15,
+      "harvester_hours": 8
+    },
+    "neighboring_farms": [
+      "F-055",
+      "F-078",
+      "F-049"
+    ]
+  },
+  {
+    "farm_id": "F-011",
+    "irrigation_hours_per_week": 26,
+    "fertilizer_kg_available": 91,
+    "equipment_availability": {
+      "tractor_hours": 6,
+      "harvester_hours": 1
+    },
+    "neighboring_farms": [
+      "F-052",
+      "F-088",
+      "F-026"
+    ]
+  },
+  {
+    "farm_id": "F-012",
+    "irrigation_hours_per_week": 26,
+    "fertilizer_kg_available": 54,
+    "equipment_availability": {
+      "tractor_hours": 19,
+      "harvester_hours": 10
+    },
+    "neighboring_farms": [
+      "F-019",
+      "F-037",
+      "F-057"
+    ]
+  },
+  {
+    "farm_id": "F-013",
+    "irrigation_hours_per_week": 12,
+    "fertilizer_kg_available": 6,
+    "equipment_availability": {
+      "tractor_hours": 14,
+      "harvester_hours": 1
+    },
+    "neighboring_farms": [
+      "F-040",
+      "F-031",
+      "F-042"
+    ]
+  },
+  {
+    "farm_id": "F-014",
+    "irrigation_hours_per_week": 36,
+    "fertilizer_kg_available": 30,
+    "equipment_availability": {
+      "tractor_hours": 3,
+      "harvester_hours": 8
+    },
+    "neighboring_farms": [
+      "F-070",
+      "F-035",
+      "F-084"
+    ]
+  },
+  {
+    "farm_id": "F-015",
+    "irrigation_hours_per_week": 30,
+    "fertilizer_kg_available": 119,
+    "equipment_availability": {
+      "tractor_hours": 19,
+      "harvester_hours": 1
+    },
+    "neighboring_farms": [
+      "F-068",
+      "F-057",
+      "F-056"
+    ]
+  },
+  {
+    "farm_id": "F-016",
+    "irrigation_hours_per_week": 39,
+    "fertilizer_kg_available": 197,
+    "equipment_availability": {
+      "tractor_hours": 2,
+      "harvester_hours": 8
+    },
+    "neighboring_farms": [
+      "F-020",
+      "F-089",
+      "F-045"
+    ]
+  },
+  {
+    "farm_id": "F-017",
+    "irrigation_hours_per_week": 18,
+    "fertilizer_kg_available": 161,
+    "equipment_availability": {
+      "tractor_hours": 18,
+      "harvester_hours": 3
+    },
+    "neighboring_farms": [
+      "F-058",
+      "F-011",
+      "F-071"
+    ]
+  },
+  {
+    "farm_id": "F-018",
+    "irrigation_hours_per_week": 24,
+    "fertilizer_kg_available": 136,
+    "equipment_availability": {
+      "tractor_hours": 7,
+      "harvester_hours": 9
+    },
+    "neighboring_farms": [
+      "F-082",
+      "F-098",
+      "F-003"
+    ]
+  },
+  {
+    "farm_id": "F-019",
+    "irrigation_hours_per_week": 31,
+    "fertilizer_kg_available": 50,
+    "equipment_availability": {
+      "tractor_hours": 20,
+      "harvester_hours": 0
+    },
+    "neighboring_farms": [
+      "F-028",
+      "F-025",
+      "F-002"
+    ]
+  },
+  {
+    "farm_id": "F-020",
+    "irrigation_hours_per_week": 13,
+    "fertilizer_kg_available": 200,
+    "equipment_availability": {
+      "tractor_hours": 14,
+      "harvester_hours": 7
+    },
+    "neighboring_farms": [
+      "F-069",
+      "F-028",
+      "F-053"
+    ]
+  },
+  {
+    "farm_id": "F-021",
+    "irrigation_hours_per_week": 35,
+    "fertilizer_kg_available": 107,
+    "equipment_availability": {
+      "tractor_hours": 3,
+      "harvester_hours": 8
+    },
+    "neighboring_farms": [
+      "F-069",
+      "F-039",
+      "F-018"
+    ]
+  },
+  {
+    "farm_id": "F-022",
+    "irrigation_hours_per_week": 21,
+    "fertilizer_kg_available": 127,
+    "equipment_availability": {
+      "tractor_hours": 14,
+      "harvester_hours": 8
+    },
+    "neighboring_farms": [
+      "F-024",
+      "F-088",
+      "F-043"
+    ]
+  },
+  {
+    "farm_id": "F-023",
+    "irrigation_hours_per_week": 22,
+    "fertilizer_kg_available": 99,
+    "equipment_availability": {
+      "tractor_hours": 11,
+      "harvester_hours": 4
+    },
+    "neighboring_farms": [
+      "F-080",
+      "F-032",
+      "F-033"
+    ]
+  },
+  {
+    "farm_id": "F-024",
+    "irrigation_hours_per_week": 21,
+    "fertilizer_kg_available": 79,
+    "equipment_availability": {
+      "tractor_hours": 13,
+      "harvester_hours": 4
+    },
+    "neighboring_farms": [
+      "F-084",
+      "F-095",
+      "F-017"
+    ]
+  },
+  {
+    "farm_id": "F-025",
+    "irrigation_hours_per_week": 30,
+    "fertilizer_kg_available": 37,
+    "equipment_availability": {
+      "tractor_hours": 4,
+      "harvester_hours": 10
+    },
+    "neighboring_farms": [
+      "F-076",
+      "F-006",
+      "F-060"
+    ]
+  },
+  {
+    "farm_id": "F-026",
+    "irrigation_hours_per_week": 20,
+    "fertilizer_kg_available": 36,
+    "equipment_availability": {
+      "tractor_hours": 0,
+      "harvester_hours": 3
+    },
+    "neighboring_farms": [
+      "F-084",
+      "F-041",
+      "F-078"
+    ]
+  },
+  {
+    "farm_id": "F-027",
+    "irrigation_hours_per_week": 18,
+    "fertilizer_kg_available": 14,
+    "equipment_availability": {
+      "tractor_hours": 7,
+      "harvester_hours": 8
+    },
+    "neighboring_farms": [
+      "F-072",
+      "F-060",
+      "F-038"
+    ]
+  },
+  {
+    "farm_id": "F-028",
+    "irrigation_hours_per_week": 40,
+    "fertilizer_kg_available": 93,
+    "equipment_availability": {
+      "tractor_hours": 7,
+      "harvester_hours": 2
+    },
+    "neighboring_farms": [
+      "F-004",
+      "F-043",
+      "F-070"
+    ]
+  },
+  {
+    "farm_id": "F-029",
+    "irrigation_hours_per_week": 12,
+    "fertilizer_kg_available": 120,
+    "equipment_availability": {
+      "tractor_hours": 18,
+      "harvester_hours": 1
+    },
+    "neighboring_farms": [
+      "F-079",
+      "F-050",
+      "F-032"
+    ]
+  },
+  {
+    "farm_id": "F-030",
+    "irrigation_hours_per_week": 9,
+    "fertilizer_kg_available": 59,
+    "equipment_availability": {
+      "tractor_hours": 13,
+      "harvester_hours": 4
+    },
+    "neighboring_farms": [
+      "F-075",
+      "F-033",
+      "F-098"
+    ]
+  },
+  {
+    "farm_id": "F-031",
+    "irrigation_hours_per_week": 7,
+    "fertilizer_kg_available": 117,
+    "equipment_availability": {
+      "tractor_hours": 7,
+      "harvester_hours": 7
+    },
+    "neighboring_farms": [
+      "F-037",
+      "F-013",
+      "F-054"
+    ]
+  },
+  {
+    "farm_id": "F-032",
+    "irrigation_hours_per_week": 5,
+    "fertilizer_kg_available": 127,
+    "equipment_availability": {
+      "tractor_hours": 4,
+      "harvester_hours": 5
+    },
+    "neighboring_farms": [
+      "F-087",
+      "F-060",
+      "F-082"
+    ]
+  },
+  {
+    "farm_id": "F-033",
+    "irrigation_hours_per_week": 6,
+    "fertilizer_kg_available": 31,
+    "equipment_availability": {
+      "tractor_hours": 1,
+      "harvester_hours": 0
+    },
+    "neighboring_farms": [
+      "F-082",
+      "F-038",
+      "F-049"
+    ]
+  },
+  {
+    "farm_id": "F-034",
+    "irrigation_hours_per_week": 8,
+    "fertilizer_kg_available": 36,
+    "equipment_availability": {
+      "tractor_hours": 10,
+      "harvester_hours": 10
+    },
+    "neighboring_farms": [
+      "F-088",
+      "F-001",
+      "F-039"
+    ]
+  },
+  {
+    "farm_id": "F-035",
+    "irrigation_hours_per_week": 24,
+    "fertilizer_kg_available": 122,
+    "equipment_availability": {
+      "tractor_hours": 6,
+      "harvester_hours": 6
+    },
+    "neighboring_farms": [
+      "F-100",
+      "F-040",
+      "F-027"
+    ]
+  },
+  {
+    "farm_id": "F-036",
+    "irrigation_hours_per_week": 22,
+    "fertilizer_kg_available": 42,
+    "equipment_availability": {
+      "tractor_hours": 0,
+      "harvester_hours": 8
+    },
+    "neighboring_farms": [
+      "F-049",
+      "F-030",
+      "F-035"
+    ]
+  },
+  {
+    "farm_id": "F-037",
+    "irrigation_hours_per_week": 33,
+    "fertilizer_kg_available": 162,
+    "equipment_availability": {
+      "tractor_hours": 12,
+      "harvester_hours": 6
+    },
+    "neighboring_farms": [
+      "F-084",
+      "F-012",
+      "F-062"
+    ]
+  },
+  {
+    "farm_id": "F-038",
+    "irrigation_hours_per_week": 7,
+    "fertilizer_kg_available": 71,
+    "equipment_availability": {
+      "tractor_hours": 4,
+      "harvester_hours": 2
+    },
+    "neighboring_farms": [
+      "F-066",
+      "F-079",
+      "F-002"
+    ]
+  },
+  {
+    "farm_id": "F-039",
+    "irrigation_hours_per_week": 38,
+    "fertilizer_kg_available": 5,
+    "equipment_availability": {
+      "tractor_hours": 11,
+      "harvester_hours": 7
+    },
+    "neighboring_farms": [
+      "F-099",
+      "F-010",
+      "F-083"
+    ]
+  },
+  {
+    "farm_id": "F-040",
+    "irrigation_hours_per_week": 22,
+    "fertilizer_kg_available": 23,
+    "equipment_availability": {
+      "tractor_hours": 0,
+      "harvester_hours": 7
+    },
+    "neighboring_farms": [
+      "F-014",
+      "F-039",
+      "F-032"
+    ]
+  },
+  {
+    "farm_id": "F-041",
+    "irrigation_hours_per_week": 13,
+    "fertilizer_kg_available": 137,
+    "equipment_availability": {
+      "tractor_hours": 8,
+      "harvester_hours": 7
+    },
+    "neighboring_farms": [
+      "F-016",
+      "F-098",
+      "F-097"
+    ]
+  },
+  {
+    "farm_id": "F-042",
+    "irrigation_hours_per_week": 5,
+    "fertilizer_kg_available": 127,
+    "equipment_availability": {
+      "tractor_hours": 3,
+      "harvester_hours": 8
+    },
+    "neighboring_farms": [
+      "F-081",
+      "F-070",
+      "F-079"
+    ]
+  },
+  {
+    "farm_id": "F-043",
+    "irrigation_hours_per_week": 15,
+    "fertilizer_kg_available": 16,
+    "equipment_availability": {
+      "tractor_hours": 1,
+      "harvester_hours": 3
+    },
+    "neighboring_farms": [
+      "F-013",
+      "F-069",
+      "F-042"
+    ]
+  },
+  {
+    "farm_id": "F-044",
+    "irrigation_hours_per_week": 19,
+    "fertilizer_kg_available": 51,
+    "equipment_availability": {
+      "tractor_hours": 19,
+      "harvester_hours": 3
+    },
+    "neighboring_farms": [
+      "F-054",
+      "F-093",
+      "F-077"
+    ]
+  },
+  {
+    "farm_id": "F-045",
+    "irrigation_hours_per_week": 11,
+    "fertilizer_kg_available": 95,
+    "equipment_availability": {
+      "tractor_hours": 8,
+      "harvester_hours": 3
+    },
+    "neighboring_farms": [
+      "F-003",
+      "F-017",
+      "F-018"
+    ]
+  },
+  {
+    "farm_id": "F-046",
+    "irrigation_hours_per_week": 32,
+    "fertilizer_kg_available": 39,
+    "equipment_availability": {
+      "tractor_hours": 11,
+      "harvester_hours": 10
+    },
+    "neighboring_farms": [
+      "F-051",
+      "F-031",
+      "F-030"
+    ]
+  },
+  {
+    "farm_id": "F-047",
+    "irrigation_hours_per_week": 24,
+    "fertilizer_kg_available": 73,
+    "equipment_availability": {
+      "tractor_hours": 12,
+      "harvester_hours": 0
+    },
+    "neighboring_farms": [
+      "F-098",
+      "F-030",
+      "F-042"
+    ]
+  },
+  {
+    "farm_id": "F-048",
+    "irrigation_hours_per_week": 32,
+    "fertilizer_kg_available": 36,
+    "equipment_availability": {
+      "tractor_hours": 2,
+      "harvester_hours": 4
+    },
+    "neighboring_farms": [
+      "F-089",
+      "F-095",
+      "F-013"
+    ]
+  },
+  {
+    "farm_id": "F-049",
+    "irrigation_hours_per_week": 28,
+    "fertilizer_kg_available": 144,
+    "equipment_availability": {
+      "tractor_hours": 3,
+      "harvester_hours": 4
+    },
+    "neighboring_farms": [
+      "F-096",
+      "F-078",
+      "F-016"
+    ]
+  },
+  {
+    "farm_id": "F-050",
+    "irrigation_hours_per_week": 27,
+    "fertilizer_kg_available": 151,
+    "equipment_availability": {
+      "tractor_hours": 15,
+      "harvester_hours": 1
+    },
+    "neighboring_farms": [
+      "F-069",
+      "F-092",
+      "F-010"
+    ]
+  },
+  {
+    "farm_id": "F-051",
+    "irrigation_hours_per_week": 7,
+    "fertilizer_kg_available": 109,
+    "equipment_availability": {
+      "tractor_hours": 14,
+      "harvester_hours": 1
+    },
+    "neighboring_farms": [
+      "F-098",
+      "F-067",
+      "F-048"
+    ]
+  },
+  {
+    "farm_id": "F-052",
+    "irrigation_hours_per_week": 12,
+    "fertilizer_kg_available": 33,
+    "equipment_availability": {
+      "tractor_hours": 12,
+      "harvester_hours": 6
+    },
+    "neighboring_farms": [
+      "F-088",
+      "F-024",
+      "F-004"
+    ]
+  },
+  {
+    "farm_id": "F-053",
+    "irrigation_hours_per_week": 9,
+    "fertilizer_kg_available": 77,
+    "equipment_availability": {
+      "tractor_hours": 8,
+      "harvester_hours": 8
+    },
+    "neighboring_farms": [
+      "F-047",
+      "F-078",
+      "F-057"
+    ]
+  },
+  {
+    "farm_id": "F-054",
+    "irrigation_hours_per_week": 14,
+    "fertilizer_kg_available": 114,
+    "equipment_availability": {
+      "tractor_hours": 8,
+      "harvester_hours": 10
+    },
+    "neighboring_farms": [
+      "F-083",
+      "F-093",
+      "F-080"
+    ]
+  },
+  {
+    "farm_id": "F-055",
+    "irrigation_hours_per_week": 18,
+    "fertilizer_kg_available": 196,
+    "equipment_availability": {
+      "tractor_hours": 18,
+      "harvester_hours": 5
+    },
+    "neighboring_farms": [
+      "F-098",
+      "F-068",
+      "F-006"
+    ]
+  },
+  {
+    "farm_id": "F-056",
+    "irrigation_hours_per_week": 31,
+    "fertilizer_kg_available": 164,
+    "equipment_availability": {
+      "tractor_hours": 9,
+      "harvester_hours": 9
+    },
+    "neighboring_farms": [
+      "F-099",
+      "F-021",
+      "F-100"
+    ]
+  },
+  {
+    "farm_id": "F-057",
+    "irrigation_hours_per_week": 33,
+    "fertilizer_kg_available": 148,
+    "equipment_availability": {
+      "tractor_hours": 20,
+      "harvester_hours": 3
+    },
+    "neighboring_farms": [
+      "F-023",
+      "F-100",
+      "F-045"
+    ]
+  },
+  {
+    "farm_id": "F-058",
+    "irrigation_hours_per_week": 18,
+    "fertilizer_kg_available": 112,
+    "equipment_availability": {
+      "tractor_hours": 0,
+      "harvester_hours": 5
+    },
+    "neighboring_farms": [
+      "F-023",
+      "F-040",
+      "F-026"
+    ]
+  },
+  {
+    "farm_id": "F-059",
+    "irrigation_hours_per_week": 8,
+    "fertilizer_kg_available": 187,
+    "equipment_availability": {
+      "tractor_hours": 18,
+      "harvester_hours": 4
+    },
+    "neighboring_farms": [
+      "F-061",
+      "F-042",
+      "F-006"
+    ]
+  },
+  {
+    "farm_id": "F-060",
+    "irrigation_hours_per_week": 12,
+    "fertilizer_kg_available": 12,
+    "equipment_availability": {
+      "tractor_hours": 9,
+      "harvester_hours": 6
+    },
+    "neighboring_farms": [
+      "F-024",
+      "F-012",
+      "F-042"
+    ]
+  },
+  {
+    "farm_id": "F-061",
+    "irrigation_hours_per_week": 35,
+    "fertilizer_kg_available": 82,
+    "equipment_availability": {
+      "tractor_hours": 19,
+      "harvester_hours": 7
+    },
+    "neighboring_farms": [
+      "F-062",
+      "F-052",
+      "F-050"
+    ]
+  },
+  {
+    "farm_id": "F-062",
+    "irrigation_hours_per_week": 25,
+    "fertilizer_kg_available": 190,
+    "equipment_availability": {
+      "tractor_hours": 13,
+      "harvester_hours": 6
+    },
+    "neighboring_farms": [
+      "F-076",
+      "F-014",
+      "F-005"
+    ]
+  },
+  {
+    "farm_id": "F-063",
+    "irrigation_hours_per_week": 6,
+    "fertilizer_kg_available": 53,
+    "equipment_availability": {
+      "tractor_hours": 20,
+      "harvester_hours": 1
+    },
+    "neighboring_farms": [
+      "F-090",
+      "F-026",
+      "F-073"
+    ]
+  },
+  {
+    "farm_id": "F-064",
+    "irrigation_hours_per_week": 10,
+    "fertilizer_kg_available": 141,
+    "equipment_availability": {
+      "tractor_hours": 10,
+      "harvester_hours": 9
+    },
+    "neighboring_farms": [
+      "F-027",
+      "F-013",
+      "F-051"
+    ]
+  },
+  {
+    "farm_id": "F-065",
+    "irrigation_hours_per_week": 20,
+    "fertilizer_kg_available": 93,
+    "equipment_availability": {
+      "tractor_hours": 8,
+      "harvester_hours": 1
+    },
+    "neighboring_farms": [
+      "F-094",
+      "F-064",
+      "F-029"
+    ]
+  },
+  {
+    "farm_id": "F-066",
+    "irrigation_hours_per_week": 37,
+    "fertilizer_kg_available": 26,
+    "equipment_availability": {
+      "tractor_hours": 5,
+      "harvester_hours": 3
+    },
+    "neighboring_farms": [
+      "F-043",
+      "F-061",
+      "F-020"
+    ]
+  },
+  {
+    "farm_id": "F-067",
+    "irrigation_hours_per_week": 26,
+    "fertilizer_kg_available": 171,
+    "equipment_availability": {
+      "tractor_hours": 0,
+      "harvester_hours": 6
+    },
+    "neighboring_farms": [
+      "F-038",
+      "F-060",
+      "F-017"
+    ]
+  },
+  {
+    "farm_id": "F-068",
+    "irrigation_hours_per_week": 24,
+    "fertilizer_kg_available": 179,
+    "equipment_availability": {
+      "tractor_hours": 14,
+      "harvester_hours": 10
+    },
+    "neighboring_farms": [
+      "F-049",
+      "F-006",
+      "F-040"
+    ]
+  },
+  {
+    "farm_id": "F-069",
+    "irrigation_hours_per_week": 34,
+    "fertilizer_kg_available": 52,
+    "equipment_availability": {
+      "tractor_hours": 11,
+      "harvester_hours": 6
+    },
+    "neighboring_farms": [
+      "F-092",
+      "F-084",
+      "F-057"
+    ]
+  },
+  {
+    "farm_id": "F-070",
+    "irrigation_hours_per_week": 20,
+    "fertilizer_kg_available": 156,
+    "equipment_availability": {
+      "tractor_hours": 18,
+      "harvester_hours": 9
+    },
+    "neighboring_farms": [
+      "F-032",
+      "F-060",
+      "F-065"
+    ]
+  },
+  {
+    "farm_id": "F-071",
+    "irrigation_hours_per_week": 33,
+    "fertilizer_kg_available": 165,
+    "equipment_availability": {
+      "tractor_hours": 6,
+      "harvester_hours": 2
+    },
+    "neighboring_farms": [
+      "F-097",
+      "F-007",
+      "F-058"
+    ]
+  },
+  {
+    "farm_id": "F-072",
+    "irrigation_hours_per_week": 8,
+    "fertilizer_kg_available": 56,
+    "equipment_availability": {
+      "tractor_hours": 17,
+      "harvester_hours": 9
+    },
+    "neighboring_farms": [
+      "F-051",
+      "F-056",
+      "F-070"
+    ]
+  },
+  {
+    "farm_id": "F-073",
+    "irrigation_hours_per_week": 10,
+    "fertilizer_kg_available": 55,
+    "equipment_availability": {
+      "tractor_hours": 2,
+      "harvester_hours": 5
+    },
+    "neighboring_farms": [
+      "F-096",
+      "F-068",
+      "F-039"
+    ]
+  },
+  {
+    "farm_id": "F-074",
+    "irrigation_hours_per_week": 20,
+    "fertilizer_kg_available": 120,
+    "equipment_availability": {
+      "tractor_hours": 8,
+      "harvester_hours": 0
+    },
+    "neighboring_farms": [
+      "F-067",
+      "F-048",
+      "F-042"
+    ]
+  },
+  {
+    "farm_id": "F-075",
+    "irrigation_hours_per_week": 31,
+    "fertilizer_kg_available": 69,
+    "equipment_availability": {
+      "tractor_hours": 19,
+      "harvester_hours": 8
+    },
+    "neighboring_farms": [
+      "F-058",
+      "F-097",
+      "F-100"
+    ]
+  },
+  {
+    "farm_id": "F-076",
+    "irrigation_hours_per_week": 37,
+    "fertilizer_kg_available": 105,
+    "equipment_availability": {
+      "tractor_hours": 14,
+      "harvester_hours": 6
+    },
+    "neighboring_farms": [
+      "F-042",
+      "F-054",
+      "F-004"
+    ]
+  },
+  {
+    "farm_id": "F-077",
+    "irrigation_hours_per_week": 19,
+    "fertilizer_kg_available": 147,
+    "equipment_availability": {
+      "tractor_hours": 12,
+      "harvester_hours": 4
+    },
+    "neighboring_farms": [
+      "F-069",
+      "F-078",
+      "F-093"
+    ]
+  },
+  {
+    "farm_id": "F-078",
+    "irrigation_hours_per_week": 16,
+    "fertilizer_kg_available": 102,
+    "equipment_availability": {
+      "tractor_hours": 7,
+      "harvester_hours": 4
+    },
+    "neighboring_farms": [
+      "F-004",
+      "F-082",
+      "F-099"
+    ]
+  },
+  {
+    "farm_id": "F-079",
+    "irrigation_hours_per_week": 14,
+    "fertilizer_kg_available": 189,
+    "equipment_availability": {
+      "tractor_hours": 10,
+      "harvester_hours": 5
+    },
+    "neighboring_farms": [
+      "F-092",
+      "F-065",
+      "F-011"
+    ]
+  },
+  {
+    "farm_id": "F-080",
+    "irrigation_hours_per_week": 20,
+    "fertilizer_kg_available": 114,
+    "equipment_availability": {
+      "tractor_hours": 3,
+      "harvester_hours": 6
+    },
+    "neighboring_farms": [
+      "F-034",
+      "F-091",
+      "F-100"
+    ]
+  },
+  {
+    "farm_id": "F-081",
+    "irrigation_hours_per_week": 7,
+    "fertilizer_kg_available": 73,
+    "equipment_availability": {
+      "tractor_hours": 13,
+      "harvester_hours": 0
+    },
+    "neighboring_farms": [
+      "F-062",
+      "F-003",
+      "F-067"
+    ]
+  },
+  {
+    "farm_id": "F-082",
+    "irrigation_hours_per_week": 33,
+    "fertilizer_kg_available": 144,
+    "equipment_availability": {
+      "tractor_hours": 11,
+      "harvester_hours": 2
+    },
+    "neighboring_farms": [
+      "F-022",
+      "F-093",
+      "F-046"
+    ]
+  },
+  {
+    "farm_id": "F-083",
+    "irrigation_hours_per_week": 30,
+    "fertilizer_kg_available": 25,
+    "equipment_availability": {
+      "tractor_hours": 17,
+      "harvester_hours": 0
+    },
+    "neighboring_farms": [
+      "F-041",
+      "F-029",
+      "F-007"
+    ]
+  },
+  {
+    "farm_id": "F-084",
+    "irrigation_hours_per_week": 17,
+    "fertilizer_kg_available": 19,
+    "equipment_availability": {
+      "tractor_hours": 20,
+      "harvester_hours": 7
+    },
+    "neighboring_farms": [
+      "F-002",
+      "F-009",
+      "F-059"
+    ]
+  },
+  {
+    "farm_id": "F-085",
+    "irrigation_hours_per_week": 20,
+    "fertilizer_kg_available": 190,
+    "equipment_availability": {
+      "tractor_hours": 18,
+      "harvester_hours": 7
+    },
+    "neighboring_farms": [
+      "F-052",
+      "F-033",
+      "F-004"
+    ]
+  },
+  {
+    "farm_id": "F-086",
+    "irrigation_hours_per_week": 6,
+    "fertilizer_kg_available": 117,
+    "equipment_availability": {
+      "tractor_hours": 6,
+      "harvester_hours": 10
+    },
+    "neighboring_farms": [
+      "F-094",
+      "F-040",
+      "F-080"
+    ]
+  },
+  {
+    "farm_id": "F-087",
+    "irrigation_hours_per_week": 6,
+    "fertilizer_kg_available": 3,
+    "equipment_availability": {
+      "tractor_hours": 20,
+      "harvester_hours": 5
+    },
+    "neighboring_farms": [
+      "F-052",
+      "F-013",
+      "F-095"
+    ]
+  },
+  {
+    "farm_id": "F-088",
+    "irrigation_hours_per_week": 10,
+    "fertilizer_kg_available": 155,
+    "equipment_availability": {
+      "tractor_hours": 4,
+      "harvester_hours": 4
+    },
+    "neighboring_farms": [
+      "F-022",
+      "F-004",
+      "F-099"
+    ]
+  },
+  {
+    "farm_id": "F-089",
+    "irrigation_hours_per_week": 28,
+    "fertilizer_kg_available": 89,
+    "equipment_availability": {
+      "tractor_hours": 10,
+      "harvester_hours": 6
+    },
+    "neighboring_farms": [
+      "F-045",
+      "F-013",
+      "F-020"
+    ]
+  },
+  {
+    "farm_id": "F-090",
+    "irrigation_hours_per_week": 20,
+    "fertilizer_kg_available": 65,
+    "equipment_availability": {
+      "tractor_hours": 13,
+      "harvester_hours": 5
+    },
+    "neighboring_farms": [
+      "F-093",
+      "F-067",
+      "F-069"
+    ]
+  },
+  {
+    "farm_id": "F-091",
+    "irrigation_hours_per_week": 6,
+    "fertilizer_kg_available": 13,
+    "equipment_availability": {
+      "tractor_hours": 6,
+      "harvester_hours": 8
+    },
+    "neighboring_farms": [
+      "F-097",
+      "F-030",
+      "F-073"
+    ]
+  },
+  {
+    "farm_id": "F-092",
+    "irrigation_hours_per_week": 18,
+    "fertilizer_kg_available": 28,
+    "equipment_availability": {
+      "tractor_hours": 0,
+      "harvester_hours": 10
+    },
+    "neighboring_farms": [
+      "F-019",
+      "F-028",
+      "F-039"
+    ]
+  },
+  {
+    "farm_id": "F-093",
+    "irrigation_hours_per_week": 38,
+    "fertilizer_kg_available": 90,
+    "equipment_availability": {
+      "tractor_hours": 11,
+      "harvester_hours": 5
+    },
+    "neighboring_farms": [
+      "F-012",
+      "F-011",
+      "F-097"
+    ]
+  },
+  {
+    "farm_id": "F-094",
+    "irrigation_hours_per_week": 29,
+    "fertilizer_kg_available": 45,
+    "equipment_availability": {
+      "tractor_hours": 5,
+      "harvester_hours": 5
+    },
+    "neighboring_farms": [
+      "F-001",
+      "F-048",
+      "F-005"
+    ]
+  },
+  {
+    "farm_id": "F-095",
+    "irrigation_hours_per_week": 34,
+    "fertilizer_kg_available": 192,
+    "equipment_availability": {
+      "tractor_hours": 16,
+      "harvester_hours": 4
+    },
+    "neighboring_farms": [
+      "F-074",
+      "F-072",
+      "F-024"
+    ]
+  },
+  {
+    "farm_id": "F-096",
+    "irrigation_hours_per_week": 5,
+    "fertilizer_kg_available": 1,
+    "equipment_availability": {
+      "tractor_hours": 14,
+      "harvester_hours": 0
+    },
+    "neighboring_farms": [
+      "F-080",
+      "F-011",
+      "F-041"
+    ]
+  },
+  {
+    "farm_id": "F-097",
+    "irrigation_hours_per_week": 26,
+    "fertilizer_kg_available": 103,
+    "equipment_availability": {
+      "tractor_hours": 13,
+      "harvester_hours": 9
+    },
+    "neighboring_farms": [
+      "F-088",
+      "F-030",
+      "F-036"
+    ]
+  },
+  {
+    "farm_id": "F-098",
+    "irrigation_hours_per_week": 38,
+    "fertilizer_kg_available": 49,
+    "equipment_availability": {
+      "tractor_hours": 1,
+      "harvester_hours": 7
+    },
+    "neighboring_farms": [
+      "F-070",
+      "F-027",
+      "F-055"
+    ]
+  },
+  {
+    "farm_id": "F-099",
+    "irrigation_hours_per_week": 5,
+    "fertilizer_kg_available": 178,
+    "equipment_availability": {
+      "tractor_hours": 12,
+      "harvester_hours": 1
+    },
+    "neighboring_farms": [
+      "F-020",
+      "F-051",
+      "F-017"
+    ]
+  },
+  {
+    "farm_id": "F-100",
+    "irrigation_hours_per_week": 35,
+    "fertilizer_kg_available": 192,
+    "equipment_availability": {
+      "tractor_hours": 20,
+      "harvester_hours": 4
+    },
+    "neighboring_farms": [
+      "F-013",
+      "F-040",
+      "F-008"
+    ]
+  }
+]
