@@ -95,14 +95,22 @@ mkdir datasets
 
 4. **Run the demo:**
 ```bash
-# Hybrid mode (datasets + APIs + mock fallback):
+# Hybrid mode (datasets + APIs + mock fallback) - DEFAULT:
+python agrimind_demo.py
+# or explicitly:
 python agrimind_demo.py hybrid
 
-# Offline mode (datasets only):
+# Offline mode (datasets only, no API calls):
 python agrimind_demo.py offline
 
-# Mock mode (no datasets or APIs):
+# Mock mode (synthetic data only, no datasets or APIs):
 python agrimind_demo.py mock
+```
+
+5. **Verify all modes work (optional):**
+```bash
+# Test all demo modes automatically:
+python test_demo_modes.py
 ```
 
 ### Configuration
@@ -118,12 +126,12 @@ The system supports official hackathon datasets with the following priority:
 - `datasets/market_prices.csv` - Historical crop market prices and trends
 
 **Data Source Logging:**
-All agents log which data source they used:
+All agents log which data source they used with DATA_SOURCE_METADATA tags:
 ```
-📊 SensorAgent used data sources: dataset (farm_sensor_data_tehsil_with_date.json)
-🔮 PredictionAgent degraded mode using: weather dataset (weather_data_tehsil.csv)
-💾 ResourceAgent loaded resources from dataset (farm_resources.json)
-📈 MarketAgent data sources: tomatoes dataset (42 records); corn mock (48 records)
+📊 SensorAgent sensor_farm_1 DATA_SOURCE_METADATA: dataset (farm_sensor_data_tehsil_with_date.json)
+🌤️ PredictionAgent prediction_farm_1 DATA_SOURCE_METADATA: weather dataset (weather_data_tehsil.csv, 1801 records, confidence=0.9)
+💾 ResourceAgent resource_central DATA_SOURCE_METADATA: loaded from dataset (farm_resources.json)
+📈 MarketAgent market_central DATA_SOURCE_METADATA: tomatoes dataset (42 records); corn mock (48 records)
 ```
 
 2. **API Keys (Optional):**

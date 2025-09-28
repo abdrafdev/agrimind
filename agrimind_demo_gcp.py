@@ -17,7 +17,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), 'agents'))
 sys.path.append(os.path.join(os.path.dirname(__file__), 'config'))
 
 # Local imports
-from config.config import Config
+from config.config import ConfigManager
 from agents.base_agent import MessageBus
 from agents.gcp_sensor_agent import GCPSensorAgent
 from agents.prediction_agent import PredictionAgent
@@ -49,7 +49,7 @@ class GCPAgriMindDemo:
     """Enhanced AgriMind demonstration with Google Cloud Platform integration"""
     
     def __init__(self):
-        self.config = Config()
+        self.config = ConfigManager()
         self.message_bus = MessageBus()
         self.agents = {}
         

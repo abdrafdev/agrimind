@@ -1,0 +1,16 @@
+# AgriMind Cloud Deployment - Minimal Dependencies
+# Only essential packages for the dashboard
+
+# HTTP requests and APIs
+requests==2.31.0
+
+# Basic data handling
+pandas==2.1.4
+numpy==1.24.3
+
+# Configuration
+python-dotenv==1.0.0
+
+# Mock data generation
+faker==20.1.0
+python-dateutil==2.8.2

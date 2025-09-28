@@ -95,8 +95,8 @@ def load_sensor_data(
         
         for record in raw_data:
             try:
-                # Validate required fields
-                required_fields = ['soil_moisture', 'temperature', 'humidity', 'location', 'date']
+                # Validate required fields (adjust for actual dataset structure)
+                required_fields = ['soil_moisture_%', 'temperature_c', 'humidity_%', 'date']
                 if not all(field in record for field in required_fields):
                     logger.warning(f"Skipping record with missing fields: {record}")
                     continue
@@ -111,7 +111,7 @@ def load_sensor_data(
                     record_date = datetime.now()  # Fallback
                 
                 # Apply filters
-                if location_filter and record.get('location', '').lower() != location_filter.lower():
+                if location_filter and record.get('district', '').lower() != location_filter.lower():
                     continue
                 
                 if crop_filter and record.get('crop_type', '').lower() != crop_filter.lower():
@@ -125,12 +125,15 @@ def load_sensor_data(
                 # Standardize reading format
                 standardized_record = {
                     'sensor_type': 'multi_sensor',
-                    'soil_moisture': float(record['soil_moisture']),
-                    'temperature': float(record['temperature']), 
-                    'humidity': float(record['humidity']),
-                    'pest_index': float(record.get('pest_index', 0.0)),
-                    'location': str(record['location']),
+                    'soil_moisture': float(record['soil_moisture_%']),
+                    'temperature': float(record['temperature_c']), 
+                    'humidity': float(record['humidity_%']),
+                    'pest_index': 1.0 if record.get('pest_detection', 'None') != 'None' else 0.0,
+                    'location': str(record.get('district', 'unknown')),
                     'crop_type': str(record.get('crop_type', 'unknown')),
+                    'farm_id': str(record.get('farm_id', 'unknown')),
+                    'tehsil': str(record.get('tehsil', 'unknown')),
+                    'pest_detection': str(record.get('pest_detection', 'None')),
                     'date': record_date,
                     'timestamp': record_date.isoformat(),
                     'quality': 0.9,  # High quality for official dataset
@@ -419,21 +422,23 @@ def load_market_data(
         # Standardize column names
         df.columns = df.columns.str.lower().str.strip()
         
-        # Validate required columns
+        # Map column names to standard format
+        column_mapping = {
+            'commodity': 'crop',
+            'avg_price_pkr_per_40kg': 'price',
+            'min_price_pkr_per_40kg': 'min_price',
+            'max_price_pkr_per_40kg': 'max_price',
+            'market_location': 'location'
+        }
+        for old_name, new_name in column_mapping.items():
+            if old_name in df.columns and new_name not in df.columns:
+                df[new_name] = df[old_name]
+        
+        # Validate required columns after mapping
         required_cols = ['crop', 'price', 'date']
         missing_cols = [col for col in required_cols if col not in df.columns]
         if missing_cols:
-            logger.warning(f"Missing required columns in market data: {missing_cols}")
-            # Try alternative column names
-            column_mapping = {
-                'crop_type': 'crop',
-                'commodity': 'crop',
-                'price_per_kg': 'price',
-                'unit_price': 'price'
-            }
-            for old_name, new_name in column_mapping.items():
-                if old_name in df.columns and new_name not in df.columns:
-                    df[new_name] = df[old_name]
+            logger.warning(f"Missing required columns in market data after mapping: {missing_cols}")
         
         # Convert date column
         if 'date' in df.columns:
