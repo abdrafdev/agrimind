@@ -1,0 +1,38 @@
+# Environment variables and secrets
+.env
+*.env
+agrimind-service-key.json
+*.json
+!requirements*.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Cache and temp files
+*.pickle
+*.cache
+temp_backup.py
