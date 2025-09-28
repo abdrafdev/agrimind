@@ -1,14 +1,4 @@
-"""
-AgriMind: Sensor Agent
-Collects environmental data (soil moisture, temperature, humidity, pest detection)
-and shares/sells this data with other agents in the network.
 
-Features:
-- Mock data collection with realistic patterns
-- API integration for weather services (with fallback)
-- Data selling/sharing marketplace
-- Degraded mode operation with cached data
-"""
 
 import asyncio
 import random
