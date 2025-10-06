@@ -1,0 +1,191 @@
+{
+  "timestamp": "2025-09-28T01:34:03.835510",
+  "data_sources": [
+    "weather_api",
+    "yahoo_finance",
+    "nasa_landsat",
+    "soil_estimates"
+  ],
+  "weather_data": {
+    "Iowa City,US": {
+      "location": "Iowa City,US",
+      "timestamp": "2025-09-28T01:34:01.603192",
+      "temperature": 29.0,
+      "humidity": 32,
+      "pressure": 1014.0,
+      "wind_speed": 4.166670000000001,
+      "precipitation": 0.0,
+      "conditions": "Sunny",
+      "visibility": 16.0,
+      "uv_index": 5,
+      "cloud_cover": 0
+    },
+    "Fresno,CA,US": {
+      "location": "Fresno,CA,US",
+      "timestamp": "2025-09-28T01:34:02.135189",
+      "temperature": 29.0,
+      "humidity": 43,
+      "pressure": 1010.0,
+      "wind_speed": 1.3888900000000002,
+      "precipitation": 0.0,
+      "conditions": "Sunny",
+      "visibility": 16.0,
+      "uv_index": 4,
+      "cloud_cover": 0
+    },
+    "Lincoln,NE,US": {
+      "location": "Lincoln,NE,US",
+      "timestamp": "2025-09-28T01:34:02.397267",
+      "temperature": 10,
+      "humidity": 48,
+      "pressure": 1026,
+      "wind_speed": 8,
+      "precipitation": 0,
+      "conditions": "Simulated Clear",
+      "data_source": "fallback_realistic"
+    },
+    "Lubbock,TX,US": {
+      "location": "Lubbock,TX,US",
+      "timestamp": "2025-09-28T01:34:02.644258",
+      "temperature": 27,
+      "humidity": 77,
+      "pressure": 1025,
+      "wind_speed": 12,
+      "precipitation": 0,
+      "conditions": "Simulated Clear",
+      "data_source": "fallback_realistic"
+    },
+    "Champaign,IL,US": {
+      "location": "Champaign,IL,US",
+      "timestamp": "2025-09-28T01:34:03.163827",
+      "temperature": 27.0,
+      "humidity": 33,
+      "pressure": 1016.0,
+      "wind_speed": 1.3888900000000002,
+      "precipitation": 0.0,
+      "conditions": "Sunny",
+      "visibility": 16.0,
+      "uv_index": 4,
+      "cloud_cover": 0
+    }
+  },
+  "market_data": {},
+  "satellite_data": {
+    "Iowa_Farm": {
+      "location": "Iowa_Farm",
+      "coordinates": {
+        "lat": 41.8781,
+        "lon": -93.0977
+      },
+      "timestamp": "2025-09-28T01:34:01.090444",
+      "ndvi": 0.678,
+      "evi": 0.214,
+      "moisture_index": 0.276,
+      "temperature_surface": 26.9,
+      "cloud_cover_percent": 12,
+      "data_quality": "high"
+    },
+    "California_Farm": {
+      "location": "California_Farm",
+      "coordinates": {
+        "lat": 36.7378,
+        "lon": -119.7871
+      },
+      "timestamp": "2025-09-28T01:34:01.090444",
+      "ndvi": 0.564,
+      "evi": 0.43,
+      "moisture_index": 0.743,
+      "temperature_surface": 19.9,
+      "cloud_cover_percent": 17,
+      "data_quality": "high"
+    },
+    "Nebraska_Farm": {
+      "location": "Nebraska_Farm",
+      "coordinates": {
+        "lat": 40.8136,
+        "lon": -96.7026
+      },
+      "timestamp": "2025-09-28T01:34:01.090444",
+      "ndvi": 0.646,
+      "evi": 0.29,
+      "moisture_index": 0.487,
+      "temperature_surface": 25.8,
+      "cloud_cover_percent": 32,
+      "data_quality": "high"
+    }
+  },
+  "soil_data": {
+    "Iowa": {
+      "location": "Iowa",
+      "timestamp": "2025-09-28T01:34:01.091444",
+      "ph_level": 6.6,
+      "organic_matter_percent": 3.0,
+      "nitrogen_ppm": 20.2,
+      "phosphorus_ppm": 15.2,
+      "potassium_ppm": 200.6,
+      "soil_moisture_percent": 25.2,
+      "temperature_c": 12.1,
+      "electrical_conductivity": 0.51,
+      "fertility_index": 0.75
+    },
+    "California": {
+      "location": "California",
+      "timestamp": "2025-09-28T01:34:01.091444",
+      "ph_level": 7.4,
+      "organic_matter_percent": 2.9,
+      "nitrogen_ppm": 49.0,
+      "phosphorus_ppm": 39.1,
+      "potassium_ppm": 296.6,
+      "soil_moisture_percent": 63.6,
+      "temperature_c": 31.3,
+      "electrical_conductivity": 2.43,
+      "fertility_index": 0.84
+    },
+    "Nebraska": {
+      "location": "Nebraska",
+      "timestamp": "2025-09-28T01:34:01.091444",
+      "ph_level": 6.4,
+      "organic_matter_percent": 3.0,
+      "nitrogen_ppm": 28.0,
+      "phosphorus_ppm": 21.7,
+      "potassium_ppm": 226.8,
+      "soil_moisture_percent": 35.7,
+      "temperature_c": 17.4,
+      "electrical_conductivity": 1.04,
+      "fertility_index": 0.75
+    },
+    "Texas": {
+      "location": "Texas",
+      "timestamp": "2025-09-28T01:34:01.091444",
+      "ph_level": 7.9,
+      "organic_matter_percent": 2.7,
+      "nitrogen_ppm": 38.4,
+      "phosphorus_ppm": 30.4,
+      "potassium_ppm": 261.4,
+      "soil_moisture_percent": 49.6,
+      "temperature_c": 24.3,
+      "electrical_conductivity": 1.73,
+      "fertility_index": 0.72
+    },
+    "Illinois": {
+      "location": "Illinois",
+      "timestamp": "2025-09-28T01:34:01.091444",
+      "ph_level": 6.7,
+      "organic_matter_percent": 4.3,
+      "nitrogen_ppm": 42.0,
+      "phosphorus_ppm": 33.3,
+      "potassium_ppm": 273.2,
+      "soil_moisture_percent": 54.3,
+      "temperature_c": 26.6,
+      "electrical_conductivity": 1.96,
+      "fertility_index": 0.87
+    }
+  },
+  "summary": {
+    "weather_locations": 5,
+    "market_commodities": 0,
+    "satellite_locations": 3,
+    "soil_locations": 5,
+    "total_data_points": 13
+  }
+}

@@ -17,6 +17,10 @@ import asyncio
 import time
 import json
 import random
+<<<<<<< HEAD
+=======
+import os
+>>>>>>> 8f6adccdf567b072766f7a631b59de49a98aec25
 from datetime import datetime, timedelta
 from typing import Dict, List, Any
 import logging
@@ -77,10 +81,20 @@ class AgriMindSimulation:
         
         # Set offline mode based on demo mode
         if self.demo_mode == "offline":
+<<<<<<< HEAD
             # Force offline mode for dataset-only demo
             for agent_type in ["sensor", "prediction", "resource", "market"]:
                 # This would set agents to offline mode
                 pass
+=======
+            # Force offline mode for dataset-only demo - disable API connectivity
+            os.environ['AGRIMIND_FORCE_OFFLINE'] = 'true'
+            logger.info("🔒 OFFLINE MODE: API connectivity disabled, datasets only")
+        elif self.demo_mode == "mock":
+            # Force mock mode - disable datasets and APIs
+            os.environ['AGRIMIND_FORCE_MOCK'] = 'true'
+            logger.info("🎭 MOCK MODE: Using synthetic data only")
+>>>>>>> 8f6adccdf567b072766f7a631b59de49a98aec25
         
         # Display dataset status
         dataset_summary = get_dataset_summary()

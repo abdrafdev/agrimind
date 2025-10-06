@@ -224,9 +224,15 @@ class MarketAgent(BaseAgent):
                 
                 data_source_used.append(f"{crop_type.value} mock (48 records)")
         
+<<<<<<< HEAD
         # Log data sources used
         if data_source_used:
             self.logger.info(f"📈 MarketAgent {self.agent_id} data sources: {'; '.join(data_source_used)}")
+=======
+        # Log data sources used with metadata
+        if data_source_used:
+            self.logger.info(f"📈 MarketAgent {self.agent_id} DATA_SOURCE_METADATA: {'; '.join(data_source_used)}")
+>>>>>>> 8f6adccdf567b072766f7a631b59de49a98aec25
         
         # Initialize mock buyers
         self._initialize_mock_buyers()

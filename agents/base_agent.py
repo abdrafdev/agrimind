@@ -124,14 +124,36 @@ class BaseAgent:
     async def check_connectivity(self) -> bool:
         """
         Check if the agent can connect to external services
+<<<<<<< HEAD
         Simulates network connectivity check
         """
         try:
+=======
+        Respects environment flags for demo modes
+        """
+        try:
+            import os
+            
+            # Check for forced offline mode
+            if os.getenv('AGRIMIND_FORCE_OFFLINE') == 'true':
+                self.online = False
+                return False
+            
+            # Check for forced mock mode
+            if os.getenv('AGRIMIND_FORCE_MOCK') == 'true':
+                self.online = False
+                return False
+            
+>>>>>>> 8f6adccdf567b072766f7a631b59de49a98aec25
             # In a real implementation, this would ping external APIs
             # For demo purposes, we'll simulate network failures
             import random
             
+<<<<<<< HEAD
             # Simulate 95% uptime
+=======
+            # Simulate 95% uptime in normal mode
+>>>>>>> 8f6adccdf567b072766f7a631b59de49a98aec25
             if random.random() < 0.95:
                 self.online = True
                 self.last_online_check = datetime.now()
@@ -423,14 +445,25 @@ class BaseAgent:
 
 # Global message bus for demo purposes
 class MessageBus:
+<<<<<<< HEAD
     """Simple message bus for agent communication in demo"""
     
     def __init__(self):
         self.agents: Dict[str, BaseAgent] = {}
+=======
+    """Advanced message bus for agent communication with broadcast support"""
+    
+    def __init__(self):
+        self.agents: Dict[str, BaseAgent] = {}
+        self.subscriptions: Dict[MessageType, List[str]] = {}
+        self.marketplace: Dict[str, List[Message]] = {}  # Topic -> Messages
+        self.broadcast_history: List[Message] = []
+>>>>>>> 8f6adccdf567b072766f7a631b59de49a98aec25
     
     def register_agent(self, agent: BaseAgent):
         """Register an agent with the message bus"""
         self.agents[agent.agent_id] = agent
+<<<<<<< HEAD
     
     async def deliver(self, message: Message):
         """Deliver message to target agent"""
@@ -438,6 +471,126 @@ class MessageBus:
             await self.agents[message.receiver_id].receive_message(message)
         else:
             logging.warning(f"Agent {message.receiver_id} not found for message delivery")
+=======
+        
+        # Auto-subscribe agents to relevant message types
+        if agent.agent_type == AgentType.SENSOR:
+            self.subscribe_agent(agent.agent_id, MessageType.DATA_REQUEST)
+        elif agent.agent_type == AgentType.PREDICTION:
+            self.subscribe_agent(agent.agent_id, MessageType.DATA_OFFER)
+        elif agent.agent_type == AgentType.RESOURCE:
+            self.subscribe_agent(agent.agent_id, MessageType.RESOURCE_REQUEST)
+        elif agent.agent_type == AgentType.MARKET:
+            self.subscribe_agent(agent.agent_id, MessageType.MARKET_INFO)
+    
+    def subscribe_agent(self, agent_id: str, message_type: MessageType):
+        """Subscribe an agent to a message type"""
+        if message_type not in self.subscriptions:
+            self.subscriptions[message_type] = []
+        if agent_id not in self.subscriptions[message_type]:
+            self.subscriptions[message_type].append(agent_id)
+    
+    async def deliver(self, message: Message):
+        """Deliver message to target agent(s)"""
+        if message.receiver_id == "broadcast":
+            await self._broadcast_message(message)
+        elif message.receiver_id in self.agents:
+            await self.agents[message.receiver_id].receive_message(message)
+        else:
+            logging.warning(f"Agent {message.receiver_id} not found for message delivery")
+    
+    async def _broadcast_message(self, message: Message):
+        """Broadcast message to all subscribed agents"""
+        self.broadcast_history.append(message)
+        
+        # Store in marketplace for discovery
+        topic = f"{message.message_type.value}_{message.sender_id}"
+        if topic not in self.marketplace:
+            self.marketplace[topic] = []
+        self.marketplace[topic].append(message)
+        
+        # Deliver to subscribed agents
+        if message.message_type in self.subscriptions:
+            for agent_id in self.subscriptions[message.message_type]:
+                if agent_id != message.sender_id:  # Don't send to self
+                    if agent_id in self.agents:
+                        # Create a copy for each recipient
+                        recipient_message = Message(
+                            id=message.id + f"_to_{agent_id}",
+                            sender_id=message.sender_id,
+                            receiver_id=agent_id,
+                            message_type=message.message_type,
+                            timestamp=message.timestamp,
+                            data=message.data.copy(),
+                            ttl=message.ttl
+                        )
+                        await self.agents[agent_id].receive_message(recipient_message)
+        
+        # Also deliver to agents that might be interested based on content
+        await self._intelligent_routing(message)
+    
+    async def _intelligent_routing(self, message: Message):
+        """Intelligent routing based on message content and agent needs"""
+        for agent_id, agent in self.agents.items():
+            if agent_id == message.sender_id:
+                continue
+                
+            should_receive = False
+            
+            # Sensor data offers -> Prediction agents
+            if (message.message_type == MessageType.DATA_OFFER and 
+                agent.agent_type == AgentType.PREDICTION):
+                should_receive = True
+            
+            # Resource requests -> Resource agents
+            elif (message.message_type == MessageType.RESOURCE_REQUEST and 
+                  agent.agent_type == AgentType.RESOURCE):
+                should_receive = True
+            
+            # Market info -> All farming agents
+            elif (message.message_type == MessageType.MARKET_INFO and 
+                  agent.agent_type in [AgentType.SENSOR, AgentType.PREDICTION]):
+                should_receive = True
+            
+            if should_receive:
+                recipient_message = Message(
+                    id=message.id + f"_routed_{agent_id}",
+                    sender_id=message.sender_id,
+                    receiver_id=agent_id,
+                    message_type=message.message_type,
+                    timestamp=message.timestamp,
+                    data=message.data.copy(),
+                    ttl=message.ttl
+                )
+                await agent.receive_message(recipient_message)
+    
+    def get_marketplace_data(self, topic: Optional[str] = None) -> Dict[str, List[Message]]:
+        """Get marketplace data for analysis"""
+        if topic:
+            return {topic: self.marketplace.get(topic, [])}
+        return self.marketplace
+    
+    def get_agent_stats(self) -> Dict[str, Any]:
+        """Get statistics about registered agents"""
+        stats = {
+            "total_agents": len(self.agents),
+            "agent_types": {},
+            "online_agents": 0,
+            "total_messages_broadcast": len(self.broadcast_history),
+            "marketplace_topics": len(self.marketplace)
+        }
+        
+        for agent in self.agents.values():
+            agent_type = agent.agent_type.value
+            if agent_type not in stats["agent_types"]:
+                stats["agent_types"][agent_type] = 0
+            stats["agent_types"][agent_type] += 1
+            
+            if agent.online:
+                stats["online_agents"] += 1
+        
+        return stats
+>>>>>>> 8f6adccdf567b072766f7a631b59de49a98aec25
 
 
 # Global message bus instance

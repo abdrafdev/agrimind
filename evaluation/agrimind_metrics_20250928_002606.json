@@ -1,0 +1,102 @@
+{
+  "evaluation_period": {
+    "start": "2025-09-28T00:25:46.784590",
+    "end": "2025-09-28T00:26:06.883802"
+  },
+  "metrics": [
+    {
+      "name": "sensor_reading_response_time",
+      "value": 0.0,
+      "unit": "seconds",
+      "timestamp": "2025-09-28T00:25:46.803822",
+      "category": "performance",
+      "agent_id": "sensor_farm_1",
+      "details": null
+    },
+    {
+      "name": "sensor_reading_response_time",
+      "value": 0.0,
+      "unit": "seconds",
+      "timestamp": "2025-09-28T00:25:46.803822",
+      "category": "performance",
+      "agent_id": "sensor_farm_2",
+      "details": null
+    },
+    {
+      "name": "sensor_reading_response_time",
+      "value": 0.0,
+      "unit": "seconds",
+      "timestamp": "2025-09-28T00:25:46.803822",
+      "category": "performance",
+      "agent_id": "sensor_farm_3",
+      "details": null
+    },
+    {
+      "name": "sensor_data_collection_response_time",
+      "value": 0.0,
+      "unit": "seconds",
+      "timestamp": "2025-09-28T00:25:46.803822",
+      "category": "performance",
+      "agent_id": "system",
+      "details": null
+    },
+    {
+      "name": "prediction_generation_response_time",
+      "value": 0.0024781227111816406,
+      "unit": "seconds",
+      "timestamp": "2025-09-28T00:25:47.816957",
+      "category": "performance",
+      "agent_id": "system",
+      "details": null
+    },
+    {
+      "name": "negotiation_round_response_time",
+      "value": 7.006341218948364,
+      "unit": "seconds",
+      "timestamp": "2025-09-28T00:25:56.828113",
+      "category": "performance",
+      "agent_id": "system",
+      "details": null
+    },
+    {
+      "name": "market_operations_response_time",
+      "value": 0.0011260509490966797,
+      "unit": "seconds",
+      "timestamp": "2025-09-28T00:25:56.829240",
+      "category": "performance",
+      "agent_id": "market_central",
+      "details": null
+    }
+  ],
+  "system_snapshots": [
+    {
+      "timestamp": "2025-09-28T00:26:05.873569",
+      "total_agents": 8,
+      "online_agents": 8,
+      "total_transactions": 0,
+      "total_messages": 0,
+      "system_load": 0.07,
+      "response_time_avg": 1.0014207703726632,
+      "success_rate": 1.0,
+      "data_freshness_score": 0.9511675388345617
+    },
+    {
+      "timestamp": "2025-09-28T00:26:06.883802",
+      "total_agents": 8,
+      "online_agents": 8,
+      "total_transactions": 0,
+      "total_messages": 0,
+      "system_load": 0.07,
+      "response_time_avg": 1.0014207703726632,
+      "success_rate": 1.0,
+      "data_freshness_score": 0.9479699229638133
+    }
+  ],
+  "transaction_history": [],
+  "collaboration_matrix": {},
+  "error_counts": {
+    "critical": 0,
+    "warning": 0,
+    "info": 0
+  }
+}
