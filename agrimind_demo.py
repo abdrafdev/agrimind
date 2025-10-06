@@ -17,10 +17,7 @@ import asyncio
 import time
 import json
 import random
-<<<<<<< HEAD
-=======
 import os
->>>>>>> 8f6adccdf567b072766f7a631b59de49a98aec25
 from datetime import datetime, timedelta
 from typing import Dict, List, Any
 import logging
@@ -33,6 +30,8 @@ from agents.sensor_agent import create_sensor_agent
 from agents.prediction_agent import create_prediction_agent
 from agents.resource_agent import create_resource_agent
 from agents.market_agent import create_market_agent
+from agents.anomaly_detection_agent import create_anomaly_detection_agent
+from agents.advisor_agent import create_advisor_agent
 from data_loaders import get_dataset_summary, clear_dataset_cache
 
 # Setup logging
@@ -81,12 +80,6 @@ class AgriMindSimulation:
         
         # Set offline mode based on demo mode
         if self.demo_mode == "offline":
-<<<<<<< HEAD
-            # Force offline mode for dataset-only demo
-            for agent_type in ["sensor", "prediction", "resource", "market"]:
-                # This would set agents to offline mode
-                pass
-=======
             # Force offline mode for dataset-only demo - disable API connectivity
             os.environ['AGRIMIND_FORCE_OFFLINE'] = 'true'
             logger.info("🔒 OFFLINE MODE: API connectivity disabled, datasets only")
@@ -94,7 +87,6 @@ class AgriMindSimulation:
             # Force mock mode - disable datasets and APIs
             os.environ['AGRIMIND_FORCE_MOCK'] = 'true'
             logger.info("🎭 MOCK MODE: Using synthetic data only")
->>>>>>> 8f6adccdf567b072766f7a631b59de49a98aec25
         
         # Display dataset status
         dataset_summary = get_dataset_summary()
@@ -155,6 +147,15 @@ class AgriMindSimulation:
         )
         self.agents["market_central"] = market_agent
         message_bus.register_agent(market_agent)
+
+        # Advanced agents: anomaly monitor and advisor
+        anomaly_agent = create_anomaly_detection_agent("anomaly_monitor")
+        self.agents["anomaly_monitor"] = anomaly_agent
+        message_bus.register_agent(anomaly_agent)
+
+        advisor_agent = create_advisor_agent("advisor_central")
+        self.agents["advisor_central"] = advisor_agent
+        message_bus.register_agent(advisor_agent)
         
         logger.info(f"✅ Initialized {len(self.agents)} agents")
         logger.info(f"   📊 Sensor Agents: {len([a for a in self.agents if 'sensor' in a])}")
@@ -194,6 +195,11 @@ class AgriMindSimulation:
         
         if prediction_tasks:
             await asyncio.gather(*prediction_tasks)
+        
+        # Run anomaly scan with advanced agent
+        anomaly_agent = self.agents.get("anomaly_monitor")
+        if anomaly_agent:
+            await anomaly_agent.scan_for_anomalies()
         
         await asyncio.sleep(2)
         

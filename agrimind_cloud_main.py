@@ -12,6 +12,7 @@ import requests
 import math
 from datetime import datetime, timedelta
 from http.server import HTTPServer, BaseHTTPRequestHandler
+from config.config import get_config_manager
 
 class EnhancedAgriMindHandler(BaseHTTPRequestHandler):
     def log_message(self, format, *args):
@@ -84,6 +85,8 @@ class EnhancedAgriMindHandler(BaseHTTPRequestHandler):
                 data = self.get_analytics_data()
             elif endpoint == 'alerts':
                 data = self.get_alerts_data()
+            elif endpoint == 'geo':
+                data = self.get_geo_data()
             elif endpoint.startswith('simulate'):
                 data = self.handle_simulate()
             else:
@@ -327,7 +330,16 @@ class EnhancedAgriMindHandler(BaseHTTPRequestHandler):
         }
     
     def get_analytics_data(self):
-        """Analytics and KPIs"""
+        """Analytics and KPIs with time-series for advanced charts"""
+        # Generate 24-hour series
+        tx = [random.randint(2, 20) for _ in range(24)]
+        anoms = [max(0, int(random.gauss(2, 1))) for _ in range(24)]
+        res_util = [round(min(100, max(20, random.uniform(45, 92) + math.sin(i/3)*5)), 1) for i in range(24)]
+        # Agent health distribution
+        active = random.randint(6, 9)
+        degraded = random.randint(0, 2)
+        busy = random.randint(1, 3)
+        offline = max(0, 11 - (active + degraded + busy))
         return {
             'kpis': {
                 'crop_yield_prediction': f"{random.randint(85, 120)}%",
@@ -339,8 +351,50 @@ class EnhancedAgriMindHandler(BaseHTTPRequestHandler):
             'trends': {
                 'weekly_growth': round(random.uniform(5, 15), 1),
                 'monthly_savings': round(random.uniform(1000, 5000), 2)
+            },
+            'time_series': {
+                'transactions_per_hour': tx,
+                'anomalies_per_hour': anoms,
+                'resource_utilization': res_util
+            },
+            'agent_health': {
+                'active': active,
+                'degraded': degraded,
+                'busy': busy,
+                'offline': offline
             }
         }
+
+    def get_geo_data(self):
+        """Return farm geodata from configuration for the satellite map."""
+        try:
+            cm = get_config_manager()
+            farms_cfg = cm.get_all_farms() or {}
+            farms = []
+            for farm_id, cfg in farms_cfg.items():
+                coords = cfg.get('coordinates') or []
+                if isinstance(coords, (list, tuple)) and len(coords) == 2:
+                    lat, lng = float(coords[0]), float(coords[1])
+                else:
+                    # Fallback: place near Fresno if no coordinates
+                    lat, lng = 36.7378 + random.uniform(-0.1, 0.1), -119.7871 + random.uniform(-0.1, 0.1)
+                farms.append({
+                    'id': farm_id,
+                    'name': cfg.get('name') or farm_id.replace('_', ' ').title(),
+                    'lat': lat,
+                    'lng': lng,
+                    'crop': cfg.get('crop_type', 'unknown'),
+                    'status': 'active'
+                })
+            if not farms:
+                # Keep previous demo fallback if config empty
+                farms = [
+                    {'id': 'demo_farm', 'name': 'Demo Farm', 'lat': 36.7378, 'lng': -119.7871, 'crop': 'tomatoes', 'status': 'active'}
+                ]
+            return {'farms': farms}
+        except Exception as e:
+            print(f"geo_data error: {e}")
+            return {'farms': []}
     
     def get_alerts_data(self):
         """System alerts"""
@@ -384,12 +438,15 @@ class EnhancedAgriMindHandler(BaseHTTPRequestHandler):
   <title>🌾 AgriMind - Multi-Agent Farm Intelligence</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><text y='50%' x='50%' dominant-baseline='middle' text-anchor='middle' font-size='52'>🌾</text></svg>">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     
     body {
       font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
-      background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+      background: linear-gradient(180deg, #000000 0%, #0b0b0f 100%);
       color: white;
       overflow-x: hidden;
       position: relative;
@@ -417,22 +474,22 @@ class EnhancedAgriMindHandler(BaseHTTPRequestHandler):
     .hero {
       text-align: center;
       padding: 60px 20px;
-      background: rgba(255, 255, 255, 0.05);
+      background: rgba(255, 255, 255, 0.06);
       backdrop-filter: blur(20px);
       border-radius: 30px;
       margin-bottom: 40px;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
     }
     
     .hero h1 {
       font-size: 4.5rem;
-      background: linear-gradient(45deg, #00d4ff, #ffffff, #00d4ff);
+      background: linear-gradient(45deg, #f5f5f5, #cfcfcf, #ffffff);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
       margin-bottom: 20px;
-      text-shadow: 0 0 30px rgba(0, 212, 255, 0.5);
+      text-shadow: 0 0 24px rgba(255, 255, 255, 0.15);
     }
     
     .hero-subtitle {
@@ -503,11 +560,11 @@ class EnhancedAgriMindHandler(BaseHTTPRequestHandler):
     }
     
     .problem-card {
-      background: rgba(255, 255, 255, 0.08);
+      background: rgba(255, 255, 255, 0.04);
       backdrop-filter: blur(15px);
       padding: 25px;
       border-radius: 20px;
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.08);
       transition: all 0.3s ease;
     }
     
@@ -534,12 +591,12 @@ class EnhancedAgriMindHandler(BaseHTTPRequestHandler):
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background: rgba(255, 255, 255, 0.1);
+      background: rgba(255, 255, 255, 0.06);
       backdrop-filter: blur(20px);
       padding: 20px 30px;
       border-radius: 15px;
       margin-bottom: 30px;
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.08);
     }
     
     .row {
@@ -569,7 +626,7 @@ class EnhancedAgriMindHandler(BaseHTTPRequestHandler):
     }
     
     .btn {
-      background: linear-gradient(45deg, #00d4ff, #0099cc);
+      background: linear-gradient(45deg, #00e5ff, #007a8f);
       color: white;
       border: none;
       padding: 12px 24px;
@@ -595,12 +652,12 @@ class EnhancedAgriMindHandler(BaseHTTPRequestHandler):
     
     /* Cards */
     .card {
-      background: rgba(255, 255, 255, 0.08);
+      background: rgba(255, 255, 255, 0.05);
       backdrop-filter: blur(20px);
       border-radius: 20px;
       padding: 30px;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
       transition: all 0.4s ease;
       position: relative;
       overflow: hidden;
@@ -608,8 +665,8 @@ class EnhancedAgriMindHandler(BaseHTTPRequestHandler):
     
     .card:hover {
       transform: translateY(-10px);
-      box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
-      background: rgba(255, 255, 255, 0.12);
+      box-shadow: 0 35px 60px rgba(0, 0, 0, 0.7);
+      background: rgba(255, 255, 255, 0.08);
     }
     
     .card h3 {
@@ -624,7 +681,7 @@ class EnhancedAgriMindHandler(BaseHTTPRequestHandler):
     .metric {
       text-align: center;
       padding: 20px;
-      background: rgba(255, 255, 255, 0.1);
+      background: rgba(255, 255, 255, 0.06);
       border-radius: 15px;
       transition: all 0.3s ease;
     }
@@ -637,7 +694,7 @@ class EnhancedAgriMindHandler(BaseHTTPRequestHandler):
     .metric-value {
       font-size: 2.5rem;
       font-weight: 700;
-      background: linear-gradient(45deg, #00d4ff, #ffffff);
+      background: linear-gradient(45deg, #e5e5e5, #ffffff);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -656,7 +713,7 @@ class EnhancedAgriMindHandler(BaseHTTPRequestHandler):
       padding: 12px 15px;
       border-radius: 10px;
       margin-bottom: 8px;
-      border-left: 3px solid #00d4ff;
+      border-left: 3px solid #00e5ff;
       transition: all 0.3s ease;
     }
     
@@ -825,10 +882,56 @@ class EnhancedAgriMindHandler(BaseHTTPRequestHandler):
       <h3><i class="fas fa-bell"></i> Smart Alerts & Actions</h3>
       <div id="alerts-body">Loading contextual alerts...</div>
     </div>
+
+    <!-- Satellite Map Section -->
+    <div class="card glow-secondary" style="margin-top: 30px;">
+      <h3><i class="fas fa-globe-americas"></i> Satellite Map • Fields & Agents</h3>
+      <div id="satMap" style="height: 360px; border-radius: 12px; overflow: hidden; margin-top: 10px;"></div>
+    </div>
+
+    <!-- Advanced Analytics Section -->
+    <div class="grid grid-2" style="margin-top: 30px;">
+      <div class="card glow-primary" id="analytics-transactions">
+        <h3><i class="fas fa-chart-line"></i> Transactions • 24h Activity</h3>
+        <div class="chart-container"><canvas id="txChart"></canvas></div>
+      </div>
+      <div class="card glow-secondary" id="analytics-anomalies">
+        <h3><i class="fas fa-exclamation-circle"></i> Anomaly Monitor • 24h</h3>
+        <div class="chart-container"><canvas id="anomaliesChart"></canvas></div>
+      </div>
+    </div>
+
+    <div class="grid grid-3" style="margin-top: 20px;">
+      <div class="card" id="analytics-resource">
+        <h3><i class="fas fa-tachometer-alt"></i> Resource Utilization • 24h</h3>
+        <div class="chart-container"><canvas id="resourceChart"></canvas></div>
+      </div>
+      <div class="card" id="analytics-health">
+        <h3><i class="fas fa-heartbeat"></i> Agent Health Distribution</h3>
+        <div class="chart-container"><canvas id="agentHealthChart"></canvas></div>
+      </div>
+      <div class="card floating" id="analytics-kpis">
+        <h3><i class="fas fa-bolt"></i> Impact Highlights</h3>
+        <div class="grid grid-3">
+          <div class="metric">
+            <div class="metric-value" id="kpi-yield">–</div>
+            <div class="metric-label">Yield Prediction</div>
+          </div>
+          <div class="metric">
+            <div class="metric-value" id="kpi-water">–</div>
+            <div class="metric-label">Water Savings</div>
+          </div>
+          <div class="metric">
+            <div class="metric-value" id="kpi-profit">–</div>
+            <div class="metric-label">Profit Optimization</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script>
-    let soilChart, tempChart;
+    let soilChart, tempChart, txChart, anomaliesChart, resourceChart, agentHealthChart, satMap, osmLayer, satLayer, satMarkers = [];
     async function fetchJSON(url) {
       const r = await fetch(url);
       if (!r.ok) throw new Error('Request failed');
@@ -837,12 +940,14 @@ class EnhancedAgriMindHandler(BaseHTTPRequestHandler):
 
     async function refreshAll() {
       try {
-        const [status, rt, recs, txs, hist] = await Promise.all([
+        const [status, rt, recs, txs, hist, analytics, geo] = await Promise.all([
           fetchJSON('/api/system_status'),
           fetchJSON('/api/real_time_data'),
           fetchJSON('/api/recommendations'),
           fetchJSON('/api/transactions'),
-          fetchJSON('/api/history')
+          fetchJSON('/api/history'),
+          fetchJSON('/api/analytics'),
+          fetchJSON('/api/geo')
         ]);
         renderFarmOverview(rt, status);
         renderPredictions(recs, status, rt);
@@ -850,9 +955,11 @@ class EnhancedAgriMindHandler(BaseHTTPRequestHandler):
         renderActivity(txs);
         renderAlerts(recs);
         renderCharts(hist);
+        renderAdvanced(analytics);
+        renderSatellite(geo);
         document.getElementById('last-updated').innerText = 'Last updated: ' + new Date(status.timestamp).toLocaleTimeString();
-        document.getElementById('agents-badge').innerHTML = `<i class="fas fa-robot"></i> Agents: ${status.agents.active}/${status.agents.total}`;
-        document.getElementById('tx-badge').innerHTML = `<i class="fas fa-exchange-alt"></i> Tx: ${txs.transactions?.length || 0}`;
+        document.getElementById('agents-badge').innerHTML = `<i class=\"fas fa-robot\"></i> Agents: ${status.agents.active}/${status.agents.total}`;
+        document.getElementById('tx-badge').innerHTML = `<i class=\"fas fa-exchange-alt\"></i> Tx: ${txs.transactions?.length || 0}`;
       } catch(e) {
         console.error(e);
       }
@@ -990,6 +1097,187 @@ class EnhancedAgriMindHandler(BaseHTTPRequestHandler):
         tempChart.data.labels = labels;
         tempChart.data.datasets[0].data = hist.air_temp || [];
         tempChart.update('none');
+      }
+    }
+
+    function renderAdvanced(analytics) {
+      const ts = analytics.time_series || {};
+      const tx = ts.transactions_per_hour || [];
+      const anoms = ts.anomalies_per_hour || [];
+      const res = ts.resource_utilization || [];
+      const health = analytics.agent_health || { active: 0, degraded: 0, busy: 0, offline: 0 };
+
+      const labels24 = Array.from({ length: Math.max(tx.length, anoms.length, res.length) || 24 }, (_, i) => `${i}:00`);
+
+      // Transactions chart
+      if (!txChart) {
+        txChart = new Chart(document.getElementById('txChart'), {
+          type: 'bar',
+          data: {
+            labels: labels24,
+            datasets: [{
+              label: 'Transactions',
+              data: tx,
+              backgroundColor: 'rgba(0,212,255,0.35)',
+              borderColor: '#00d4ff',
+              borderWidth: 1
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { labels: { color: 'white' } } },
+            scales: {
+              y: { ticks: { color: 'white' }, grid: { color: 'rgba(255,255,255,0.1)' } },
+              x: { ticks: { color: 'white' }, grid: { color: 'rgba(255,255,255,0.1)' } }
+            }
+          }
+        });
+      } else {
+        txChart.data.labels = labels24;
+        txChart.data.datasets[0].data = tx;
+        txChart.update('none');
+      }
+
+      // Anomalies chart
+      if (!anomaliesChart) {
+        anomaliesChart = new Chart(document.getElementById('anomaliesChart'), {
+          type: 'line',
+          data: {
+            labels: labels24,
+            datasets: [{
+              label: 'Anomalies',
+              data: anoms,
+              borderColor: '#ff6b6b',
+              backgroundColor: 'rgba(255,107,107,0.2)',
+              fill: true,
+              tension: 0.35,
+              pointRadius: 0
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { labels: { color: 'white' } } },
+            scales: {
+              y: { ticks: { color: 'white' }, grid: { color: 'rgba(255,255,255,0.1)' } },
+              x: { ticks: { color: 'white' }, grid: { color: 'rgba(255,255,255,0.1)' } }
+            }
+          }
+        });
+      } else {
+        anomaliesChart.data.labels = labels24;
+        anomaliesChart.data.datasets[0].data = anoms;
+        anomaliesChart.update('none');
+      }
+
+      // Resource utilization (line)
+      if (!resourceChart) {
+        resourceChart = new Chart(document.getElementById('resourceChart'), {
+          type: 'line',
+          data: {
+            labels: labels24,
+            datasets: [{
+              label: 'Utilization %',
+              data: res,
+              borderColor: '#8b5cf6',
+              backgroundColor: 'rgba(139,92,246,0.2)',
+              fill: true,
+              tension: 0.3,
+              pointRadius: 0
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { labels: { color: 'white' } } },
+            scales: {
+              y: { ticks: { color: 'white' }, grid: { color: 'rgba(255,255,255,0.1)' }, suggestedMin: 0, suggestedMax: 100 },
+              x: { ticks: { color: 'white' }, grid: { color: 'rgba(255,255,255,0.1)' } }
+            }
+          }
+        });
+      } else {
+        resourceChart.data.labels = labels24;
+        resourceChart.data.datasets[0].data = res;
+        resourceChart.update('none');
+      }
+
+      // Agent health (doughnut)
+      const healthData = [health.active||0, health.degraded||0, health.busy||0, health.offline||0];
+      if (!agentHealthChart) {
+        agentHealthChart = new Chart(document.getElementById('agentHealthChart'), {
+          type: 'doughnut',
+          data: {
+            labels: ['Active','Degraded','Busy','Offline'],
+            datasets: [{
+              data: healthData,
+              backgroundColor: ['#10b981','rgba(255,184,0,0.8)','rgba(0,212,255,0.8)','rgba(255,99,132,0.8)'],
+              borderColor: ['#0ea776','#c29800','#00a7cc','#e0435e']
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { labels: { color: 'white' } } }
+          }
+        });
+      } else {
+        agentHealthChart.data.datasets[0].data = healthData;
+        agentHealthChart.update('none');
+      }
+
+      // Update KPIs
+      const kpis = analytics.kpis || {};
+      const fmt = v => (typeof v === 'string' ? v : `${v}`);
+      document.getElementById('kpi-yield').innerText = fmt(kpis.crop_yield_prediction || '–');
+      document.getElementById('kpi-water').innerText = fmt(kpis.water_savings || '–');
+      document.getElementById('kpi-profit').innerText = fmt(kpis.profit_optimization || '–');
+    }
+
+    function renderSatellite(geo) {
+      try {
+        const farms = geo.farms || [];
+        if (!satMap) {
+          // Default view around Fresno, CA
+          satMap = L.map('satMap', { zoomControl: true }).setView([36.7378, -119.7871], 6);
+          osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; OpenStreetMap'
+          });
+          satLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+            maxZoom: 19,
+            attribution: 'Tiles &copy; Esri WorldImagery'
+          });
+          satLayer.addTo(satMap);
+          const gibsLayer = L.tileLayer('https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_SNPP_CorrectedReflectance_TrueColor/default/GoogleMapsCompatible_Level9/{z}/{y}/{x}.jpg', {
+            maxZoom: 9,
+            attribution: 'NASA GIBS VIIRS TrueColor'
+          });
+          L.control.layers({ 'Satellite': satLayer, 'Street': osmLayer, 'NASA GIBS (TrueColor)': gibsLayer }).addTo(satMap);
+        }
+        // Clear existing markers
+        satMarkers.forEach(m => satMap.removeLayer(m));
+        satMarkers = [];
+        // Add markers
+        farms.forEach(f => {
+          const color = f.status === 'active' ? '#10b981' : f.status === 'degraded' ? '#f59e0b' : f.status === 'offline' ? '#ef4444' : '#00d4ff';
+          const marker = L.circleMarker([f.lat, f.lng], {
+            radius: 7,
+            color,
+            weight: 2,
+            fillColor: color,
+            fillOpacity: 0.6
+          }).bindPopup(`<strong>${f.name}</strong><br/>Crop: ${f.crop}<br/>Status: ${f.status}`);
+          marker.addTo(satMap);
+          satMarkers.push(marker);
+        });
+        if (farms.length > 0) {
+          const group = L.featureGroup(satMarkers);
+          satMap.fitBounds(group.getBounds().pad(0.2));
+        }
+      } catch (e) {
+        console.error('Map render error', e);
       }
     }
 

@@ -124,11 +124,6 @@ class BaseAgent:
     async def check_connectivity(self) -> bool:
         """
         Check if the agent can connect to external services
-<<<<<<< HEAD
-        Simulates network connectivity check
-        """
-        try:
-=======
         Respects environment flags for demo modes
         """
         try:
@@ -144,16 +139,11 @@ class BaseAgent:
                 self.online = False
                 return False
             
->>>>>>> 8f6adccdf567b072766f7a631b59de49a98aec25
             # In a real implementation, this would ping external APIs
             # For demo purposes, we'll simulate network failures
             import random
             
-<<<<<<< HEAD
-            # Simulate 95% uptime
-=======
             # Simulate 95% uptime in normal mode
->>>>>>> 8f6adccdf567b072766f7a631b59de49a98aec25
             if random.random() < 0.95:
                 self.online = True
                 self.last_online_check = datetime.now()
@@ -445,12 +435,6 @@ class BaseAgent:
 
 # Global message bus for demo purposes
 class MessageBus:
-<<<<<<< HEAD
-    """Simple message bus for agent communication in demo"""
-    
-    def __init__(self):
-        self.agents: Dict[str, BaseAgent] = {}
-=======
     """Advanced message bus for agent communication with broadcast support"""
     
     def __init__(self):
@@ -458,20 +442,10 @@ class MessageBus:
         self.subscriptions: Dict[MessageType, List[str]] = {}
         self.marketplace: Dict[str, List[Message]] = {}  # Topic -> Messages
         self.broadcast_history: List[Message] = []
->>>>>>> 8f6adccdf567b072766f7a631b59de49a98aec25
     
     def register_agent(self, agent: BaseAgent):
         """Register an agent with the message bus"""
         self.agents[agent.agent_id] = agent
-<<<<<<< HEAD
-    
-    async def deliver(self, message: Message):
-        """Deliver message to target agent"""
-        if message.receiver_id in self.agents:
-            await self.agents[message.receiver_id].receive_message(message)
-        else:
-            logging.warning(f"Agent {message.receiver_id} not found for message delivery")
-=======
         
         # Auto-subscribe agents to relevant message types
         if agent.agent_type == AgentType.SENSOR:
@@ -590,7 +564,6 @@ class MessageBus:
                 stats["online_agents"] += 1
         
         return stats
->>>>>>> 8f6adccdf567b072766f7a631b59de49a98aec25
 
 
 # Global message bus instance

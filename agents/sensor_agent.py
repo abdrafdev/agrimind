@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 AgriMind: Sensor Agent
 Collects environmental data (soil moisture, temperature, humidity, pest detection)
@@ -10,9 +9,6 @@ Features:
 - Data selling/sharing marketplace
 - Degraded mode operation with cached data
 """
-=======
-
->>>>>>> 8f6adccdf567b072766f7a631b59de49a98aec25
 
 import asyncio
 import random
@@ -209,12 +205,6 @@ class SensorAgent(BaseAgent):
             # Cache the reading for degraded mode
             await self.cache_data(f"sensor_{sensor_type}", reading)
         
-<<<<<<< HEAD
-        # Log data sources used
-        if data_sources_used:
-            sources_summary = ", ".join(set(data_sources_used))
-            self.logger.info(f"📊 SensorAgent {self.agent_id} used data sources: {sources_summary}")
-=======
         # Log data sources used with metadata
         if data_sources_used:
             sources_summary = ", ".join(set(data_sources_used))
@@ -228,7 +218,6 @@ class SensorAgent(BaseAgent):
                     self.state['last_data_source'] = 'api'
                 else:
                     self.state['last_data_source'] = 'mock'
->>>>>>> 8f6adccdf567b072766f7a631b59de49a98aec25
                 
         return readings
 
